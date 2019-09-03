@@ -1,7 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -e
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DIR=$(realpath $(dirname ${BASH_SOURCE[0]}))
+cd $DIR
 
 echo ""
 
@@ -19,14 +20,15 @@ then
 else
     echo "# Building Web"
 
-    echo ""
+    echo
     echo "Building app"
-    echo "npm version $(npm --version)"
-    npm install
-    npm run sub:update
-    npm run dist:selfhost
+    yarn
+    rm -rf jslib
+    ln -s ../jslib jslib
+    # yarn sub:update
+    yarn dist
 
-    echo ""
+    echo
     echo "Building docker image"
     docker --version
     docker build -t bitwarden/web $DIR/.
