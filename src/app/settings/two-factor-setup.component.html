@@ -22,17 +22,13 @@
         <div class="mx-4">
             <h3 class="mb-0">
                 {{p.name}}
-                <i class="fa fa-check text-success fa-fw" *ngIf="p.enabled && canAccessPremium"
+                <i class="fa fa-check text-success fa-fw" *ngIf="p.enabled"
                     title="{{'enabled' | i18n}}"></i>
-                <a href="#" appStopClick class="badge badge-primary" *ngIf="!canAccessPremium && p.premium"
-                    (click)="premiumRequired()">
-                    {{'premium' | i18n}}
-                </a>
             </h3>
             {{p.description}}
         </div>
         <div class="ml-auto">
-            <button type="button" class="btn btn-outline-secondary btn-sm" [disabled]="!canAccessPremium && p.premium"
+            <button type="button" class="btn btn-outline-secondary btn-sm"
                 (click)="manage(p.type)">
                 {{'manage' | i18n}}
             </button>

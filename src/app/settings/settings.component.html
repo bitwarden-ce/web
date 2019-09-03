@@ -13,15 +13,6 @@
                     <a routerLink="organizations" class="list-group-item" routerLinkActive="active">
                         {{'organizations' | i18n}}
                     </a>
-                    <a routerLink="subscription" class="list-group-item" routerLinkActive="active" *ngIf="premium">
-                        {{'premiumMembership' | i18n}}
-                    </a>
-                    <a routerLink="premium" class="list-group-item" routerLinkActive="active" *ngIf="!premium">
-                        {{'goPremium' | i18n}}
-                    </a>
-                    <a routerLink="billing" class="list-group-item" routerLinkActive="active" *ngIf="!selfHosted">
-                        {{'billing' | i18n}}
-                    </a>
                     <a routerLink="two-factor" class="list-group-item" routerLinkActive="active">
                         {{'twoStepLogin' | i18n}}
                     </a>

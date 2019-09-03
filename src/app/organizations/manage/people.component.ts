@@ -56,8 +56,6 @@ export class PeopleComponent implements OnInit {
     organizationUserType = OrganizationUserType;
     organizationUserStatusType = OrganizationUserStatusType;
     actionPromise: Promise<any>;
-    accessEvents = false;
-    accessGroups = false;
 
     private modal: ModalComponent = null;
     private allUsers: OrganizationUserUserDetailsResponse[];
@@ -77,8 +75,6 @@ export class PeopleComponent implements OnInit {
                 this.router.navigate(['../collections'], { relativeTo: this.route });
                 return;
             }
-            this.accessEvents = organization.useEvents;
-            this.accessGroups = organization.useGroups;
             await this.load();
 
             const queryParamsSub = this.route.queryParams.subscribe(async (qParams) => {

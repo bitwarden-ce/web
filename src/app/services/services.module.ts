@@ -123,7 +123,7 @@ const environmentService = new EnvironmentService(apiService, storageService, no
 const auditService = new AuditService(cryptoFunctionService, apiService);
 const eventLoggingService = new EventLoggingService(storageService, apiService, userService, cipherService);
 
-const analytics = new Analytics(window, () => platformUtilsService.isDev() || platformUtilsService.isSelfHost(),
+const analytics = new Analytics(window, () => platformUtilsService.isDev(),
     platformUtilsService, storageService, appIdService);
 containerService.attachToWindow(window);
 
@@ -131,7 +131,7 @@ export function initFactory(): Function {
     return async () => {
         await (storageService as HtmlStorageService).init();
         const isDev = platformUtilsService.isDev();
-        if (!isDev && platformUtilsService.isSelfHost()) {
+        if (!isDev) {
             environmentService.baseUrl = window.location.origin;
         } else {
             environmentService.notificationsUrl = isDev ? 'http://localhost:61840' :

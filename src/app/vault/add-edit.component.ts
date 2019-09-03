@@ -24,7 +24,6 @@ import { LoginUriView } from 'jslib/models/view/loginUriView';
     templateUrl: 'add-edit.component.html',
 })
 export class AddEditComponent extends BaseAddEditComponent {
-    canAccessPremium: boolean;
     totpCode: string;
     totpCodeFormatted: string;
     totpDash: number;
@@ -53,9 +52,7 @@ export class AddEditComponent extends BaseAddEditComponent {
         this.hasPasswordHistory = this.cipher.hasPasswordHistory;
         this.cleanUp();
 
-        this.canAccessPremium = await this.userService.canAccessPremium();
-        if (this.cipher.type === CipherType.Login && this.cipher.login.totp &&
-            (this.cipher.organizationUseTotp || this.canAccessPremium)) {
+        if (this.cipher.type === CipherType.Login && this.cipher.login.totp) {
             await this.totpUpdateCode();
             const interval = this.totpService.getTimeInterval(this.cipher.login.totp);
             await this.totpTick(interval);
@@ -107,13 +104,6 @@ export class AddEditComponent extends BaseAddEditComponent {
             this.cipher.login.password = await this.passwordGenerationService.generatePassword(options);
         }
         return confirmed;
-    }
-
-    premiumRequired() {
-        if (!this.canAccessPremium) {
-            this.messagingService.send('premiumRequired');
-            return;
-        }
     }
 
     upgradeOrganization() {

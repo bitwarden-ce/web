@@ -71,7 +71,6 @@ export class VaultComponent implements OnInit, OnDestroy {
     showVerifyEmail = false;
     showBrowserOutdated = false;
     showUpdateKey = false;
-    showPremiumCallout = false;
 
     private modal: ModalComponent = null;
 
@@ -91,9 +90,6 @@ export class VaultComponent implements OnInit, OnDestroy {
             await this.syncService.fullSync(false);
 
             this.showUpdateKey = !(await this.cryptoService.hasEncKey());
-            const canAccessPremium = await this.userService.canAccessPremium();
-            this.showPremiumCallout = !this.showVerifyEmail && !canAccessPremium &&
-                !this.platformUtilsService.isSelfHost();
 
             await Promise.all([
                 this.groupingsComponent.load(),
@@ -203,18 +199,6 @@ export class VaultComponent implements OnInit, OnDestroy {
     }
 
     async editCipherAttachments(cipher: CipherView) {
-        const canAccessPremium = await this.userService.canAccessPremium();
-        if (cipher.organizationId == null && !canAccessPremium) {
-            this.messagingService.send('premiumRequired');
-            return;
-        } else if (cipher.organizationId != null) {
-            const org = await this.userService.getOrganization(cipher.organizationId);
-            if (org != null && (org.maxStorageGb == null || org.maxStorageGb === 0)) {
-                this.messagingService.send('upgradeOrganization', { organizationId: cipher.organizationId });
-                return;
-            }
-        }
-
         if (this.modal != null) {
             this.modal.close();
         }

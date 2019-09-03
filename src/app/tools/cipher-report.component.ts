@@ -71,21 +71,6 @@ export class CipherReportComponent {
     }
 
     protected async checkAccess(): Promise<boolean> {
-        if (this.organization != null) {
-            // TODO: Maybe we want to just make sure they are not on a free plan? Just compare useTotp for now
-            // since all paid plans include useTotp
-            if (this.requiresPaid && !this.organization.useTotp) {
-                this.messagingService.send('upgradeOrganization', { organizationId: this.organization.id });
-                return false;
-            }
-        } else {
-            const accessPremium = await this.userService.canAccessPremium();
-            if (this.requiresPaid && !accessPremium) {
-                this.messagingService.send('premiumRequired');
-                this.loading = false;
-                return false;
-            }
-        }
         return true;
     }
 

@@ -20,7 +20,7 @@ import { RegisterComponent as BaseRegisterComponent } from 'jslib/angular/compon
 })
 export class RegisterComponent extends BaseRegisterComponent {
     showCreateOrgMessage = false;
-    showTerms = true;
+    showTerms = false;
 
     constructor(authService: AuthService, router: Router,
         i18nService: I18nService, cryptoService: CryptoService,
@@ -29,7 +29,6 @@ export class RegisterComponent extends BaseRegisterComponent {
         passwordGenerationService: PasswordGenerationService) {
         super(authService, router, i18nService, cryptoService, apiService, stateService, platformUtilsService,
             passwordGenerationService);
-        this.showTerms = !platformUtilsService.isSelfHost();
     }
 
     ngOnInit() {
@@ -37,9 +36,7 @@ export class RegisterComponent extends BaseRegisterComponent {
             if (qParams.email != null && qParams.email.indexOf('@') > -1) {
                 this.email = qParams.email;
             }
-            if (qParams.premium != null) {
-                this.stateService.save('loginRedirect', { route: '/settings/premium' });
-            } else if (qParams.org != null) {
+            if (qParams.org != null) {
                 this.showCreateOrgMessage = true;
                 this.stateService.save('loginRedirect',
                     { route: '/settings/create-organization', qParams: { plan: qParams.org } });

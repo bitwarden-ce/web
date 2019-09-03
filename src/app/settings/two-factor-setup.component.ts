@@ -38,7 +38,6 @@ export class TwoFactorSetupComponent implements OnInit {
 
     organizationId: string;
     providers: any[] = [];
-    canAccessPremium: boolean;
     loading = true;
 
     private modal: ModalComponent = null;
@@ -47,8 +46,6 @@ export class TwoFactorSetupComponent implements OnInit {
         protected componentFactoryResolver: ComponentFactoryResolver, protected messagingService: MessagingService) { }
 
     async ngOnInit() {
-        this.canAccessPremium = await this.userService.canAccessPremium();
-
         for (const key in TwoFactorProviders) {
             if (!TwoFactorProviders.hasOwnProperty(key)) {
                 continue;
@@ -64,7 +61,6 @@ export class TwoFactorSetupComponent implements OnInit {
                 name: p.name,
                 description: p.description,
                 enabled: false,
-                premium: p.premium,
                 sort: p.sort,
             });
         }
@@ -125,13 +121,6 @@ export class TwoFactorSetupComponent implements OnInit {
 
     recoveryCode() {
         this.openModal(this.recoveryModalRef, TwoFactorRecoveryComponent);
-    }
-
-    async premiumRequired() {
-        if (!this.canAccessPremium) {
-            this.messagingService.send('premiumRequired');
-            return;
-        }
     }
 
     protected getTwoFactorProviders() {

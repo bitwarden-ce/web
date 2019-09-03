@@ -56,13 +56,8 @@ import { UserConfirmComponent as OrgUserConfirmComponent } from './organizations
 import { UserGroupsComponent as OrgUserGroupsComponent } from './organizations/manage/user-groups.component';
 
 import { AccountComponent as OrgAccountComponent } from './organizations/settings/account.component';
-import { AdjustSeatsComponent } from './organizations/settings/adjust-seats.component';
 import { ApiKeyComponent as OrgApiKeyComponent } from './organizations/settings/api-key.component';
-import { ChangePlanComponent } from './organizations/settings/change-plan.component';
 import { DeleteOrganizationComponent } from './organizations/settings/delete-organization.component';
-import { DownloadLicenseComponent } from './organizations/settings/download-license.component';
-import { OrganizationBillingComponent } from './organizations/settings/organization-billing.component';
-import { OrganizationSubscriptionComponent } from './organizations/settings/organization-subscription.component';
 import { RotateApiKeyComponent as OrgRotateApiKeyComponent } from './organizations/settings/rotate-api-key.component';
 import { SettingsComponent as OrgSettingComponent } from './organizations/settings/settings.component';
 import {
@@ -96,9 +91,6 @@ import { GroupingsComponent as OrgGroupingsComponent } from './organizations/vau
 import { VaultComponent as OrgVaultComponent } from './organizations/vault/vault.component';
 
 import { AccountComponent } from './settings/account.component';
-import { AddCreditComponent } from './settings/add-credit.component';
-import { AdjustPaymentComponent } from './settings/adjust-payment.component';
-import { AdjustStorageComponent } from './settings/adjust-storage.component';
 import { ChangeEmailComponent } from './settings/change-email.component';
 import { ChangeKdfComponent } from './settings/change-kdf.component';
 import { ChangePasswordComponent } from './settings/change-password.component';
@@ -107,10 +99,7 @@ import { DeauthorizeSessionsComponent } from './settings/deauthorize-sessions.co
 import { DeleteAccountComponent } from './settings/delete-account.component';
 import { DomainRulesComponent } from './settings/domain-rules.component';
 import { OptionsComponent } from './settings/options.component';
-import { OrganizationPlansComponent } from './settings/organization-plans.component';
 import { OrganizationsComponent } from './settings/organizations.component';
-import { PaymentComponent } from './settings/payment.component';
-import { PremiumComponent } from './settings/premium.component';
 import { ProfileComponent } from './settings/profile.component';
 import { PurgeVaultComponent } from './settings/purge-vault.component';
 import { SettingsComponent } from './settings/settings.component';
@@ -123,9 +112,6 @@ import { TwoFactorU2fComponent } from './settings/two-factor-u2f.component';
 import { TwoFactorVerifyComponent } from './settings/two-factor-verify.component';
 import { TwoFactorYubiKeyComponent } from './settings/two-factor-yubikey.component';
 import { UpdateKeyComponent } from './settings/update-key.component';
-import { UpdateLicenseComponent } from './settings/update-license.component';
-import { UserBillingComponent } from './settings/user-billing.component';
-import { UserSubscriptionComponent } from './settings/user-subscription.component';
 import { VerifyEmailComponent } from './settings/verify-email.component';
 
 import { BreachReportComponent } from './tools/breach-report.component';
@@ -240,11 +226,7 @@ registerLocaleData(localeZhTw, 'zh-TW');
         A11yTitleDirective,
         AcceptOrganizationComponent,
         AccountComponent,
-        AddCreditComponent,
         AddEditComponent,
-        AdjustPaymentComponent,
-        AdjustSeatsComponent,
-        AdjustStorageComponent,
         ApiActionDirective,
         AppComponent,
         AttachmentsComponent,
@@ -260,7 +242,6 @@ registerLocaleData(localeZhTw, 'zh-TW');
         ChangeEmailComponent,
         ChangeKdfComponent,
         ChangePasswordComponent,
-        ChangePlanComponent,
         CiphersComponent,
         CollectionsComponent,
         ColorPasswordPipe,
@@ -269,7 +250,6 @@ registerLocaleData(localeZhTw, 'zh-TW');
         DeleteAccountComponent,
         DeleteOrganizationComponent,
         DomainRulesComponent,
-        DownloadLicenseComponent,
         ExportComponent,
         ExposedPasswordsReportComponent,
         FallbackSrcDirective,
@@ -291,9 +271,6 @@ registerLocaleData(localeZhTw, 'zh-TW');
         OrgAccountComponent,
         OrgAddEditComponent,
         OrgApiKeyComponent,
-        OrganizationBillingComponent,
-        OrganizationPlansComponent,
-        OrganizationSubscriptionComponent,
         OrgAttachmentsComponent,
         OrgCiphersComponent,
         OrgCollectionAddEditComponent,
@@ -327,8 +304,6 @@ registerLocaleData(localeZhTw, 'zh-TW');
         PasswordGeneratorComponent,
         PasswordGeneratorHistoryComponent,
         PasswordStrengthComponent,
-        PaymentComponent,
-        PremiumComponent,
         ProfileComponent,
         PurgeVaultComponent,
         RecoverDeleteComponent,
@@ -356,10 +331,7 @@ registerLocaleData(localeZhTw, 'zh-TW');
         TwoFactorYubiKeyComponent,
         UnsecuredWebsitesReportComponent,
         UpdateKeyComponent,
-        UpdateLicenseComponent,
-        UserBillingComponent,
         UserLayoutComponent,
-        UserSubscriptionComponent,
         VaultComponent,
         VerifyEmailComponent,
         VerifyEmailTokenComponent,

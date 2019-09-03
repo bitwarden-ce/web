@@ -12,11 +12,6 @@
                 <input id="name" class="form-control" type="text" name="Name" [(ngModel)]="org.name">
             </div>
             <div class="form-group">
-                <label for="billingEmail">{{'billingEmail' | i18n}}</label>
-                <input id="billingEmail" class="form-control" type="text" name="BillingEmail"
-                    [(ngModel)]="org.billingEmail">
-            </div>
-            <div class="form-group">
                 <label for="businessName">{{'businessName' | i18n}}</label>
                 <input id="businessName" class="form-control" type="text" name="BusinessName"
                     [(ngModel)]="org.businessName">
@@ -31,7 +26,7 @@
         <span>{{'save' | i18n}}</span>
     </button>
 </form>
-<ng-container *ngIf="canUseApi">
+<ng-container>
     <div class="secondary-header border-0 mb-0">
         <h1>{{'apiKey' | i18n}}</h1>
     </div>
@@ -44,13 +39,6 @@
     <button type="button" class="btn btn-outline-secondary" (click)="viewApiKey()">{{'viewApiKey' | i18n}}</button>
     <button type="button" class="btn btn-outline-secondary" (click)="rotateApiKey()">{{'rotateApiKey' | i18n}}</button>
 </ng-container>
-<div class="secondary-header border-0 mb-0">
-    <h1>{{'taxInformation' | i18n}}</h1>
-</div>
-<p>{{'taxInformationDesc' | i18n}}</p>
-<a href="https://bitwarden.com/contact/" target="_blank" rel="noopener" class="btn btn-outline-secondary">
-    {{'contactSupport' | i18n}}
-</a>
 <div class="secondary-header text-danger border-0 mb-0">
     <h1>{{'dangerZone' | i18n}}</h1>
 </div>

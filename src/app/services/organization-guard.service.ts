@@ -17,12 +17,8 @@ export class OrganizationGuardService implements CanActivate {
 
     async canActivate(route: ActivatedRouteSnapshot) {
         const org = await this.userService.getOrganization(route.params.organizationId);
-        if (org == null) {
-            this.router.navigate(['/']);
-            return false;
-        }
-        if (!org.isOwner && !org.enabled) {
-            this.toasterService.popAsync('error', null, this.i18nService.t('organizationIsDisabled'));
+
+        if (org == null || !org.isOwner) {
             this.router.navigate(['/']);
             return false;
         }

@@ -12,13 +12,11 @@ import { TokenService } from 'jslib/abstractions/token.service';
     templateUrl: 'navbar.component.html',
 })
 export class NavbarComponent implements OnInit {
-    selfHosted = false;
     name: string;
     email: string;
 
     constructor(private messagingService: MessagingService, private platformUtilsService: PlatformUtilsService,
         private tokenService: TokenService) {
-        this.selfHosted = this.platformUtilsService.isSelfHost();
     }
 
     async ngOnInit() {
