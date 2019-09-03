@@ -78,12 +78,12 @@
                                     <i class="fa fa-fw fa-check"></i>
                                     {{'confirm' | i18n}}
                                 </a>
-                                <a class="dropdown-item" href="#" appStopClick (click)="groups(u)" *ngIf="accessGroups">
+                                <a class="dropdown-item" href="#" appStopClick (click)="groups(u)">
                                     <i class="fa fa-fw fa-sitemap"></i>
                                     {{'groups' | i18n}}
                                 </a>
                                 <a class="dropdown-item" href="#" appStopClick (click)="events(u)"
-                                    *ngIf="accessEvents && u.status === organizationUserStatusType.Confirmed">
+                                    *ngIf="u.status === organizationUserStatusType.Confirmed">
                                     <i class="fa fa-fw fa-file-text-o"></i>
                                     {{'eventLogs' | i18n}}
                                 </a>

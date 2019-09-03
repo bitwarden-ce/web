@@ -42,7 +42,7 @@ export class EventsComponent implements OnInit {
         this.route.parent.parent.params.subscribe(async (params) => {
             this.organizationId = params.organizationId;
             const organization = await this.userService.getOrganization(this.organizationId);
-            if (organization == null || !organization.useEvents) {
+            if (organization == null) {
                 this.router.navigate(['/organizations', this.organizationId]);
                 return;
             }

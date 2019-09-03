@@ -35,7 +35,6 @@ export class CollectionAddEditComponent implements OnInit {
 
     loading = true;
     editMode: boolean = false;
-    accessGroups: boolean = false;
     title: string;
     name: string;
     externalId: string;
@@ -52,12 +51,9 @@ export class CollectionAddEditComponent implements OnInit {
 
     async ngOnInit() {
         const organization = await this.userService.getOrganization(this.organizationId);
-        this.accessGroups = organization.useGroups;
         this.editMode = this.loading = this.collectionId != null;
-        if (this.accessGroups) {
-            const groupsResponse = await this.apiService.getGroups(this.organizationId);
-            this.groups = groupsResponse.data.map((r) => r).sort(Utils.getSortFunction(this.i18nService, 'name'));
-        }
+        const groupsResponse = await this.apiService.getGroups(this.organizationId);
+        this.groups = groupsResponse.data.map((r) => r).sort(Utils.getSortFunction(this.i18nService, 'name'));
         this.orgKey = await this.cryptoService.getOrgKey(this.organizationId);
 
         if (this.editMode) {

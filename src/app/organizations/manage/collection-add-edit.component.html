@@ -20,7 +20,7 @@
                     <input id="externalId" class="form-control" type="text" name="ExternalId" [(ngModel)]="externalId">
                     <small class="form-text text-muted">{{'externalIdDesc' | i18n}}</small>
                 </div>
-                <ng-container *ngIf="accessGroups">
+                <ng-container>
                     <h3 class="mt-4 d-flex mb-0">
                         {{'groupAccess' | i18n}}
                         <div class="ml-auto" *ngIf="groups && groups.length">

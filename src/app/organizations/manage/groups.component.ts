@@ -51,7 +51,7 @@ export class GroupsComponent implements OnInit {
         this.route.parent.parent.params.subscribe(async (params) => {
             this.organizationId = params.organizationId;
             const organization = await this.userService.getOrganization(this.organizationId);
-            if (organization == null || !organization.useGroups) {
+            if (organization == null) {
                 this.router.navigate(['/organizations', this.organizationId]);
                 return;
             }

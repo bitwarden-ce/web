@@ -27,7 +27,6 @@ export class CiphersComponent extends BaseCiphersComponent {
     @Output() onEventsClicked = new EventEmitter<CipherView>();
 
     organization: Organization;
-    accessEvents = false;
 
     protected allCiphers: CipherView[] = [];
 
@@ -44,7 +43,6 @@ export class CiphersComponent extends BaseCiphersComponent {
             await super.load(filter);
             return;
         }
-        this.accessEvents = this.organization.useEvents;
         this.allCiphers = await this.cipherService.getAllFromApiForOrganization(this.organization.id);
         this.applyFilter(filter);
         this.loaded = true;

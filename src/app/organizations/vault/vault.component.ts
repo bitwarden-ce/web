@@ -171,11 +171,6 @@ export class VaultComponent implements OnInit, OnDestroy {
     }
 
     editCipherAttachments(cipher: CipherView) {
-        if (this.organization.maxStorageGb == null || this.organization.maxStorageGb === 0) {
-            this.messagingService.send('upgradeOrganization', { organizationId: cipher.organizationId });
-            return;
-        }
-
         if (this.modal != null) {
             this.modal.close();
         }

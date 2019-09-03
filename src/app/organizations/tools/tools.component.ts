@@ -12,7 +12,6 @@ import { UserService } from 'jslib/abstractions/user.service';
 })
 export class ToolsComponent {
     organization: Organization;
-    accessReports = false;
 
     constructor(private route: ActivatedRoute, private userService: UserService,
         private messagingService: MessagingService) { }
@@ -20,9 +19,6 @@ export class ToolsComponent {
     ngOnInit() {
         this.route.parent.params.subscribe(async (params) => {
             this.organization = await this.userService.getOrganization(params.organizationId);
-            // TODO: Maybe we want to just make sure they are not on a free plan? Just compare useTotp for now
-            // since all paid plans include useTotp
-            this.accessReports = this.organization.useTotp;
         });
     }
 

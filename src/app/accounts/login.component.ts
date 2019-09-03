@@ -30,9 +30,7 @@ export class LoginComponent extends BaseLoginComponent {
             if (qParams.email != null && qParams.email.indexOf('@') > -1) {
                 this.email = qParams.email;
             }
-            if (qParams.premium != null) {
-                this.stateService.save('loginRedirect', { route: '/settings/premium' });
-            } else if (qParams.org != null) {
+            if (qParams.org != null) {
                 this.stateService.save('loginRedirect',
                     { route: '/settings/create-organization', qParams: { plan: qParams.org } });
             }

@@ -2,7 +2,6 @@ import {
     Component,
     NgZone,
     OnDestroy,
-    OnInit,
 } from '@angular/core';
 
 import { PlatformUtilsService } from 'jslib/abstractions/platformUtils.service';
@@ -16,34 +15,11 @@ const BroadcasterSubscriptionId = 'SettingsComponent';
     selector: 'app-settings',
     templateUrl: 'settings.component.html',
 })
-export class SettingsComponent implements OnInit, OnDestroy {
-    premium: boolean;
-    selfHosted: boolean;
-
+export class SettingsComponent implements OnDestroy {
     constructor(private tokenService: TokenService, private broadcasterService: BroadcasterService,
         private ngZone: NgZone, private platformUtilsService: PlatformUtilsService) { }
 
-    async ngOnInit() {
-        this.broadcasterService.subscribe(BroadcasterSubscriptionId, async (message: any) => {
-            this.ngZone.run(async () => {
-                switch (message.command) {
-                    case 'purchasedPremium':
-                        await this.load();
-                        break;
-                    default:
-                }
-            });
-        });
-
-        this.selfHosted = await this.platformUtilsService.isSelfHost();
-        await this.load();
-    }
-
     ngOnDestroy() {
         this.broadcasterService.unsubscribe(BroadcasterSubscriptionId);
-    }
-
-    async load() {
-        this.premium = await this.tokenService.getPremium();
     }
 }

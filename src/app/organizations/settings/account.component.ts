@@ -33,7 +33,6 @@ export class AccountComponent {
     @ViewChild('rotateApiKeyTemplate', { read: ViewContainerRef }) rotateApiKeyModalRef: ViewContainerRef;
 
     loading = true;
-    canUseApi = false;
     org: OrganizationResponse;
     formPromise: Promise<any>;
 
@@ -50,7 +49,6 @@ export class AccountComponent {
             this.organizationId = params.organizationId;
             try {
                 this.org = await this.apiService.getOrganization(this.organizationId);
-                this.canUseApi = this.org.useApi;
             } catch { }
         });
         this.loading = false;
@@ -61,7 +59,6 @@ export class AccountComponent {
             const request = new OrganizationUpdateRequest();
             request.name = this.org.name;
             request.businessName = this.org.businessName;
-            request.billingEmail = this.org.billingEmail;
             this.formPromise = this.apiService.putOrganization(this.organizationId, request).then(() => {
                 return this.syncService.fullSync(true);
             });

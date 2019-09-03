@@ -12,11 +12,11 @@
                         {{'collections' | i18n}}
                     </a>
                     <a routerLink="groups" class="list-group-item" routerLinkActive="active"
-                        *ngIf="organization.isAdmin && accessGroups">
+                        *ngIf="organization.isAdmin">
                         {{'groups' | i18n}}
                     </a>
                     <a routerLink="events" class="list-group-item" routerLinkActive="active"
-                        *ngIf="organization.isAdmin && accessEvents">
+                        *ngIf="organization.isAdmin">
                         {{'eventLogs' | i18n}}
                     </a>
                 </div>
