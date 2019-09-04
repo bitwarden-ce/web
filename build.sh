@@ -11,12 +11,12 @@ then
     TAG=$2
     echo "# Pushing Web ($TAG)"
     echo ""
-    docker push bitwarden/web:$TAG
+    docker push bitwardence/web:$TAG
 elif [ $# -gt 1 -a "$1" == "tag" ]
 then
     TAG=$2
     echo "Tagging Web as '$TAG'"
-    docker tag bitwarden/web bitwarden/web:$TAG
+    docker tag bitwardence/web bitwardence/web:$TAG
 else
     echo "# Building Web"
 
@@ -29,5 +29,5 @@ else
     echo
     echo "Building docker image"
     docker --version
-    docker build -t bitwarden/web $DIR/.
+    docker build -t bitwardence/web $DIR/.
 fi
