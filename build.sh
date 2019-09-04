@@ -23,9 +23,7 @@ else
     echo
     echo "Building app"
     yarn
-    rm -rf jslib
-    ln -s ../jslib jslib
-    # yarn sub:update
+    yarn sub:update
     yarn dist
 
     echo
