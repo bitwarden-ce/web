@@ -2005,6 +2005,24 @@
   "inviteUser": {
     "message": "Pozvat uživatele"
   },
+<<<<<<< HEAD
+  "inviteUserDesc": {
+    "message": "Invite a new user to your organization by entering their ByteGarden account email address below. If they do not have a ByteGarden account already, they will be prompted to create a new account."
+  },
+  "inviteMultipleEmailDesc": {
+    "message": "You can invite up to $COUNT$ users at a time by comma separating a list of email addresses.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "userUsingTwoStep": {
+    "message": "This user is using two-step login to protect their account."
+  },
+=======
+>>>>>>> New translations messages.json (Czech)
   "userAccessAllItems": {
     "message": "Tento uživatel může vidět a upravovat vše."
   },
