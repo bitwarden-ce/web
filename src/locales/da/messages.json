@@ -15,19 +15,6 @@
   "name": {
     "message": "Navn"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Ny URI"
   },
@@ -91,9 +78,6 @@
   "march": {
     "message": "Marts"
   },
-  "april": {
-    "message": "April"
-  },
   "may": {
     "message": "Maj"
   },
@@ -103,20 +87,8 @@
   "july": {
     "message": "Juli"
   },
-  "august": {
-    "message": "August"
-  },
-  "september": {
-    "message": "September"
-  },
   "october": {
     "message": "Oktober"
-  },
-  "november": {
-    "message": "November"
-  },
-  "december": {
-    "message": "December"
   },
   "title": {
     "message": "Titel"
@@ -129,9 +101,6 @@
   },
   "ms": {
     "message": "Frk"
-  },
-  "dr": {
-    "message": "Dr"
   },
   "expirationMonth": {
     "message": "Udløbsmåned"
@@ -280,9 +249,6 @@
   },
   "types": {
     "message": "Typer"
-  },
-  "typeLogin": {
-    "message": "Login"
   },
   "typeCard": {
     "message": "Kort"
@@ -496,9 +462,6 @@
   "logOut": {
     "message": "Log ud"
   },
-  "ok": {
-    "message": "Ok"
-  },
   "yes": {
     "message": "Ja"
   },
@@ -628,15 +591,6 @@
   },
   "noOrganizationsList": {
     "message": "Du tilhører ikke nogen organisationer. Organisationer giver dig mulighed for at dele elementer med andre brugere på en sikker måde."
-  },
-  "versionNumber": {
-    "message": "Version $VERSION_NUMBER$",
-    "placeholders": {
-      "version_number": {
-        "content": "$1",
-        "example": "1.2.3"
-      }
-    }
   },
   "enterVerificationCodeApp": {
     "message": "Indtast den 6-cifrede verifikationskode fra din autentificeringsapp."
@@ -1108,10 +1062,6 @@
   "enabled": {
     "message": "Aktiveret"
   },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
-  },
   "premiumMembership": {
     "message": "Premium-medlemskab"
   },
@@ -1201,15 +1151,6 @@
   },
   "twoFactorYubikeySupportMobile": {
     "message": "Mobilapps på en enhed med NFC-understøttelse eller en USB-port, der kan benyttes af din YubiKey."
-  },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
   },
   "u2fkeyX": {
     "message": "U2F nøgle $INDEX$",
@@ -1682,9 +1623,6 @@
   "neverExpires": {
     "message": "Udløber aldrig"
   },
-  "status": {
-    "message": "Status"
-  },
   "nextCharge": {
     "message": "Næste betaling"
   },
@@ -1893,9 +1831,6 @@
   },
   "planDescFamilies": {
     "message": "Til personlig brug, for at dele med familie og venner."
-  },
-  "planNameTeams": {
-    "message": "Teams"
   },
   "planDescTeams": {
     "message": "Til virksomheder og andre organisationer med teams."
@@ -2212,12 +2147,6 @@
   "failedLogin2fa": {
     "message": "Loginforsøg mislykkedes med forkert to-trins-login."
   },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
-  },
   "editedOrgSettings": {
     "message": "Redigerede organisationsindstillinger."
   },
@@ -2254,78 +2183,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2926,8 +2783,5 @@
   },
   "selectOneCollection": {
     "message": "Du skal vælge minimum én samling."
-  },
-  "couldNotChargeCardPayInvoice": {
-    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
