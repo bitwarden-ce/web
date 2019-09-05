@@ -15,19 +15,6 @@
   "name": {
     "message": "Nom"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Nouvelle URI"
   },
@@ -40,9 +27,6 @@
   "passphrase": {
     "message": "Phrase de passe"
   },
-  "notes": {
-    "message": "Notes"
-  },
   "customFields": {
     "message": "Champs personnalisés"
   },
@@ -54,9 +38,6 @@
   },
   "brand": {
     "message": "Réseau de paiement"
-  },
-  "expiration": {
-    "message": "Expiration"
   },
   "securityCode": {
     "message": "Cryptogramme visuel (CVV)"
@@ -130,9 +111,6 @@
   "ms": {
     "message": "Mlle"
   },
-  "dr": {
-    "message": "Dr"
-  },
   "expirationMonth": {
     "message": "Mois d'expiration"
   },
@@ -185,9 +163,6 @@
   "host": {
     "message": "Hôte",
     "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
-  },
-  "exact": {
-    "message": "Exact"
   },
   "startsWith": {
     "message": "Commence par"
@@ -278,9 +253,6 @@
   "favorites": {
     "message": "Favoris"
   },
-  "types": {
-    "message": "Types"
-  },
   "typeLogin": {
     "message": "Identifiant"
   },
@@ -295,9 +267,6 @@
   },
   "folders": {
     "message": "Dossiers"
-  },
-  "collections": {
-    "message": "Collections"
   },
   "firstName": {
     "message": "Prénom"
@@ -343,10 +312,6 @@
   },
   "editItem": {
     "message": "Modifier l'élément"
-  },
-  "ex": {
-    "message": "ex.",
-    "description": "Short abbreviation for 'example'."
   },
   "other": {
     "message": "Autre"
@@ -496,9 +461,6 @@
   "logOut": {
     "message": "Déconnexion"
   },
-  "ok": {
-    "message": "Ok"
-  },
   "yes": {
     "message": "Oui"
   },
@@ -628,15 +590,6 @@
   },
   "noOrganizationsList": {
     "message": "Vous ne faites partie d'aucune organisation. Les organisations vous permettent de partager des éléments de façon sécurisée avec d'autres utilisateurs."
-  },
-  "versionNumber": {
-    "message": "Version $VERSION_NUMBER$",
-    "placeholders": {
-      "version_number": {
-        "content": "$1",
-        "example": "1.2.3"
-      }
-    }
   },
   "enterVerificationCodeApp": {
     "message": "Saisissez le code de vérification à 6 chiffres depuis votre application d'authentification."
@@ -853,9 +806,6 @@
   "newEmail": {
     "message": "Nouvel e-mail"
   },
-  "code": {
-    "message": "Code"
-  },
   "changeEmailDesc": {
     "message": "Nous avons envoyé un code de vérification à $EMAIL$. Veuillez consulter votre boîte de réception pour trouver ce code et l'entrer ci-dessous pour finaliser votre changement d'adresse e-mail.",
     "placeholders": {
@@ -1013,9 +963,6 @@
       }
     }
   },
-  "options": {
-    "message": "Options"
-  },
   "optionsDesc": {
     "message": "Personnaliser l'expérience de votre coffre web."
   },
@@ -1108,10 +1055,6 @@
   "enabled": {
     "message": "Activé"
   },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
-  },
   "premiumMembership": {
     "message": "Adhésion Premium"
   },
@@ -1201,15 +1144,6 @@
   },
   "twoFactorYubikeySupportMobile": {
     "message": "Applications mobiles sur un appareil avec NFC ou un port USB qui peut accepter votre YubiKey."
-  },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
   },
   "u2fkeyX": {
     "message": "Clé U2F $INDEX$",
@@ -1352,9 +1286,6 @@
   },
   "noInactive2fa": {
     "message": "Aucun site web n'a été trouvé dans votre coffre-fort avec une configuration d'authentification à deux facteurs manquante."
-  },
-  "instructions": {
-    "message": "Instructions"
   },
   "exposedPasswordsReport": {
     "message": "Rapport sur les mots de passe exposés"
@@ -1609,9 +1540,6 @@
   "summary": {
     "message": "Récapitulatif"
   },
-  "total": {
-    "message": "Total"
-  },
   "year": {
     "message": "an"
   },
@@ -1750,10 +1678,6 @@
   "unpaid": {
     "message": "Due",
     "description": "Past tense status of an invoice. ex. Paid or unpaid."
-  },
-  "transactions": {
-    "message": "Transactions",
-    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "Aucune transaction."
@@ -2176,14 +2100,6 @@
   "loadMore": {
     "message": "Plus de résultats"
   },
-  "mobile": {
-    "message": "Mobile",
-    "description": "Mobile app"
-  },
-  "extension": {
-    "message": "Extension",
-    "description": "Browser extension/addon"
-  },
   "desktop": {
     "message": "Ordinateur",
     "description": "Desktop app"
@@ -2211,12 +2127,6 @@
   },
   "failedLogin2fa": {
     "message": "Tentative de connexion échouée avec deuxième facteur incorrect."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Paramètres de l’organisation modifiés."
@@ -2254,78 +2164,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2795,18 +2633,6 @@
   "lockOptionsDesc": {
     "message": "Choisissez quand votre coffre se verrouille. Un coffre verrouillé requiert la saisie de votre mot de passe maître pour y avoir à nouveau accès."
   },
-  "oneMinute": {
-    "message": "1 minute"
-  },
-  "fiveMinutes": {
-    "message": "5 minutes"
-  },
-  "fifteenMinutes": {
-    "message": "15 minutes"
-  },
-  "thirtyMinutes": {
-    "message": "30 minutes"
-  },
   "oneHour": {
     "message": "1 heure"
   },
@@ -2926,8 +2752,5 @@
   },
   "selectOneCollection": {
     "message": "Vous devez sélectionner au moins une collection."
-  },
-  "couldNotChargeCardPayInvoice": {
-    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
