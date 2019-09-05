@@ -15,19 +15,6 @@
   "name": {
     "message": "Nome"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Novo URI"
   },
@@ -75,9 +62,6 @@
   },
   "licenseNumber": {
     "message": "Número da licença"
-  },
-  "email": {
-    "message": "Email"
   },
   "phone": {
     "message": "Telefone"
@@ -129,9 +113,6 @@
   },
   "ms": {
     "message": "Sra"
-  },
-  "dr": {
-    "message": "Dr"
   },
   "expirationMonth": {
     "message": "Mês de expiração"
@@ -344,10 +325,6 @@
   "editItem": {
     "message": "Editar item"
   },
-  "ex": {
-    "message": "ex.",
-    "description": "Short abbreviation for 'example'."
-  },
   "other": {
     "message": "Outros"
   },
@@ -495,9 +472,6 @@
   },
   "logOut": {
     "message": "Terminar sessão"
-  },
-  "ok": {
-    "message": "Ok"
   },
   "yes": {
     "message": "Sim"
@@ -718,9 +692,6 @@
   },
   "u2fTitle": {
     "message": "Chave de segurança FIDO U2F"
-  },
-  "emailTitle": {
-    "message": "Email"
   },
   "emailDesc": {
     "message": "Os códigos de verificação vão ser enviados por email para si."
@@ -1108,10 +1079,6 @@
   "enabled": {
     "message": "Ativado"
   },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
-  },
   "premiumMembership": {
     "message": "Adesão Premium"
   },
@@ -1201,15 +1168,6 @@
   },
   "twoFactorYubikeySupportMobile": {
     "message": "Aplicações móveis num dispositivo com capacidades NFC ou porta USB que podem aceitar a sua YubiKey."
-  },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
   },
   "u2fkeyX": {
     "message": "Chave $INDEX$ U2F",
@@ -1484,9 +1442,6 @@
   "compromisedData": {
     "message": "Dados comprometidos"
   },
-  "website": {
-    "message": "Website"
-  },
   "affectedUsers": {
     "message": "Utilizadores afetados"
   },
@@ -1608,9 +1563,6 @@
   },
   "summary": {
     "message": "Resumo"
-  },
-  "total": {
-    "message": "Total"
   },
   "year": {
     "message": "ano"
@@ -2926,8 +2878,5 @@
   },
   "selectOneCollection": {
     "message": "Tem de selecionar pelo menos uma coleção."
-  },
-  "couldNotChargeCardPayInvoice": {
-    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
