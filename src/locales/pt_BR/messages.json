@@ -15,19 +15,6 @@
   "name": {
     "message": "Nome"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Novo URI"
   },
@@ -129,9 +116,6 @@
   },
   "ms": {
     "message": "Sra"
-  },
-  "dr": {
-    "message": "Dr"
   },
   "expirationMonth": {
     "message": "Mês de Vencimento"
@@ -344,10 +328,6 @@
   "editItem": {
     "message": "Editar Item"
   },
-  "ex": {
-    "message": "ex.",
-    "description": "Short abbreviation for 'example'."
-  },
   "other": {
     "message": "Outros"
   },
@@ -495,9 +475,6 @@
   },
   "logOut": {
     "message": "Encerrar Sessão"
-  },
-  "ok": {
-    "message": "Ok"
   },
   "yes": {
     "message": "Sim"
@@ -1108,10 +1085,6 @@
   "enabled": {
     "message": "Habilitado"
   },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
-  },
   "premiumMembership": {
     "message": "Assinatura Premium"
   },
@@ -1201,15 +1174,6 @@
   },
   "twoFactorYubikeySupportMobile": {
     "message": "Aplicativos móveis em um dispositivo com capacidades de NFC ou uma porta USB que pode aceitar o seu YubiKey."
-  },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
   },
   "u2fkeyX": {
     "message": "Chave U2F $INDEX$",
@@ -1608,9 +1572,6 @@
   },
   "summary": {
     "message": "Resumo"
-  },
-  "total": {
-    "message": "Total"
   },
   "year": {
     "message": "ano"
@@ -2164,9 +2125,6 @@
   "refresh": {
     "message": "Atualizar"
   },
-  "timestamp": {
-    "message": "Timestamp"
-  },
   "event": {
     "message": "Evento"
   },
@@ -2212,12 +2170,6 @@
   "failedLogin2fa": {
     "message": "A tentativa de login falhou com o login incorreto em duas etapas."
   },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
-  },
   "editedOrgSettings": {
     "message": "Configurações de organização editadas."
   },
@@ -2254,78 +2206,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2671,10 +2551,6 @@
       }
     }
   },
-  "routingNumber": {
-    "message": "Routing Number",
-    "description": "Bank account routing number"
-  },
   "accountNumber": {
     "message": "Numero da Conta"
   },
@@ -2926,8 +2802,5 @@
   },
   "selectOneCollection": {
     "message": "Você deve selecionar pelo menos uma coleção."
-  },
-  "couldNotChargeCardPayInvoice": {
-    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
