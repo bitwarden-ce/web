@@ -15,27 +15,11 @@
   "name": {
     "message": "Nome"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Nuovo URI"
   },
   "username": {
     "message": "Nome Utente"
-  },
-  "password": {
-    "message": "Password"
   },
   "passphrase": {
     "message": "Frase segreta"
@@ -75,9 +59,6 @@
   },
   "licenseNumber": {
     "message": "Numero patente"
-  },
-  "email": {
-    "message": "Email"
   },
   "phone": {
     "message": "Telefono"
@@ -181,10 +162,6 @@
   },
   "baseDomain": {
     "message": "Dominio di base"
-  },
-  "host": {
-    "message": "Host",
-    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "Esatto"
@@ -424,9 +401,6 @@
   "attachmentSaved": {
     "message": "L'allegato è stato salvato."
   },
-  "file": {
-    "message": "File"
-  },
   "selectFile": {
     "message": "Seleziona un file."
   },
@@ -496,14 +470,8 @@
   "logOut": {
     "message": "Disconnetti"
   },
-  "ok": {
-    "message": "Ok"
-  },
   "yes": {
     "message": "Sì"
-  },
-  "no": {
-    "message": "No"
   },
   "loginOrCreateNewAccount": {
     "message": "Accedi in o crea un nuovo account per accedere alla tua cassaforte."
@@ -718,9 +686,6 @@
   },
   "u2fTitle": {
     "message": "Security key FIDO U2F"
-  },
-  "emailTitle": {
-    "message": "Email"
   },
   "emailDesc": {
     "message": "I codici di verifica ti saranno inviati per email."
@@ -1108,10 +1073,6 @@
   "enabled": {
     "message": "Abilitato"
   },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
-  },
   "premiumMembership": {
     "message": "Abbonamento Premium"
   },
@@ -1201,15 +1162,6 @@
   },
   "twoFactorYubikeySupportMobile": {
     "message": "Le applicazioni su un dispositivo con NFC o una porta USB in grado di accettare la tua YubiKey."
-  },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
   },
   "u2fkeyX": {
     "message": "Chiave U2F $INDEX$",
@@ -2152,9 +2104,6 @@
   "userDesc": {
     "message": "User normale con accesso alle collezioni della tua organizzazione."
   },
-  "manager": {
-    "message": "Manager"
-  },
   "managerDesc": {
     "message": "I manager possono accedere e gestire le raccolte assegnate nella propria organizzazione."
   },
@@ -2176,20 +2125,9 @@
   "loadMore": {
     "message": "Carica Altro"
   },
-  "mobile": {
-    "message": "Mobile",
-    "description": "Mobile app"
-  },
   "extension": {
     "message": "Estensione",
     "description": "Browser extension/addon"
-  },
-  "desktop": {
-    "message": "Desktop",
-    "description": "Desktop app"
-  },
-  "webVault": {
-    "message": "Web Vault"
   },
   "loggedIn": {
     "message": "Accesso effettuato."
@@ -2211,12 +2149,6 @@
   },
   "failedLogin2fa": {
     "message": "Tentativo di accesso fallito. Verifica in due passaggi non riuscita."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Modifica delle impostazioni dell'organizzazione."
@@ -2254,78 +2186,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2879,10 +2739,6 @@
   "attachmentFixDesc": {
     "message": "Questo è un vecchio file allegato che deve essere corretto. Clicca per saperne di più."
   },
-  "fix": {
-    "message": "Fix",
-    "description": "This is a verb. ex. 'Fix The Car'"
-  },
   "oldAttachmentsNeedFixDesc": {
     "message": "Ci sono vecchi file allegati nella tua cassaforte che devono essere corretti prima di poter ruotare la chiave di crittografia del tuo account."
   },
@@ -2926,8 +2782,5 @@
   },
   "selectOneCollection": {
     "message": "Devi selezionare almeno una categoria."
-  },
-  "couldNotChargeCardPayInvoice": {
-    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
