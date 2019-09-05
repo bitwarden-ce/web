@@ -184,7 +184,7 @@
   },
   "host": {
     "message": "主機",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "完全相符"
@@ -212,7 +212,7 @@
   },
   "toggleCollapse": {
     "message": "切換折疊",
-    "description": "Toggling an expand\/collapse state."
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "產生密碼"
@@ -318,10 +318,10 @@
     "message": "地址 3"
   },
   "cityTown": {
-    "message": "市\/鎮"
+    "message": "市/鎮"
   },
   "stateProvince": {
-    "message": "州\/省"
+    "message": "州/省"
   },
   "zipPostalCode": {
     "message": "郵遞區號"
@@ -1069,7 +1069,7 @@
     "message": "新增自訂網域"
   },
   "newCustomDomainDesc": {
-    "message": "輸入以逗號分隔的網域清單。只允許最基本的網域，請勿輸入子網域名稱。例如，輸入「google.com」即可，而非「www.google.com」。您也可以輸入「androidapp:\/\/package.name」來將 Android 應用程式與其他網域名稱關聯起來。"
+    "message": "輸入以逗號分隔的網域清單。只允許最基本的網域，請勿輸入子網域名稱。例如，輸入「google.com」即可，而非「www.google.com」。您也可以輸入「androidapp://package.name」來將 Android 應用程式與其他網域名稱關聯起來。"
   },
   "customDomainX": {
     "message": "自訂網域 $INDEX$",
@@ -1287,7 +1287,7 @@
     "message": "由於平台限制，無法於所有 ByteGarden 應用程式使用 FIDO U2F。請開啟另一套兩階段登入供應者，以確保 FIDO U2F 無法使用時還能存取帳號。支援的平台有："
   },
   "twoFactorU2fSupportWeb": {
-    "message": "支援 U2F 的桌面\/筆記本電腦上的網頁密碼庫和啓用 U2F 的瀏覽器 (Chrome, Opera, Vivaldi, 或啓用了 FIDO U2F 的 Firefox)。"
+    "message": "支援 U2F 的桌面/筆記本電腦上的網頁密碼庫和啓用 U2F 的瀏覽器 (Chrome, Opera, Vivaldi, 或啓用了 FIDO U2F 的 Firefox)。"
   },
   "twoFactorU2fWaiting": {
     "message": "等待您按下加密鑰匙上的按鈕"
@@ -1315,13 +1315,13 @@
     "message": "Unsecured Websites Report"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "使用 http:\/\/ 配置的不安全網站有風險。如果網站允許，您應永遠使用 https:\/\/ 配置存取此網站，這樣您的連線才是加密過的。"
+    "message": "使用 http:// 配置的不安全網站有風險。如果網站允許，您應永遠使用 https:// 配置存取此網站，這樣您的連線才是加密過的。"
   },
   "unsecuredWebsitesFound": {
     "message": "發現不安全的網站"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "我們在您的密碼庫找到 $COUNT$ 個使用不安全網址的項目。如果網站允許，您應變更其網址配置至 https:\/\/。",
+    "message": "我們在您的密碼庫找到 $COUNT$ 個使用不安全網址的項目。如果網站允許，您應變更其網址配置至 https://。",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1571,7 +1571,7 @@
     "message": "Premium Access"
   },
   "premiumAccessDesc": {
-    "message": "You can add premium access to all members of your organization for $PRICE$ \/$INTERVAL$.",
+    "message": "You can add premium access to all members of your organization for $PRICE$ /$INTERVAL$.",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1590,7 @@
     "message": "# GB 附加儲存空間"
   },
   "additionalStorageIntervalDesc": {
-    "message": "您的方案擁有 $SIZE$ 的加密儲存空間。您也可以用每 GB $PRICE$ \/ $INTERVAL$ 購買額外的儲存空間。",
+    "message": "您的方案擁有 $SIZE$ 的加密儲存空間。您也可以用每 GB $PRICE$ / $INTERVAL$ 購買額外的儲存空間。",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1753,7 +1753,7 @@
   },
   "transactions": {
     "message": "交易",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "無交易"
@@ -1860,7 +1860,7 @@
     "message": "# 使用者數"
   },
   "userSeatsAdditionalDesc": {
-    "message": "Your plan comes with $BASE_SEATS$ user seats. You can add additional users for $SEAT_PRICE$ per user \/month.",
+    "message": "Your plan comes with $BASE_SEATS$ user seats. You can add additional users for $SEAT_PRICE$ per user /month.",
     "placeholders": {
       "base_seats": {
         "content": "$1",
@@ -2182,7 +2182,7 @@
   },
   "extension": {
     "message": "擴充套件",
-    "description": "Browser extension\/addon"
+    "description": "Browser extension/addon"
   },
   "desktop": {
     "message": "電腦版應用程式",
@@ -2198,7 +2198,7 @@
     "message": "已變更帳戶密碼。"
   },
   "enabledUpdated2fa": {
-    "message": "已啟用 \/ 更新兩步驟登入。"
+    "message": "已啟用 / 更新兩步驟登入。"
   },
   "disabled2fa": {
     "message": "已停用兩步驟登入。"
@@ -2613,19 +2613,19 @@
   },
   "billingPlan": {
     "message": "方案",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "變更方案",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Upgrade your account to another plan be providing the information below. Please ensure that you have an active payment method added to the account.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Contact customer support if you would like to change your plan. Please ensure that you have an active payment method added to the account.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "收據 #$NUMBER$",
@@ -2926,5 +2926,8 @@
   },
   "selectOneCollection": {
     "message": "您必須至少選擇一個收藏。"
+  },
+  "couldNotChargeCardPayInvoice": {
+    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
