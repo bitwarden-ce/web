@@ -15,19 +15,6 @@
   "name": {
     "message": "Nombre"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Nueva URI"
   },
@@ -129,9 +116,6 @@
   },
   "ms": {
     "message": "Srta"
-  },
-  "dr": {
-    "message": "Dr"
   },
   "expirationMonth": {
     "message": "Mes de expiración"
@@ -501,9 +485,6 @@
   },
   "yes": {
     "message": "Sí"
-  },
-  "no": {
-    "message": "No"
   },
   "loginOrCreateNewAccount": {
     "message": "Identifícate o crea una nueva cuenta para acceder a tu caja fuerte."
@@ -1108,10 +1089,6 @@
   "enabled": {
     "message": "Activado"
   },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
-  },
   "premiumMembership": {
     "message": "Membresía Premium"
   },
@@ -1201,15 +1178,6 @@
   },
   "twoFactorYubikeySupportMobile": {
     "message": "Aplicaciones móviles en un dispositivo con capacidades NFC o un puerto USB pueden aceptar tu YubiKey."
-  },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
   },
   "u2fkeyX": {
     "message": "Llave U2F $INDEX$",
@@ -1609,18 +1577,11 @@
   "summary": {
     "message": "Resumen"
   },
-  "total": {
-    "message": "Total"
-  },
   "year": {
     "message": "año"
   },
   "month": {
     "message": "mes"
-  },
-  "monthAbbr": {
-    "message": "mo.",
-    "description": "Short abbreviation for 'month'"
   },
   "paymentChargedAnnually": {
     "message": "Your payment method will be charged immediately and on a recurring basis each year. You may cancel at any time."
@@ -2212,12 +2173,6 @@
   "failedLogin2fa": {
     "message": "Intento de acceso fallido con autenticación en dos pasos incorrecta."
   },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
-  },
   "editedOrgSettings": {
     "message": "Ajustes de la organización editados."
   },
@@ -2254,78 +2209,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2611,10 +2494,6 @@
   "taxInformationDesc": {
     "message": "Por favor, contacta con soporte para indicar (o actualizar) la información de impuestos para tus facturas."
   },
-  "billingPlan": {
-    "message": "Plan",
-    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
-  },
   "changeBillingPlan": {
     "message": "Cambiar plan",
     "description": "A billing plan/package. For example: families, teams, enterprise, etc."
@@ -2686,9 +2565,6 @@
   },
   "bankAccountTypeCompany": {
     "message": "Compañia (Empresa)"
-  },
-  "bankAccountTypeIndividual": {
-    "message": "Individual (Personal)"
   },
   "enterInstallationId": {
     "message": "Introduce tu ID de instalación"
@@ -2926,8 +2802,5 @@
   },
   "selectOneCollection": {
     "message": "Debes seleccionar al menos una colección."
-  },
-  "couldNotChargeCardPayInvoice": {
-    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
