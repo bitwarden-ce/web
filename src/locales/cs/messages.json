@@ -161,7 +161,7 @@
     "message": "Skryté"
   },
   "cfTypeBoolean": {
-    "message": "Ano\/Ne"
+    "message": "Ano/Ne"
   },
   "remove": {
     "message": "Smazat"
@@ -184,7 +184,7 @@
   },
   "host": {
     "message": "Host",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "Přesně"
@@ -212,7 +212,7 @@
   },
   "toggleCollapse": {
     "message": "Přepnout sbalení",
-    "description": "Toggling an expand\/collapse state."
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "Vygenerovat heslo"
@@ -321,7 +321,7 @@
     "message": "Město"
   },
   "stateProvince": {
-    "message": "Kraj \/ Provincie"
+    "message": "Kraj / Provincie"
   },
   "zipPostalCode": {
     "message": "PSČ"
@@ -1069,7 +1069,7 @@
     "message": "Přidat vlastní doménu"
   },
   "newCustomDomainDesc": {
-    "message": "Zadejte seznam domén oddělených čárkou. Povolené jsou pouze „základní“ domény. Nezadávejte subdomény. Například zadejte „bytegarden.com“, nikoliv „vault.bytegarden.com“. Můžete také zadat „androidapp:\/\/package.name“ pokud chcete přiřadit Android aplikaci k ostatním webovým doménám."
+    "message": "Zadejte seznam domén oddělených čárkou. Povolené jsou pouze „základní“ domény. Nezadávejte subdomény. Například zadejte „bitwarden.com“, nikoliv „vault.bitwarden.com“. Můžete také zadat „androidapp://package.name“ pokud chcete přiřadit Android aplikaci k ostatním webovým doménám."
   },
   "customDomainX": {
     "message": "Vlastní doména $INDEX$",
@@ -1315,13 +1315,13 @@
     "message": "Hlášení o nezabezpečených webech"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "Používání nezabezpečených http:\/\/ webových stránek může být nebezpečné. Pokud je to možné, přistupujte na web vždy jen přes zašifrované https:\/\/ připojení."
+    "message": "Používání nezabezpečených http:// webových stránek může být nebezpečné. Pokud je to možné, přistupujte na web vždy jen přes zašifrované https:// připojení."
   },
   "unsecuredWebsitesFound": {
     "message": "Nalezen nezabezpečený web"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "Některé položky ($COUNT$) ve vašem trezoru používají nezabezpečené URI. Schémata URI by měla být změněna na https:\/\/, pokud to web umožňuje.",
+    "message": "Některé položky ($COUNT$) ve vašem trezoru používají nezabezpečené URI. Schémata URI by měla být změněna na https://, pokud to web umožňuje.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1571,7 +1571,7 @@
     "message": "Prémiový přístup"
   },
   "premiumAccessDesc": {
-    "message": "Můžete přidat prémiový přístup všem členům vaší organizace za $PRICE$\/$INTERVAL$.",
+    "message": "Můžete přidat prémiový přístup všem členům vaší organizace za $PRICE$/$INTERVAL$.",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1590,7 @@
     "message": "# dalších GB"
   },
   "additionalStorageIntervalDesc": {
-    "message": "Vybraný plán obsahuje $SIZE$ šifrovaného úložiště. Další prostor si můžete přikoupit za $PRICE$\/$INTERVAL$ za každý další 1 GB.",
+    "message": "Vybraný plán obsahuje $SIZE$ šifrovaného úložiště. Další prostor si můžete přikoupit za $PRICE$/$INTERVAL$ za každý další 1 GB.",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1753,7 +1753,7 @@
   },
   "transactions": {
     "message": "Transakce",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "Žádné transakce."
@@ -1860,7 +1860,7 @@
     "message": "# uživatelů"
   },
   "userSeatsAdditionalDesc": {
-    "message": "Your plan comes with $BASE_SEATS$ user seats. You can add additional users for $SEAT_PRICE$ per user \/month.",
+    "message": "Your plan comes with $BASE_SEATS$ user seats. You can add additional users for $SEAT_PRICE$ per user /month.",
     "placeholders": {
       "base_seats": {
         "content": "$1",
@@ -2182,7 +2182,7 @@
   },
   "extension": {
     "message": "Rozšíření",
-    "description": "Browser extension\/addon"
+    "description": "Browser extension/addon"
   },
   "desktop": {
     "message": "Počítač",
@@ -2198,7 +2198,7 @@
     "message": "Heslo účtu bylo změněno"
   },
   "enabledUpdated2fa": {
-    "message": "Dvoufázové přihlášení bylo povoleno\/upraveno."
+    "message": "Dvoufázové přihlášení bylo povoleno/upraveno."
   },
   "disabled2fa": {
     "message": "Dvoufázové přihlášení bylo zakázáno"
@@ -2613,19 +2613,19 @@
   },
   "billingPlan": {
     "message": "Plán",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Změnit plán",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Upgrade your account to another plan be providing the information below. Please ensure that you have an active payment method added to the account.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Pokud chcete změnit svůj plán, kontaktujte zákaznickou podporu. Ujistěte se prosím, zda máte k účtu přidán způsob platby.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "Faktura #$NUMBER$",
@@ -2926,5 +2926,8 @@
   },
   "selectOneCollection": {
     "message": "Musíte vybrat alespoň jednu kolekci."
+  },
+  "couldNotChargeCardPayInvoice": {
+    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
