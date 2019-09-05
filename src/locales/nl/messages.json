@@ -15,19 +15,6 @@
   "name": {
     "message": "Naam"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Nieuwe URI"
   },
@@ -160,9 +147,6 @@
   "cfTypeHidden": {
     "message": "Verborgen"
   },
-  "cfTypeBoolean": {
-    "message": "Boolean"
-  },
   "remove": {
     "message": "Verwijderen"
   },
@@ -185,9 +169,6 @@
   "host": {
     "message": "Hostnaam",
     "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
-  },
-  "exact": {
-    "message": "Exact"
   },
   "startsWith": {
     "message": "Begint met"
@@ -853,9 +834,6 @@
   "newEmail": {
     "message": "Nieuw e-mailadres"
   },
-  "code": {
-    "message": "Code"
-  },
   "changeEmailDesc": {
     "message": "We hebben een verificatiecode naar $EMAIL$ gestuurd. Controleer uw mail voor de verificatiecode en vul deze hieronder in om het wijzigen van uw e-mailadres te voltooien.",
     "placeholders": {
@@ -1108,10 +1086,6 @@
   "enabled": {
     "message": "Ingeschakeld"
   },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
-  },
   "premiumMembership": {
     "message": "Premium-lidmaatschap"
   },
@@ -1201,15 +1175,6 @@
   },
   "twoFactorYubikeySupportMobile": {
     "message": "Mobiele apps op een apparaat met NFC of een USB-poort welke YubiKey accepteert."
-  },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
   },
   "u2fkeyX": {
     "message": "U2F sleutel $INDEX$",
@@ -1484,9 +1449,6 @@
   "compromisedData": {
     "message": "Gecompromitteerde gegevens"
   },
-  "website": {
-    "message": "Website"
-  },
   "affectedUsers": {
     "message": "Getroffen Gebruikers"
   },
@@ -1682,14 +1644,8 @@
   "neverExpires": {
     "message": "Vervalt nooit"
   },
-  "status": {
-    "message": "Status"
-  },
   "nextCharge": {
     "message": "Volgende rekening"
-  },
-  "details": {
-    "message": "Details"
   },
   "downloadLicense": {
     "message": "Download licentie"
@@ -1888,20 +1844,11 @@
       }
     }
   },
-  "planNameFamilies": {
-    "message": "Families"
-  },
   "planDescFamilies": {
     "message": "Voor persoonlijk gebruik, om met familie en vrienden te delen."
   },
-  "planNameTeams": {
-    "message": "Teams"
-  },
   "planDescTeams": {
     "message": "Voor bedrijven en andere team-organisaties."
-  },
-  "planNameEnterprise": {
-    "message": "Enterprise"
   },
   "planDescEnterprise": {
     "message": "Voor bedrijven en andere grote organisaties."
@@ -2184,10 +2131,6 @@
     "message": "Extensie",
     "description": "Browser extension/addon"
   },
-  "desktop": {
-    "message": "Desktop",
-    "description": "Desktop app"
-  },
   "webVault": {
     "message": "Web-kluis"
   },
@@ -2211,12 +2154,6 @@
   },
   "failedLogin2fa": {
     "message": "Aanmeldpoging mislukt met onjuist tweestapsaanmelding."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Organisatie-instellingen gewijzigd."
@@ -2254,78 +2191,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2755,9 +2620,6 @@
   "loading": {
     "message": "Laden"
   },
-  "upgrade": {
-    "message": "Upgrade"
-  },
   "upgradeOrganization": {
     "message": "Organisatie upgraden"
   },
@@ -2785,9 +2647,6 @@
   },
   "privacyPolicy": {
     "message": "Privacybeleid"
-  },
-  "filters": {
-    "message": "Filters"
   },
   "lockOptions": {
     "message": "Vergrendelingsopties"
@@ -2926,8 +2785,5 @@
   },
   "selectOneCollection": {
     "message": "U moet ten minste één collectie selecteren."
-  },
-  "couldNotChargeCardPayInvoice": {
-    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
