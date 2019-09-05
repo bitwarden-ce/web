@@ -15,19 +15,6 @@
   "name": {
     "message": "Nazwa"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Nowy URI"
   },
@@ -75,9 +62,6 @@
   },
   "licenseNumber": {
     "message": "Numer prawa jazdy"
-  },
-  "email": {
-    "message": "Email"
   },
   "phone": {
     "message": "Telefon"
@@ -130,9 +114,6 @@
   "ms": {
     "message": "Pani"
   },
-  "dr": {
-    "message": "Dr"
-  },
   "expirationMonth": {
     "message": "Miesiąc wygaśnięcia"
   },
@@ -141,9 +122,6 @@
   },
   "authenticatorKeyTotp": {
     "message": "Klucz Uwierzytelniający (TOTP)"
-  },
-  "folder": {
-    "message": "Folder"
   },
   "newCustomField": {
     "message": "Nowe pole niestandardowe"
@@ -496,9 +474,6 @@
   "logOut": {
     "message": "Wyloguj się"
   },
-  "ok": {
-    "message": "Ok"
-  },
   "yes": {
     "message": "Tak"
   },
@@ -718,9 +693,6 @@
   },
   "u2fTitle": {
     "message": "Klucz bezpieczeństwa FIDO U2F"
-  },
-  "emailTitle": {
-    "message": "Email"
   },
   "emailDesc": {
     "message": "Kody weryfikacyjne zostaną wysłane do Ciebie e-mailem."
@@ -1108,10 +1080,6 @@
   "enabled": {
     "message": "Włączone"
   },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
-  },
   "premiumMembership": {
     "message": "Konto Premium"
   },
@@ -1201,15 +1169,6 @@
   },
   "twoFactorYubikeySupportMobile": {
     "message": "Aplikacje mobilne na urządzeniach obsługujących NFC lub posiadających port USB akceptujący Twój YubiKey."
-  },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
   },
   "u2fkeyX": {
     "message": "Klucz U2F $INDEX$",
@@ -1681,9 +1640,6 @@
   },
   "neverExpires": {
     "message": "Nigdy nie wygasa"
-  },
-  "status": {
-    "message": "Status"
   },
   "nextCharge": {
     "message": "Następna opłata"
@@ -2212,12 +2168,6 @@
   "failedLogin2fa": {
     "message": "Logowanie nie powiodło się z powodu nieprawidłowego logowania dwustopniowego."
   },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
-  },
   "editedOrgSettings": {
     "message": "Zmieniono ustawienia organizacji."
   },
@@ -2254,78 +2204,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2610,10 +2488,6 @@
   },
   "taxInformationDesc": {
     "message": "Prosimy o kontakt ze naszym działem wsparcia w celu dostarczenia (lub zaktualizowania) informacji podatkowych dla Twoich faktur."
-  },
-  "billingPlan": {
-    "message": "Plan",
-    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Zmień plan",
@@ -2926,8 +2800,5 @@
   },
   "selectOneCollection": {
     "message": "Musisz wybrać co najmniej jedną kolekcję."
-  },
-  "couldNotChargeCardPayInvoice": {
-    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
