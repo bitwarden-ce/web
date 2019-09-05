@@ -15,19 +15,6 @@
   "name": {
     "message": "Nom"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Nova URI"
   },
@@ -39,9 +26,6 @@
   },
   "passphrase": {
     "message": "Frase de pas"
-  },
-  "notes": {
-    "message": "Notes"
   },
   "customFields": {
     "message": "Camps personalitzats"
@@ -153,9 +137,6 @@
   },
   "dragToSort": {
     "message": "Arrossega per ordenar"
-  },
-  "cfTypeText": {
-    "message": "Text"
   },
   "cfTypeHidden": {
     "message": "Amagat"
@@ -344,10 +325,6 @@
   "editItem": {
     "message": "Edita l'element"
   },
-  "ex": {
-    "message": "ex.",
-    "description": "Short abbreviation for 'example'."
-  },
   "other": {
     "message": "Altres"
   },
@@ -501,9 +478,6 @@
   },
   "yes": {
     "message": "Sí"
-  },
-  "no": {
-    "message": "No"
   },
   "loginOrCreateNewAccount": {
     "message": "Inicieu sessió o creeu un compte nou per accedir a la caixa forta."
@@ -1108,10 +1082,6 @@
   "enabled": {
     "message": "Habilitat"
   },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
-  },
   "premiumMembership": {
     "message": "Subscripció Premium"
   },
@@ -1201,15 +1171,6 @@
   },
   "twoFactorYubikeySupportMobile": {
     "message": "Aplicacions mòbils en un dispositiu amb NFC o un port USB que puga acceptar la vostra YubiKey."
-  },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
   },
   "u2fkeyX": {
     "message": "Clau U2F $INDEX$",
@@ -1608,9 +1569,6 @@
   },
   "summary": {
     "message": "Resum"
-  },
-  "total": {
-    "message": "Total"
   },
   "year": {
     "message": "any"
@@ -2212,12 +2170,6 @@
   "failedLogin2fa": {
     "message": "S'ha produït un error amb un inici de sessió en dues passes incorrecte."
   },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
-  },
   "editedOrgSettings": {
     "message": "S'ha editat la configuració de l'organització."
   },
@@ -2254,78 +2206,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2687,9 +2567,6 @@
   "bankAccountTypeCompany": {
     "message": "Empresa (negocis)"
   },
-  "bankAccountTypeIndividual": {
-    "message": "Individual (Personal)"
-  },
   "enterInstallationId": {
     "message": "Introduïu la vostra id d'instal·lació"
   },
@@ -2926,8 +2803,5 @@
   },
   "selectOneCollection": {
     "message": "Heu d'escollir com a mínim una col·lecció."
-  },
-  "couldNotChargeCardPayInvoice": {
-    "message": "We were not able to charge your card. Please view and pay the unpaid invoice listed below."
   }
 }
