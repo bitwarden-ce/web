@@ -672,6 +672,36 @@
   "logBackIn": {
     "message": "Kérlek jelentkezz be újra."
   },
+<<<<<<< HEAD
+  "logBackInOthersToo": {
+    "message": "Please log back in. If you are using other ByteGarden applications log out and back in to those as well."
+  },
+  "changeMasterPassword": {
+    "message": "Change Master Password"
+  },
+  "masterPasswordChanged": {
+    "message": "Master Password Changed"
+  },
+  "currentMasterPass": {
+    "message": "Current Master Password"
+  },
+  "newMasterPass": {
+    "message": "New Master Password"
+  },
+  "confirmNewMasterPass": {
+    "message": "Confirm New Master Password"
+  },
+  "encKeySettings": {
+    "message": "Encryption Key Settings"
+  },
+  "kdfAlgorithm": {
+    "message": "KDF Algorithm"
+  },
+  "kdfIterations": {
+    "message": "KDF Iterations"
+  },
+=======
+>>>>>>> New translations messages.json (Hungarian)
   "kdfIterationsDesc": {
     "message": "A magasabb KDF iterációk segíthetnek a megvédeni a mesterjelszavad az ún. \"brute force\" támadásoktól. Javasoljuk a $VALUE$, vagy magasabb értéket.",
     "placeholders": {
@@ -772,6 +802,18 @@
   "twoStepLoginDesc": {
     "message": "Biztosítsd a felhasználói fiókodat egy további azonosítási lépéssel bejelentkezéskor."
   },
+<<<<<<< HEAD
+  "twoStepLoginOrganizationDesc": {
+    "message": "Require two-step login for your organization's users by configuring providers at the organization level."
+  },
+  "twoStepLoginRecoveryWarning": {
+    "message": "Enabling two-step login can permanently lock you out of your ByteGarden account. A recovery code allows you to access your account in the event that you can no longer use your normal two-step login provider (ex. you lose your device). ByteGarden support will not be able to assist you if you lose access to your account. We recommend you write down or print the recovery code and keep it in a safe place."
+  },
+  "viewRecoveryCode": {
+    "message": "View Recovery Code"
+  },
+=======
+>>>>>>> New translations messages.json (Hungarian)
   "providers": {
     "message": "Szolgáltatók",
     "description": "Two-step login providers such as YubiKey, Duo, Authenticator apps, Email, etc."
@@ -1273,6 +1315,27 @@
   "updatedPaymentMethod": {
     "message": "Frissített fizetési mód."
   },
+<<<<<<< HEAD
+  "purchasePremium": {
+    "message": "Purchase Premium"
+  },
+  "licenseFile": {
+    "message": "License File"
+  },
+  "licenseFileDesc": {
+    "message": "Your license file will be named something like $FILE_NAME$",
+    "placeholders": {
+      "file_name": {
+        "content": "$1",
+        "example": "bytegarden_premium_license.json"
+      }
+    }
+  },
+  "uploadLicenseFilePremium": {
+    "message": "To upgrade your account to a premium membership you need to upload a valid license file."
+  },
+=======
+>>>>>>> New translations messages.json (Hungarian)
   "uploadLicenseFileOrg": {
     "message": "To create an on-premise hosted organization you need to upload a valid license file."
   },
@@ -1452,6 +1515,18 @@
   "deleteCollectionConfirmation": {
     "message": "Biztosan törölni szeretnéd ezt a gyűjteményt?"
   },
+<<<<<<< HEAD
+  "editUser": {
+    "message": "Edit User"
+  },
+  "inviteUser": {
+    "message": "Invite User"
+  },
+  "inviteUserDesc": {
+    "message": "Invite a new user to your organization by entering their ByteGarden account email address below. If they do not have a ByteGarden account already, they will be prompted to create a new account."
+  },
+=======
+>>>>>>> New translations messages.json (Hungarian)
   "inviteMultipleEmailDesc": {
     "message": "Egymástól vesszővel elválasztott email címek megadásával egyszerre meghívhatsz akár $COUNT$ felhasználót.",
     "placeholders": {
@@ -1758,6 +1833,24 @@
   "updateBrowserDesc": {
     "message": "Nem támogatott böngészőt használsz. Előfordulhat, hogy a web széfed nem fog helyesen működni."
   },
+<<<<<<< HEAD
+  "joinOrganization": {
+    "message": "Join Organization"
+  },
+  "joinOrganizationDesc": {
+    "message": "You've been invited to join the organization listed above. To accept the invitation, you need to log in or create a new ByteGarden account."
+  },
+  "inviteAccepted": {
+    "message": "Invitation Accepted"
+  },
+  "inviteAcceptedDesc": {
+    "message": "You can access this organization once an administrator confirms your membership. We'll send you an email when that happens."
+  },
+  "inviteAcceptFailed": {
+    "message": "Unable to accept invitation. Ask an organization admin to send a new invitation."
+  },
+=======
+>>>>>>> New translations messages.json (Hungarian)
   "rememberEmail": {
     "message": "Emlékeztető email"
   },
@@ -1863,6 +1956,12 @@
   "updateEncryptionKeyDesc": {
     "message": "Hosszabb titkosítókulcsokra váltottunk, amelyek jobb biztonságot adnak és hozzáférést biztosítanak új funkciókhoz. A titkosítókulcsod frissítése könnyű és gyors. Csak add meg a mesterjelszavad alább. Ez a frissítés kötelezővé válik."
   },
+<<<<<<< HEAD
+  "updateEncryptionKeyWarning": {
+    "message": "After updating your encryption key, you are required to log out and back in to all ByteGarden applications that you are currently using (such as the mobile app or browser extensions). Failure to log out and back in (which downloads your new encryption key) may result in data corruption. We will attempt to log you out automatically, however, it may be delayed."
+  },
+=======
+>>>>>>> New translations messages.json (Hungarian)
   "subscription": {
     "message": "Előfizetés"
   },
