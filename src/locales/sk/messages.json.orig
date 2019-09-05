@@ -552,6 +552,22 @@
   "unlock": {
     "message": "Odomknúť"
   },
+<<<<<<< HEAD
+  "loggedInAsEmailOn": {
+    "message": "Logged in as $EMAIL$ on $HOSTNAME$.",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "name@example.com"
+      },
+      "hostname": {
+        "content": "$2",
+        "example": "bytegarden.com"
+      }
+    }
+  },
+=======
+>>>>>>> New translations messages.json (Slovak)
   "invalidMasterPassword": {
     "message": "Neplatné hlavné heslo"
   },
