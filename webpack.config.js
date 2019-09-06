@@ -14,12 +14,6 @@ if (process.env.NODE_ENV == null) {
 }
 const ENV = process.env.ENV = process.env.NODE_ENV;
 
-const extractCss = new ExtractTextPlugin({
-    filename: '[name].[hash].css',
-    disable: false,
-    allChunks: true,
-});
-
 const moduleRules = [
     {
         test: /\.ts$/,
@@ -54,10 +48,20 @@ const moduleRules = [
     },
     {
         test: /\.scss$/,
-        use: extractCss.extract({
+        use: ExtractTextPlugin.extract({
             use: [
-                { loader: 'css-loader' },
-                { loader: 'sass-loader' },
+                {
+                    loader: 'css-loader',
+                    options: {
+                        sourceMap: true,
+                    }
+                },
+                {
+                    loader: 'sass-loader',
+                    options: {
+                        sourceMap: true,
+                    }
+                },
             ],
             publicPath: '../',
         }),
@@ -103,7 +107,11 @@ const plugins = [
         { from: './node_modules/qrious/dist/qrious.min.js', to: 'scripts' },
         { from: './node_modules/braintree-web-drop-in/dist/browser/dropin.js', to: 'scripts' },
     ]),
-    extractCss,
+    new ExtractTextPlugin({
+        filename: '[name].[hash].css',
+        disable: false,
+        allChunks: true,
+    }),
     new webpack.DefinePlugin({
         'process.env': {
             'ENV': JSON.stringify(ENV),
