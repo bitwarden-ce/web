@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand navbar-dark bg-primary bg-secondary-alt">
     <div class="container">
-        <a class="navbar-brand" routerLink="/" title="{{'pageTitle' | i18n : 'Bitwarden'}}">
+        <a class="navbar-brand" routerLink="/" title="{{'pageTitle' | i18n : 'ByteWarden'}}">
             <i class="fa fa-shield"></i>
         </a>
         <div class="collapse navbar-collapse">
@@ -35,14 +35,16 @@
                         <i class="fa fa-fw fa-user"></i>
                         {{'myAccount' | i18n}}
                     </a>
-                    <a class="dropdown-item" href="https://help.bitwarden.com" target="_blank" rel="noopener">
+                    <!--
+                    <a class="dropdown-item" href="https://help.bytegarden.com" target="_blank" rel="noopener">
                         <i class="fa fa-fw fa-question-circle"></i>
                         {{'getHelp' | i18n}}
                     </a>
-                    <a class="dropdown-item" href="https://bitwarden.com#download" target="_blank" rel="noopener">
+                    <a class="dropdown-item" href="https://bytegarden.com#download" target="_blank" rel="noopener">
                         <i class="fa fa-fw fa-download"></i>
                         {{'getApps' | i18n}}
                     </a>
+                    -->
                     <div class="dropdown-divider"></div>
                     <button type="button" class="dropdown-item" (click)="lock()">
                         <i class="fa fa-fw fa-lock"></i>

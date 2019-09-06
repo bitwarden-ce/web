@@ -5,7 +5,7 @@
     "placeholders": {
       "app_name": {
         "content": "$1",
-        "example": "Bitwarden"
+        "example": "ByteGarden"
       }
     }
   },
@@ -598,7 +598,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -875,7 +875,7 @@
     "message": "ログインし直してください"
   },
   "logBackInOthersToo": {
-    "message": "ログインし直してください。他のBitwardenのアプリを使用している場合、同様にログインし直してください。"
+    "message": "ログインし直してください。他のByteGardenのアプリを使用している場合、同様にログインし直してください。"
   },
   "changeMasterPassword": {
     "message": "マスターパスワードの変更"
@@ -1048,7 +1048,7 @@
     "message": "ドメインルール"
   },
   "domainRulesDesc": {
-    "message": "複数の異なるドメインで同じログイン情報を用いることができます。「グローバルドメイン」はBitwardenにより予め作成されたものです。"
+    "message": "複数の異なるドメインで同じログイン情報を用いることができます。「グローバルドメイン」はByteGardenにより予め作成されたものです。"
   },
   "globalEqDomains": {
     "message": "グローバルドメイン"
@@ -1093,7 +1093,7 @@
     "message": "組織レベルで認証プロバイダを設定することで、組織のユーザーに二段階の認証を必要とします。"
   },
   "twoStepLoginRecoveryWarning": {
-    "message": "二段階認証を有効にすると Bitwarden アカウントから永久に閉め出されてしまうことがあります。リカバリーコードがあれば、通常の二段階認証プロバイダを使えなくなったとき(デバイスの紛失等)でもアカウントにアクセスできます。アカウントにアクセスできなくなっても Bitwarden はサポート出来ないため、リカバリーコードを書き出すか印刷し安全な場所で保管しておくことを推奨します。"
+    "message": "二段階認証を有効にすると ByteGarden アカウントから永久に閉め出されてしまうことがあります。リカバリーコードがあれば、通常の二段階認証プロバイダを使えなくなったとき(デバイスの紛失等)でもアカウントにアクセスできます。アカウントにアクセスできなくなっても ByteGarden はサポート出来ないため、リカバリーコードを書き出すか印刷し安全な場所で保管しておくことを推奨します。"
   },
   "viewRecoveryCode": {
     "message": "リカバリーコードを確認"
@@ -1194,7 +1194,7 @@
     "message": "フォームを保存します。"
   },
   "twoFactorYubikeyWarning": {
-    "message": "プラットフォームの制限により YubiKey は Bitwarden のアプリケーションのすべてで使用できるわけではありません。他の二段階認証プロバイダを有効化しておくと、YubiKey が使用できない場合でもアカウントにアクセスできます。対応プラットフォーム:"
+    "message": "プラットフォームの制限により YubiKey は ByteGarden のアプリケーションのすべてで使用できるわけではありません。他の二段階認証プロバイダを有効化しておくと、YubiKey が使用できない場合でもアカウントにアクセスできます。対応プラットフォーム:"
   },
   "twoFactorYubikeySupportUsb": {
     "message": "ウェブ保管庫、デスクトップアプリ、コマンドラインツール、USBポートのあるデバイス上のブラウザ拡張機能では YubiKey を使用できます。"
@@ -1236,7 +1236,7 @@
     "message": "すべてのキーを無効化"
   },
   "twoFactorDuoDesc": {
-    "message": "Bitwardenアプリの情報をDuoの管理パネルから入力して下さい。"
+    "message": "ByteGardenアプリの情報をDuoの管理パネルから入力して下さい。"
   },
   "twoFactorDuoIntegrationKey": {
     "message": "連携キー"
@@ -1284,7 +1284,7 @@
     "message": "フォームを保存します。"
   },
   "twoFactorU2fWarning": {
-    "message": "プラットフォームの制限によりFIDO U2F対応キーはBitwardenのアプリケーションのすべてで使用できるわけではありません。他の二段階認証プロバイダを有効化しておくと、FIDO U2F対応キーが使用できない場合でもアカウントにアクセスできます。サポートされるプラットフォーム:"
+    "message": "プラットフォームの制限によりFIDO U2F対応キーはByteGardenのアプリケーションのすべてで使用できるわけではありません。他の二段階認証プロバイダを有効化しておくと、FIDO U2F対応キーが使用できない場合でもアカウントにアクセスできます。サポートされるプラットフォーム:"
   },
   "twoFactorU2fSupportWeb": {
     "message": "ウェブ保管庫とU2Fに対応したブラウザ(Chrome、Opera、Vivaldi、Firefox)のブラウザ拡張機能"
@@ -1393,7 +1393,7 @@
     "message": "脆弱パスワード調査"
   },
   "weakPasswordsReportDesc": {
-    "message": "脆弱なパスワードは、ハッカーによって簡単に推測することができ、また自動化されたツールでパスワードが解析されます。Bitwardenのパスワード生成ツールを使用すると、強力なパスワードを作成することができます。"
+    "message": "脆弱なパスワードは、ハッカーによって簡単に推測することができ、また自動化されたツールでパスワードが解析されます。ByteGardenのパスワード生成ツールを使用すると、強力なパスワードを作成することができます。"
   },
   "weakPasswordsFound": {
     "message": "脆弱なパスワードが見つかりました"
@@ -1504,11 +1504,11 @@
   },
   "accountCredit": {
     "message": "アカウント クレジット",
-    "description": "Financial term. In the case of Bitwarden, a positive balance means that you owe money, while a negative balance means that you have a credit (Bitwarden owes you money)."
+    "description": "Financial term. In the case of ByteGarden, a positive balance means that you owe money, while a negative balance means that you have a credit (ByteGarden owes you money)."
   },
   "accountBalance": {
     "message": "アカウント残高",
-    "description": "Financial term. In the case of Bitwarden, a positive balance means that you owe money, while a negative balance means that you have a credit (Bitwarden owes you money)."
+    "description": "Financial term. In the case of ByteGarden, a positive balance means that you owe money, while a negative balance means that you have a credit (ByteGarden owes you money)."
   },
   "addCredit": {
     "message": "クレジットの追加",
@@ -1813,7 +1813,7 @@
     "placeholders": {
       "file_name": {
         "content": "$1",
-        "example": "bitwarden_premium_license.json"
+        "example": "bytegarden_premium_license.json"
       }
     }
   },
@@ -2102,7 +2102,7 @@
     "message": "ユーザーの招待"
   },
   "inviteUserDesc": {
-    "message": "組織に新しいユーザーを招待するには、そのユーザーのBitwardenアカウントのメールアドレスを入力して下さい。Bitwardenアカウントをお持ちでない場合は、アカウントの作成を求められます。"
+    "message": "組織に新しいユーザーを招待するには、そのユーザーのByteGardenアカウントのメールアドレスを入力して下さい。ByteGardenアカウントをお持ちでない場合は、アカウントの作成を求められます。"
   },
   "inviteMultipleEmailDesc": {
     "message": "「,」でメールアドレスを区切ることで、一度に最大$COUNT$ユーザーを招待できます。",
@@ -2549,7 +2549,7 @@
     "message": "組織に参加"
   },
   "joinOrganizationDesc": {
-    "message": "あなたは上記の組織への参加の招待を受けています。招待を承諾するには、ログインするかBitwardenアカウントを作成してください。"
+    "message": "あなたは上記の組織への参加の招待を受けています。招待を承諾するには、ログインするかByteGardenアカウントを作成してください。"
   },
   "inviteAccepted": {
     "message": "招待が承諾されました。"
@@ -2582,7 +2582,7 @@
     "message": "アカウントが存在する場合、詳細な手順を記載したメールを送信しました。"
   },
   "deleteRecoverConfirmDesc": {
-    "message": "Bitwardenアカウント削除のリクエストがありました。削除する場合はボタンをクリックしてください。"
+    "message": "ByteGardenアカウント削除のリクエストがありました。削除する場合はボタンをクリックしてください。"
   },
   "myOrganization": {
     "message": "組織"
@@ -2747,7 +2747,7 @@
     "message": "より良いセキュリティと新しい機能が利用できる強力な暗号化方式へ移行することにしました。暗号化キーの更新は迅速かつ簡単です。以下にマスターパスワードを入力して下さい。この更新はやがて必須になります。"
   },
   "updateEncryptionKeyWarning": {
-    "message": "暗号化キーの更新後は、モバイルアプリやブラウザ拡張機能など現在利用中のすべてのBitwardenアプリで再ログインが必要となります。再ログインしないと(新しい暗号化キーをダウンロードすると)データが破損する可能性があります。自動的にログアウトを試みますが、遅延することがあります。"
+    "message": "暗号化キーの更新後は、モバイルアプリやブラウザ拡張機能など現在利用中のすべてのByteGardenアプリで再ログインが必要となります。再ログインしないと(新しい暗号化キーをダウンロードすると)データが破損する可能性があります。自動的にログアウトを試みますが、遅延することがあります。"
   },
   "subscription": {
     "message": "契約"
@@ -2862,7 +2862,7 @@
     "message": "脆弱なマスターパスワード"
   },
   "weakMasterPasswordDesc": {
-    "message": "設定されたマスターパスワードの強度は脆弱です。Bitwarden アカウントを適切に保護するために、強力なマスターパスワード（またはパスフレーズ）を使用すべきです。本当にこのマスターパスワードを使用しますか？"
+    "message": "設定されたマスターパスワードの強度は脆弱です。ByteGarden アカウントを適切に保護するために、強力なマスターパスワード（またはパスフレーズ）を使用すべきです。本当にこのマスターパスワードを使用しますか？"
   },
   "rotateAccountEncKey": {
     "message": "暗号化キーをローテーションする"
@@ -2906,7 +2906,7 @@
     "message": "API キー"
   },
   "apiKeyDesc": {
-    "message": "API キーは Bitwarden パブリック API で認証するために使用されます。"
+    "message": "API キーは ByteGarden パブリック API で認証するために使用されます。"
   },
   "apiKeyRotateDesc": {
     "message": "API キーをローテーションさせると、前のキーが無効になります。現在のキーが安全でないと思ったときに API キーをローテーションさせてください。"

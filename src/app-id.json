@@ -6,8 +6,8 @@
         "minor": 0
       },
       "ids": [
-        "https://vault.bitwarden.com",
-        "ios:bundle-id:com.8bit.bitwarden",
+        "https://vault.bytegarden.com",
+        "ios:bundle-id:com.8bit.bytegarden",
         "android:apk-key-hash:dUGFzUzf3lmHSLBDBIv+WaFyZMI"
       ]
     }

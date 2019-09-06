@@ -135,7 +135,7 @@ export function initFactory(): Function {
             environmentService.baseUrl = window.location.origin;
         } else {
             environmentService.notificationsUrl = isDev ? 'http://localhost:61840' :
-                'https://notifications.bitwarden.com'; // window.location.origin + '/notifications';
+                'https://notifications.bytegarden.com'; // window.location.origin + '/notifications';
         }
         apiService.setUrls({
             base: isDev ? null : window.location.origin,
@@ -147,9 +147,9 @@ export function initFactory(): Function {
             // servers for local development.
 
             // base: null,
-            // api: 'https://api.bitwarden.com',
-            // identity: 'https://identity.bitwarden.com',
-            // events: 'https://events.bitwarden.com',
+            // api: 'https://api.bytegarden.com',
+            // identity: 'https://identity.bytegarden.com',
+            // events: 'https://events.bytegarden.com',
         });
         setTimeout(() => notificationsService.init(environmentService), 3000);
 
