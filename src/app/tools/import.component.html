@@ -17,15 +17,15 @@
         </div>
     </div>
     <app-callout type="info" title="{{getFormatInstructionTitle()}}" *ngIf="format">
-        <ng-container *ngIf="format === 'bitwardencsv' || format === 'bitwardenjson'">
+        <ng-container *ngIf="format === 'bytegardencsv' || format === 'bytegardenjson'">
             See detailed instructions on our help site at
             <a target="_blank" rel="noopener"
-                href="https://help.bitwarden.com/article/export-your-data/">https://help.bitwarden.com/article/export-your-data/</a>
+                href="https://help.bytegarden.com/article/export-your-data/">https://help.bytegarden.com/article/export-your-data/</a>
         </ng-container>
         <ng-container *ngIf="format === 'lastpasscsv'">
             See detailed instructions on our help site at
             <a target="_blank" rel="noopener"
-                href="https://help.bitwarden.com/article/import-from-lastpass/">https://help.bitwarden.com/article/import-from-lastpass/</a>
+                href="https://help.bytegarden.com/article/import-from-lastpass/">https://help.bytegarden.com/article/import-from-lastpass/</a>
         </ng-container>
         <ng-container *ngIf="format === 'keepassxcsv'">
             Using the KeePassX desktop application, navigate to "Database" &rarr; "Export to CSV file" and save the CSV
@@ -77,7 +77,7 @@
             </span>
             See detailed instructions on our help site at
             <a target="_blank" rel="noopener"
-                href="https://help.bitwarden.com/article/import-from-chrome/">https://help.bitwarden.com/article/import-from-chrome/</a>
+                href="https://help.bytegarden.com/article/import-from-chrome/">https://help.bytegarden.com/article/import-from-chrome/</a>
         </ng-container>
         <ng-container *ngIf="format === 'firefoxcsv'">
             Use the
@@ -88,7 +88,7 @@
         <ng-container *ngIf="format === '1password1pif' || format === '1passwordwincsv'">
             See detailed instructions on our help site at
             <a target="_blank" rel="noopener"
-                href="https://help.bitwarden.com/article/import-from-1password/">https://help.bitwarden.com/article/import-from-1password/</a>.
+                href="https://help.bytegarden.com/article/import-from-1password/">https://help.bytegarden.com/article/import-from-1password/</a>.
         </ng-container>
         <ng-container *ngIf="format === 'passworddragonxml'">
             Using the Password Dragon desktop application, navigate to "File" &rarr; "Export" &rarr; "To XML". In the
@@ -184,7 +184,7 @@
             <code>pw_helper.py</code>. Open terminal and run
             <code>chmod +rx Desktop/pw_helper.py</code> and then
             <code>python Desktop/pw_helper.py export Desktop/my_passwords.json</code>. Then upload the resulting
-            <code>my_passwords.json</code> file here to Bitwarden.
+            <code>my_passwords.json</code> file here to ByteGarden.
         </ng-container>
         <ng-container *ngIf="format === 'passwordagentcsv'">
             Using the Password Agent desktop application navigate to "File" &rarr; "Export", select the "Fields to

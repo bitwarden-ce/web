@@ -5,7 +5,7 @@
     "placeholders": {
       "app_name": {
         "content": "$1",
-        "example": "Bitwarden"
+        "example": "ByteGarden"
       }
     }
   },
@@ -598,7 +598,7 @@
       },
       "hostname": {
         "content": "$2",
-        "example": "bitwarden.com"
+        "example": "bytegarden.com"
       }
     }
   },
@@ -875,7 +875,7 @@
     "message": "Log opnieuw in."
   },
   "logBackInOthersToo": {
-    "message": "Gelieve opnieuw aan te melden. Als u gebruik maakt van andere Bitwarden applicaties moet u hier ook opnieuw aanmelden."
+    "message": "Gelieve opnieuw aan te melden. Als u gebruik maakt van andere ByteGarden applicaties moet u hier ook opnieuw aanmelden."
   },
   "changeMasterPassword": {
     "message": "Hoofdwachtwoord wijzigen"
@@ -911,7 +911,7 @@
     }
   },
   "kdfIterationsWarning": {
-    "message": "Je KDF iteraties te hoog instellen kan leiden tot tot slechte performance bij het inloggen (en ontgrendelen) van Bitwarden op apparaten met langzamere CPU's. Het is aanbevolen dat je de waarde in stappen van $INCREMENT$ verhoogt, en vervolgens al je apparaten test.",
+    "message": "Je KDF iteraties te hoog instellen kan leiden tot tot slechte performance bij het inloggen (en ontgrendelen) van ByteGarden op apparaten met langzamere CPU's. Het is aanbevolen dat je de waarde in stappen van $INCREMENT$ verhoogt, en vervolgens al je apparaten test.",
     "placeholders": {
       "increment": {
         "content": "$1",
@@ -1048,7 +1048,7 @@
     "message": "Domeinregels"
   },
   "domainRulesDesc": {
-    "message": "Als u dezelfde aanmeldingsgegevens hebt voor meerdere verschillende websitedomeinen, kunt u de website als \"equivalent\" markeren. \"Globale\" domeinen zijn degenen die Bitwarden voor u al heeft aangemaakt."
+    "message": "Als u dezelfde aanmeldingsgegevens hebt voor meerdere verschillende websitedomeinen, kunt u de website als \"equivalent\" markeren. \"Globale\" domeinen zijn degenen die ByteGarden voor u al heeft aangemaakt."
   },
   "globalEqDomains": {
     "message": "Globale Equivalente Domeinen"
@@ -1093,7 +1093,7 @@
     "message": "Vereis tweestapsverificatie voor de gebruikers van uw organisatie door aanbieders te configureren op organisatieniveau."
   },
   "twoStepLoginRecoveryWarning": {
-    "message": "Door aanmelden in twee stappen in te schakelen, kunt u uw Bitwarden-account permanent blokkeren. Een herstelcode geeft u toegang tot uw account in het geval dat u uw normale tweestapsaanmeldingsaanbieder niet meer kunt gebruiken (bv. als u uw apparaat verliest). De Bitwarden klantenondersteuning kan u niet helpen als u de toegang tot uw account verliest. We raden u aan de herstelcode op te schrijven of af te drukken en op een veilige plaats te bewaren."
+    "message": "Door aanmelden in twee stappen in te schakelen, kunt u uw ByteGarden-account permanent blokkeren. Een herstelcode geeft u toegang tot uw account in het geval dat u uw normale tweestapsaanmeldingsaanbieder niet meer kunt gebruiken (bv. als u uw apparaat verliest). De ByteGarden klantenondersteuning kan u niet helpen als u de toegang tot uw account verliest. We raden u aan de herstelcode op te schrijven of af te drukken en op een veilige plaats te bewaren."
   },
   "viewRecoveryCode": {
     "message": "Herstelcode weergeven"
@@ -1194,7 +1194,7 @@
     "message": "Sla het formulier op."
   },
   "twoFactorYubikeyWarning": {
-    "message": "Vanwege platformbeperkingen kunnen YubiKeys niet in alle Bitwarden applicaties gebruikt worden. U zou een andere tweestapsaanmeldingsaanbieder moeten instellen voor wanneer YubiKeys niet gebruikt kunnen worden. De volgende platformen worden ondersteunt:"
+    "message": "Vanwege platformbeperkingen kunnen YubiKeys niet in alle ByteGarden applicaties gebruikt worden. U zou een andere tweestapsaanmeldingsaanbieder moeten instellen voor wanneer YubiKeys niet gebruikt kunnen worden. De volgende platformen worden ondersteunt:"
   },
   "twoFactorYubikeySupportUsb": {
     "message": "Web-kluis, desktop applicatie, CLI en alle browser-extensies op een apparaat met een USB-poort welke YubiKey accepteert."
@@ -1236,7 +1236,7 @@
     "message": "Schakel alle sleutels uit"
   },
   "twoFactorDuoDesc": {
-    "message": "Vul de Bitwarden applicatie informatie van uw Duo Admin-scherm."
+    "message": "Vul de ByteGarden applicatie informatie van uw Duo Admin-scherm."
   },
   "twoFactorDuoIntegrationKey": {
     "message": "Integratiesleutel"
@@ -1284,7 +1284,7 @@
     "message": "Sla het formulier op."
   },
   "twoFactorU2fWarning": {
-    "message": "Vanwege platformbeperkingen kunnen FIDO U2F niet in alle Bitwarden applicaties gebruikt worden. U zou een andere tweestapsaanmeldingsaanbieder moeten instellen voor wanneer FIDO U2F niet gebruikt kunnen worden. De volgende platformen worden ondersteunt:"
+    "message": "Vanwege platformbeperkingen kunnen FIDO U2F niet in alle ByteGarden applicaties gebruikt worden. U zou een andere tweestapsaanmeldingsaanbieder moeten instellen voor wanneer FIDO U2F niet gebruikt kunnen worden. De volgende platformen worden ondersteunt:"
   },
   "twoFactorU2fSupportWeb": {
     "message": "Webkluis en browser-extensies op een desktop\/laptop met een browser ondersteuning voor U2F (Chrome, Opera, Vivaldi of Firefox met FIDO U2F ingeschakeld)."
@@ -1299,7 +1299,7 @@
     "message": "Er was een probleem met het lezen van de beveiligingssleutel. Probeer het nogmaals."
   },
   "twoFactorRecoveryYourCode": {
-    "message": "Uw Bitwarden tweestapsaanmelding herstelcode"
+    "message": "Uw ByteGarden tweestapsaanmelding herstelcode"
   },
   "twoFactorRecoveryNoCode": {
     "message": "U hebt nog geen tweestapsaanmeldingsaanbieders ingeschakeld. Nadat u een tweestapsaanmeldingsaanbieder heeft ingeschakeld kunt u hier uw herstelcode vinden."
@@ -1393,7 +1393,7 @@
     "message": "Verslag van zwakke wachtwoorden"
   },
   "weakPasswordsReportDesc": {
-    "message": "Zwakke wachtwoorden kunnen eenvoudig worden geraden door hackers en geautomatiseerde gereedschappen die worden gebruikt voor het kraken van wachtwoorden. De wachtwoordgenerator van Bitwarden kan u helpen bij het maken van sterke wachtwoorden."
+    "message": "Zwakke wachtwoorden kunnen eenvoudig worden geraden door hackers en geautomatiseerde gereedschappen die worden gebruikt voor het kraken van wachtwoorden. De wachtwoordgenerator van ByteGarden kan u helpen bij het maken van sterke wachtwoorden."
   },
   "weakPasswordsFound": {
     "message": "Zwakke wachtwoorden gevonden"
@@ -1504,11 +1504,11 @@
   },
   "accountCredit": {
     "message": "Rekeningtegoed",
-    "description": "Financial term. In the case of Bitwarden, a positive balance means that you owe money, while a negative balance means that you have a credit (Bitwarden owes you money)."
+    "description": "Financial term. In the case of ByteGarden, a positive balance means that you owe money, while a negative balance means that you have a credit (ByteGarden owes you money)."
   },
   "accountBalance": {
     "message": "Rekeningbalans",
-    "description": "Financial term. In the case of Bitwarden, a positive balance means that you owe money, while a negative balance means that you have a credit (Bitwarden owes you money)."
+    "description": "Financial term. In the case of ByteGarden, a positive balance means that you owe money, while a negative balance means that you have a credit (ByteGarden owes you money)."
   },
   "addCredit": {
     "message": "Krediet toevoegen",
@@ -1813,7 +1813,7 @@
     "placeholders": {
       "file_name": {
         "content": "$1",
-        "example": "bitwarden_premium_license.json"
+        "example": "bytegarden_premium_license.json"
       }
     }
   },
@@ -2102,7 +2102,7 @@
     "message": "Gebruikers uitnodigen"
   },
   "inviteUserDesc": {
-    "message": "Nodig nieuwe gebruikers uit voor uw organisatie door hun Bitwarden-account e-mailadres hieronder in te vullen. Wanneer ze nog geen Bitwarden-account hebben worden ze gevraagd om een nieuw account aan te maken."
+    "message": "Nodig nieuwe gebruikers uit voor uw organisatie door hun ByteGarden-account e-mailadres hieronder in te vullen. Wanneer ze nog geen ByteGarden-account hebben worden ze gevraagd om een nieuw account aan te maken."
   },
   "inviteMultipleEmailDesc": {
     "message": "U kunt tot $COUNT$ gebruikers per keer uitnodigen door elk e-mailadres te scheiden met een komma.",
@@ -2549,7 +2549,7 @@
     "message": "Lid worden van organisatie"
   },
   "joinOrganizationDesc": {
-    "message": "U bent uitgenodigd om lid te worden van de bovenstaande organisatie. Om de uitnodiging te accepteren, moet je inloggen of een nieuw Bitwarden-account aanmaken."
+    "message": "U bent uitgenodigd om lid te worden van de bovenstaande organisatie. Om de uitnodiging te accepteren, moet je inloggen of een nieuw ByteGarden-account aanmaken."
   },
   "inviteAccepted": {
     "message": "Uitnodiging geaccepteerd"
@@ -2582,7 +2582,7 @@
     "message": "Als uw account bestaat, hebben we u een e-mail met verdere instructies gestuurd."
   },
   "deleteRecoverConfirmDesc": {
-    "message": "U hebt verzocht om uw Bitwarden-account te verwijderen. Klik op onderstaande knop om te bevestigen."
+    "message": "U hebt verzocht om uw ByteGarden-account te verwijderen. Klik op onderstaande knop om te bevestigen."
   },
   "myOrganization": {
     "message": "Mijn organisatie"
@@ -2747,7 +2747,7 @@
     "message": "We zijn overgeschakeld naar grotere encryptiesleutels voor betere beveiliging en toegang tot nieuwere functies. Het updaten van uw encryptiesleutel gaat snel en eenvoudig. Typ gewoon je hoofdwachtwoord hieronder in. Deze update zal uiteindelijk verplicht worden."
   },
   "updateEncryptionKeyWarning": {
-    "message": "Na het updaten van je encryptiesleutel moet je je afmelden en weer aanmelden bij alle Bitwarden-applicaties die je momenteel gebruikt (zoals de mobiele app of browserextensies). Hierdoor wordt uw nieuwe encryptiesleutel gedownload. Als u dit niet doet kan dit gegevensbeschadiging tot gevolg hebben. We zullen proberen u automatisch af te melden, maar het kan zijn dat dit met enige vertraging gebeurt."
+    "message": "Na het updaten van je encryptiesleutel moet je je afmelden en weer aanmelden bij alle ByteGarden-applicaties die je momenteel gebruikt (zoals de mobiele app of browserextensies). Hierdoor wordt uw nieuwe encryptiesleutel gedownload. Als u dit niet doet kan dit gegevensbeschadiging tot gevolg hebben. We zullen proberen u automatisch af te melden, maar het kan zijn dat dit met enige vertraging gebeurt."
   },
   "subscription": {
     "message": "Abonnement"
@@ -2862,7 +2862,7 @@
     "message": "Zwak hoofdwachtwoord"
   },
   "weakMasterPasswordDesc": {
-    "message": "U hebt een zwak hoofdwachtwoord gekozen. Om uw Bitwarden account goed te beschermen zou u een sterk hoofdwachtwoord (of wachtwoordzin) moeten gebruiken. Weet u zeker dat u dit hoofdwachtwoord wilt gebruiken?"
+    "message": "U hebt een zwak hoofdwachtwoord gekozen. Om uw ByteGarden account goed te beschermen zou u een sterk hoofdwachtwoord (of wachtwoordzin) moeten gebruiken. Weet u zeker dat u dit hoofdwachtwoord wilt gebruiken?"
   },
   "rotateAccountEncKey": {
     "message": "De versleuteling van mijn account ook draaien"
@@ -2906,7 +2906,7 @@
     "message": "API-sleutel"
   },
   "apiKeyDesc": {
-    "message": "Uw API-sleutel kan worden gebruikt om te verifiëren aan de Bitwarden openbare API."
+    "message": "Uw API-sleutel kan worden gebruikt om te verifiëren aan de ByteGarden openbare API."
   },
   "apiKeyRotateDesc": {
     "message": "Het roteren van de API-sleutel zal de vorige sleutel ongeldig maken. U kunt uw API-sleutel roteren als u denkt dat de huidige sleutel niet langer veilig is om te gebruiken."
