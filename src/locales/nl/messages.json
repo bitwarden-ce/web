@@ -15,19 +15,6 @@
   "name": {
     "message": "Naam"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Nieuwe URI"
   },
@@ -160,9 +147,6 @@
   "cfTypeHidden": {
     "message": "Verborgen"
   },
-  "cfTypeBoolean": {
-    "message": "Boolean"
-  },
   "remove": {
     "message": "Verwijderen"
   },
@@ -184,10 +168,7 @@
   },
   "host": {
     "message": "Hostnaam",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
-  },
-  "exact": {
-    "message": "Exact"
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "startsWith": {
     "message": "Begint met"
@@ -211,8 +192,8 @@
     "message": "Zichtbaarheid"
   },
   "toggleCollapse": {
-    "message": "Inklappen\/uitklappen",
-    "description": "Toggling an expand\/collapse state."
+    "message": "Inklappen/uitklappen",
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "Wachtwoord genereren"
@@ -318,10 +299,10 @@
     "message": "Adresregel 3"
   },
   "cityTown": {
-    "message": "Stad \/ Dorp"
+    "message": "Stad / Dorp"
   },
   "stateProvince": {
-    "message": "Staat \/ Provincie"
+    "message": "Staat / Provincie"
   },
   "zipPostalCode": {
     "message": "Postcode"
@@ -681,7 +662,7 @@
     "message": "Er is tweestapsverificatie ingeschakeld voor dit account, maar geen van de ingestelde aanbieders wordt ondersteund door deze webbrowser."
   },
   "noTwoStepProviders2": {
-    "message": "Gebruik een ondersteunde webbrowser (zoals Chrome) en\/of voeg extra aanbieders toe die beter worden ondersteund in webbrowsers (zoals een authenticator-app)."
+    "message": "Gebruik een ondersteunde webbrowser (zoals Chrome) en/of voeg extra aanbieders toe die beter worden ondersteund in webbrowsers (zoals een authenticator-app)."
   },
   "twoStepOptions": {
     "message": "Tweestapsaanmeldingsopties"
@@ -852,9 +833,6 @@
   },
   "newEmail": {
     "message": "Nieuw e-mailadres"
-  },
-  "code": {
-    "message": "Code"
   },
   "changeEmailDesc": {
     "message": "We hebben een verificatiecode naar $EMAIL$ gestuurd. Controleer uw mail voor de verificatiecode en vul deze hieronder in om het wijzigen van uw e-mailadres te voltooien.",
@@ -1069,7 +1047,7 @@
     "message": "Nieuw Aangepast Domein"
   },
   "newCustomDomainDesc": {
-    "message": "Voer een lijst met domeinen in, gescheiden door komma's. Alleen \"basis\" domeinen zijn toegestaan. Voer geen subdomeinen in. Gebruik bijvoorbeeld \"google.com\" in plaats van \"www.google.com\". U kunt ook \"androidapp:\/\/package.name\" invoeren om een Android-app te verbinden aan andere websitedomeinen."
+    "message": "Voer een lijst met domeinen in, gescheiden door komma's. Alleen \"basis\" domeinen zijn toegestaan. Voer geen subdomeinen in. Gebruik bijvoorbeeld \"google.com\" in plaats van \"www.google.com\". U kunt ook \"androidapp://package.name\" invoeren om een Android-app te verbinden aan andere websitedomeinen."
   },
   "customDomainX": {
     "message": "Aangepast Domein $INDEX$",
@@ -1107,10 +1085,6 @@
   },
   "enabled": {
     "message": "Ingeschakeld"
-  },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
   },
   "premiumMembership": {
     "message": "Premium-lidmaatschap"
@@ -1202,15 +1176,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "Mobiele apps op een apparaat met NFC of een USB-poort welke YubiKey accepteert."
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "u2fkeyX": {
     "message": "U2F sleutel $INDEX$",
     "placeholders": {
@@ -1287,7 +1252,7 @@
     "message": "Vanwege platformbeperkingen kunnen FIDO U2F niet in alle ByteGarden applicaties gebruikt worden. U zou een andere tweestapsaanmeldingsaanbieder moeten instellen voor wanneer FIDO U2F niet gebruikt kunnen worden. De volgende platformen worden ondersteunt:"
   },
   "twoFactorU2fSupportWeb": {
-    "message": "Webkluis en browser-extensies op een desktop\/laptop met een browser ondersteuning voor U2F (Chrome, Opera, Vivaldi of Firefox met FIDO U2F ingeschakeld)."
+    "message": "Webkluis en browser-extensies op een desktop/laptop met een browser ondersteuning voor U2F (Chrome, Opera, Vivaldi of Firefox met FIDO U2F ingeschakeld)."
   },
   "twoFactorU2fWaiting": {
     "message": "Wachten tot u op de knop van de beveiligingssleutel hebt gedrukt"
@@ -1315,13 +1280,13 @@
     "message": "Verslag van niet-beveiligde websites"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "Gebruikmaken van onbeveiligde websites met http:\/\/ -verbinding kan gevaarlijk zijn. Als de website het ondersteund, moet u deze altijd benaderen met behulp van beveiligde https:\/\/ -verbinding."
+    "message": "Gebruikmaken van onbeveiligde websites met http:// -verbinding kan gevaarlijk zijn. Als de website het ondersteund, moet u deze altijd benaderen met behulp van beveiligde https:// -verbinding."
   },
   "unsecuredWebsitesFound": {
     "message": "Niet-beveiligde websites gevonden"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "We vonden in uw kluis $COUNT$ items met onbeveiligde URIs. Als de website het ondersteund, moet u de URI wijzigen naar https:\/\/.",
+    "message": "We vonden in uw kluis $COUNT$ items met onbeveiligde URIs. Als de website het ondersteund, moet u de URI wijzigen naar https://.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1484,9 +1449,6 @@
   "compromisedData": {
     "message": "Gecompromitteerde gegevens"
   },
-  "website": {
-    "message": "Website"
-  },
   "affectedUsers": {
     "message": "Getroffen Gebruikers"
   },
@@ -1571,7 +1533,7 @@
     "message": "Premium toegang"
   },
   "premiumAccessDesc": {
-    "message": "U kunt premium toegang verlenen aan alle leden van uw organisatie voor $PRICE$ \/$INTERVAL$.",
+    "message": "U kunt premium toegang verlenen aan alle leden van uw organisatie voor $PRICE$ /$INTERVAL$.",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1552,7 @@
     "message": "# extra GB"
   },
   "additionalStorageIntervalDesc": {
-    "message": "Uw abonnement omvat $SIZE$ gecodeerde bestandsopslag. U kunt extra opslagruimte toevoegen voor $PRICE$ per GB \/$INTERVAL$.",
+    "message": "Uw abonnement omvat $SIZE$ gecodeerde bestandsopslag. U kunt extra opslagruimte toevoegen voor $PRICE$ per GB /$INTERVAL$.",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1682,14 +1644,8 @@
   "neverExpires": {
     "message": "Vervalt nooit"
   },
-  "status": {
-    "message": "Status"
-  },
   "nextCharge": {
     "message": "Volgende rekening"
-  },
-  "details": {
-    "message": "Details"
   },
   "downloadLicense": {
     "message": "Download licentie"
@@ -1753,7 +1709,7 @@
   },
   "transactions": {
     "message": "Transacties",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "Geen transacties."
@@ -1860,7 +1816,7 @@
     "message": "Aantal gebruikersplaatsen"
   },
   "userSeatsAdditionalDesc": {
-    "message": "Uw plan komt met $BASE_SEATS$ gebruikersplaatsen. U kunt extra gebruikersplaatsen kopen voor $SEAT_PRICE$ per gebruiker \/maand.",
+    "message": "Uw plan komt met $BASE_SEATS$ gebruikersplaatsen. U kunt extra gebruikersplaatsen kopen voor $SEAT_PRICE$ per gebruiker /maand.",
     "placeholders": {
       "base_seats": {
         "content": "$1",
@@ -1888,20 +1844,11 @@
       }
     }
   },
-  "planNameFamilies": {
-    "message": "Families"
-  },
   "planDescFamilies": {
     "message": "Voor persoonlijk gebruik, om met familie en vrienden te delen."
   },
-  "planNameTeams": {
-    "message": "Teams"
-  },
   "planDescTeams": {
     "message": "Voor bedrijven en andere team-organisaties."
-  },
-  "planNameEnterprise": {
-    "message": "Enterprise"
   },
   "planDescEnterprise": {
     "message": "Voor bedrijven en andere grote organisaties."
@@ -2182,11 +2129,7 @@
   },
   "extension": {
     "message": "Extensie",
-    "description": "Browser extension\/addon"
-  },
-  "desktop": {
-    "message": "Desktop",
-    "description": "Desktop app"
+    "description": "Browser extension/addon"
   },
   "webVault": {
     "message": "Web-kluis"
@@ -2198,7 +2141,7 @@
     "message": "Veranderd account wachtwoord."
   },
   "enabledUpdated2fa": {
-    "message": "Tweestapsaanmelden geactiveerd\/bijgewerkt."
+    "message": "Tweestapsaanmelden geactiveerd/bijgewerkt."
   },
   "disabled2fa": {
     "message": "Tweestapsaanmelden uitgeschakeld."
@@ -2211,12 +2154,6 @@
   },
   "failedLogin2fa": {
     "message": "Aanmeldpoging mislukt met onjuist tweestapsaanmelding."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Organisatie-instellingen gewijzigd."
@@ -2254,78 +2191,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2613,19 +2478,19 @@
   },
   "billingPlan": {
     "message": "Pakket",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Pakket veranderen",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Upgrade uw account naar een ander lidmaatschap door onderstaande informatie door te geven. Verzeker uzelf ervan dat er een actieve betaalmethode aan het account is gekoppeld.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Neem contact op met de klantenservice als u uw pakket wilt wijzigen. Zorg ervoor dat u een actieve betaalmethode aan het account hebt toegevoegd.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "Factuur #$NUMBER$",
@@ -2755,9 +2620,6 @@
   "loading": {
     "message": "Laden"
   },
-  "upgrade": {
-    "message": "Upgrade"
-  },
   "upgradeOrganization": {
     "message": "Organisatie upgraden"
   },
@@ -2785,9 +2647,6 @@
   },
   "privacyPolicy": {
     "message": "Privacybeleid"
-  },
-  "filters": {
-    "message": "Filters"
   },
   "lockOptions": {
     "message": "Vergrendelingsopties"

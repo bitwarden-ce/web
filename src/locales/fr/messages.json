@@ -15,19 +15,6 @@
   "name": {
     "message": "Nom"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Nouvelle URI"
   },
@@ -40,9 +27,6 @@
   "passphrase": {
     "message": "Phrase de passe"
   },
-  "notes": {
-    "message": "Notes"
-  },
   "customFields": {
     "message": "Champs personnalisés"
   },
@@ -54,9 +38,6 @@
   },
   "brand": {
     "message": "Réseau de paiement"
-  },
-  "expiration": {
-    "message": "Expiration"
   },
   "securityCode": {
     "message": "Cryptogramme visuel (CVV)"
@@ -130,9 +111,6 @@
   "ms": {
     "message": "Mlle"
   },
-  "dr": {
-    "message": "Dr"
-  },
   "expirationMonth": {
     "message": "Mois d'expiration"
   },
@@ -184,10 +162,7 @@
   },
   "host": {
     "message": "Hôte",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
-  },
-  "exact": {
-    "message": "Exact"
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "startsWith": {
     "message": "Commence par"
@@ -208,11 +183,11 @@
     "message": "Jamais"
   },
   "toggleVisibility": {
-    "message": "Afficher\/Masquer"
+    "message": "Afficher/Masquer"
   },
   "toggleCollapse": {
     "message": "Déplier ou replier",
-    "description": "Toggling an expand\/collapse state."
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "Générer un mot de passe"
@@ -278,9 +253,6 @@
   "favorites": {
     "message": "Favoris"
   },
-  "types": {
-    "message": "Types"
-  },
   "typeLogin": {
     "message": "Identifiant"
   },
@@ -295,9 +267,6 @@
   },
   "folders": {
     "message": "Dossiers"
-  },
-  "collections": {
-    "message": "Collections"
   },
   "firstName": {
     "message": "Prénom"
@@ -321,7 +290,7 @@
     "message": "Ville"
   },
   "stateProvince": {
-    "message": "État \/ Région"
+    "message": "État / Région"
   },
   "zipPostalCode": {
     "message": "Code postal"
@@ -343,10 +312,6 @@
   },
   "editItem": {
     "message": "Modifier l'élément"
-  },
-  "ex": {
-    "message": "ex.",
-    "description": "Short abbreviation for 'example'."
   },
   "other": {
     "message": "Autre"
@@ -496,9 +461,6 @@
   "logOut": {
     "message": "Déconnexion"
   },
-  "ok": {
-    "message": "Ok"
-  },
   "yes": {
     "message": "Oui"
   },
@@ -629,15 +591,6 @@
   "noOrganizationsList": {
     "message": "Vous ne faites partie d'aucune organisation. Les organisations vous permettent de partager des éléments de façon sécurisée avec d'autres utilisateurs."
   },
-  "versionNumber": {
-    "message": "Version $VERSION_NUMBER$",
-    "placeholders": {
-      "version_number": {
-        "content": "$1",
-        "example": "1.2.3"
-      }
-    }
-  },
   "enterVerificationCodeApp": {
     "message": "Saisissez le code de vérification à 6 chiffres depuis votre application d'authentification."
   },
@@ -681,7 +634,7 @@
     "message": "Ce compte dispose d'une authentification en deux étapes, cependant aucun de vos services d'authentification en deux étapes n'est supporté par ce navigateur web."
   },
   "noTwoStepProviders2": {
-    "message": "Merci d'utiliser un navigateur web compatible (comme Chrome) et\/ou d'ajouter des services additionnels d'identification en deux étapes qui sont mieux supportés par les navigateurs web (comme par exemple une application d'authentification)."
+    "message": "Merci d'utiliser un navigateur web compatible (comme Chrome) et/ou d'ajouter des services additionnels d'identification en deux étapes qui sont mieux supportés par les navigateurs web (comme par exemple une application d'authentification)."
   },
   "twoStepOptions": {
     "message": "Options d'identification en deux étapes"
@@ -853,9 +806,6 @@
   "newEmail": {
     "message": "Nouvel e-mail"
   },
-  "code": {
-    "message": "Code"
-  },
   "changeEmailDesc": {
     "message": "Nous avons envoyé un code de vérification à $EMAIL$. Veuillez consulter votre boîte de réception pour trouver ce code et l'entrer ci-dessous pour finaliser votre changement d'adresse e-mail.",
     "placeholders": {
@@ -1001,7 +951,7 @@
     "message": "Sélectionnez le fichier à importer"
   },
   "orCopyPasteFileContents": {
-    "message": "ou copiez\/collez le contenu du fichier à importer"
+    "message": "ou copiez/collez le contenu du fichier à importer"
   },
   "instructionsFor": {
     "message": "Instructions $NAME$",
@@ -1012,9 +962,6 @@
         "example": "LastPass (csv)"
       }
     }
-  },
-  "options": {
-    "message": "Options"
   },
   "optionsDesc": {
     "message": "Personnaliser l'expérience de votre coffre web."
@@ -1069,7 +1016,7 @@
     "message": "Nouveau domaine personnalisé"
   },
   "newCustomDomainDesc": {
-    "message": "Entrez une liste de domaines séparés par des virgules. Seuls les domaines « de base » sont autorisés. N’entrez pas de sous-domaines. Par exemple, entrez « google.com » au lieu de « www.google.com ». Vous pouvez également entrer « androidapp:\/\/package.name » pour associer une application android avec d’autres domaines de sites web."
+    "message": "Entrez une liste de domaines séparés par des virgules. Seuls les domaines « de base » sont autorisés. N’entrez pas de sous-domaines. Par exemple, entrez « google.com » au lieu de « www.google.com ». Vous pouvez également entrer « androidapp://package.name » pour associer une application android avec d’autres domaines de sites web."
   },
   "customDomainX": {
     "message": "Domaine personnalisé $INDEX$",
@@ -1107,10 +1054,6 @@
   },
   "enabled": {
     "message": "Activé"
-  },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
   },
   "premiumMembership": {
     "message": "Adhésion Premium"
@@ -1202,15 +1145,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "Applications mobiles sur un appareil avec NFC ou un port USB qui peut accepter votre YubiKey."
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "u2fkeyX": {
     "message": "Clé U2F $INDEX$",
     "placeholders": {
@@ -1287,7 +1221,7 @@
     "message": "En raison de limitations de plateforme, FIDO U2F n'est pas utilisable sur toutes les applications ByteGarden. Vous devriez activer un autre fournisseur de connexion en deux étapes afin de pouvoir accéder à votre compte lorsque vous ne pouvez pas utiliser FIDO U2F. Plateformes prises en charge :"
   },
   "twoFactorU2fSupportWeb": {
-    "message": "Coffre web et extensions sur un ordinateur fixe\/portable avec un navigateur compatible U2F (Chrome, Opera, Vivaldi ou Firefox avec FIDO U2F activé)."
+    "message": "Coffre web et extensions sur un ordinateur fixe/portable avec un navigateur compatible U2F (Chrome, Opera, Vivaldi ou Firefox avec FIDO U2F activé)."
   },
   "twoFactorU2fWaiting": {
     "message": "Attente de l'appui sur le bouton de votre clé de sécurité"
@@ -1315,13 +1249,13 @@
     "message": "Rapport sur les sites web non sécurisés"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "L'utilisation de sites Web non sécurisés avec le schéma http:\/\/ peut être dangereuse. Si le site Web le permet, vous devriez toujours y accéder en utilisant le schéma https:\/\/ afin que votre connexion soit chiffrée."
+    "message": "L'utilisation de sites Web non sécurisés avec le schéma http:// peut être dangereuse. Si le site Web le permet, vous devriez toujours y accéder en utilisant le schéma https:// afin que votre connexion soit chiffrée."
   },
   "unsecuredWebsitesFound": {
     "message": "Sites web non sécurisés trouvés"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "Nous avons trouvé $COUNT$ éléments dans votre coffre avec des URI non sécurisés. Vous devriez remplacer leur schéma URI par https:\/\/ si le site Web le permet.",
+    "message": "Nous avons trouvé $COUNT$ éléments dans votre coffre avec des URI non sécurisés. Vous devriez remplacer leur schéma URI par https:// si le site Web le permet.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1352,9 +1286,6 @@
   },
   "noInactive2fa": {
     "message": "Aucun site web n'a été trouvé dans votre coffre-fort avec une configuration d'authentification à deux facteurs manquante."
-  },
-  "instructions": {
-    "message": "Instructions"
   },
   "exposedPasswordsReport": {
     "message": "Rapport sur les mots de passe exposés"
@@ -1556,7 +1487,7 @@
     "message": "Toutes les futures options premium. D'autres suivront prochainement !"
   },
   "premiumPrice": {
-    "message": "Tout pour seulement $PRICE$ \/an !",
+    "message": "Tout pour seulement $PRICE$ /an !",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1571,7 +1502,7 @@
     "message": "Accès premium"
   },
   "premiumAccessDesc": {
-    "message": "Vous pouvez offrir un accès premium à tous les membres de votre organisation pour $PRICE$\/$INTERVAL$.",
+    "message": "Vous pouvez offrir un accès premium à tous les membres de votre organisation pour $PRICE$/$INTERVAL$.",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1521,7 @@
     "message": "# Go additionnels"
   },
   "additionalStorageIntervalDesc": {
-    "message": "Votre offre comprend $SIZE$ de stockage de fichiers chiffrés. Vous pouvez ajouter du stockage supplémentaire pour $PRICE$ par Go\/$INTERVAL$.",
+    "message": "Votre offre comprend $SIZE$ de stockage de fichiers chiffrés. Vous pouvez ajouter du stockage supplémentaire pour $PRICE$ par Go/$INTERVAL$.",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1608,9 +1539,6 @@
   },
   "summary": {
     "message": "Récapitulatif"
-  },
-  "total": {
-    "message": "Total"
   },
   "year": {
     "message": "an"
@@ -1751,10 +1679,6 @@
     "message": "Due",
     "description": "Past tense status of an invoice. ex. Paid or unpaid."
   },
-  "transactions": {
-    "message": "Transactions",
-    "description": "Payment\/credit transactions."
-  },
   "noTransactions": {
     "message": "Aucune transaction."
   },
@@ -1860,7 +1784,7 @@
     "message": "Nombre de licences utilisateur"
   },
   "userSeatsAdditionalDesc": {
-    "message": "Votre offre comprend $BASE_SEATS$ licences utilisateurs. Vous pouvez ajouter des utilisateurs supplémentaires pour $SEAT_PRICE$ par utilisateur\/mois.",
+    "message": "Votre offre comprend $BASE_SEATS$ licences utilisateurs. Vous pouvez ajouter des utilisateurs supplémentaires pour $SEAT_PRICE$ par utilisateur/mois.",
     "placeholders": {
       "base_seats": {
         "content": "$1",
@@ -2176,14 +2100,6 @@
   "loadMore": {
     "message": "Plus de résultats"
   },
-  "mobile": {
-    "message": "Mobile",
-    "description": "Mobile app"
-  },
-  "extension": {
-    "message": "Extension",
-    "description": "Browser extension\/addon"
-  },
   "desktop": {
     "message": "Ordinateur",
     "description": "Desktop app"
@@ -2198,7 +2114,7 @@
     "message": "Mot de passe changé."
   },
   "enabledUpdated2fa": {
-    "message": "Connexion en deux étapes activée\/mise à jour."
+    "message": "Connexion en deux étapes activée/mise à jour."
   },
   "disabled2fa": {
     "message": "Connexion en deux étapes désactivée."
@@ -2211,12 +2127,6 @@
   },
   "failedLogin2fa": {
     "message": "Tentative de connexion échouée avec deuxième facteur incorrect."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Paramètres de l’organisation modifiés."
@@ -2254,78 +2164,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2613,19 +2451,19 @@
   },
   "billingPlan": {
     "message": "Offre",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Changer d'offre",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Mettez votre compte à niveau vers un autre plan en fournissant les informations ci-dessous. Veuillez vous assurer que vous avez un mode de paiement actif sur le compte.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Contactez le support client si vous souhaitez changer d'offre. Veuillez vous assurer que vous disposez d’un moyen de paiement actif sur votre compte.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "Facture n°$NUMBER$",
@@ -2794,18 +2632,6 @@
   },
   "lockOptionsDesc": {
     "message": "Choisissez quand votre coffre se verrouille. Un coffre verrouillé requiert la saisie de votre mot de passe maître pour y avoir à nouveau accès."
-  },
-  "oneMinute": {
-    "message": "1 minute"
-  },
-  "fiveMinutes": {
-    "message": "5 minutes"
-  },
-  "fifteenMinutes": {
-    "message": "15 minutes"
-  },
-  "thirtyMinutes": {
-    "message": "30 minutes"
   },
   "oneHour": {
     "message": "1 heure"

@@ -49,9 +49,6 @@
   "cardholderName": {
     "message": "Kaardiomaniku nimi"
   },
-  "number": {
-    "message": "Number"
-  },
   "brand": {
     "message": "Väljastaja"
   },
@@ -103,17 +100,8 @@
   "july": {
     "message": "Juuli"
   },
-  "august": {
-    "message": "August"
-  },
-  "september": {
-    "message": "September"
-  },
   "october": {
     "message": "Oktoober"
-  },
-  "november": {
-    "message": "November"
   },
   "december": {
     "message": "Detsember"
@@ -124,14 +112,8 @@
   "mr": {
     "message": "Hr"
   },
-  "mrs": {
-    "message": "Mrs"
-  },
   "ms": {
     "message": "Pr"
-  },
-  "dr": {
-    "message": "Dr"
   },
   "expirationMonth": {
     "message": "Aegumise kuu"
@@ -160,9 +142,6 @@
   "cfTypeHidden": {
     "message": "Peidetud"
   },
-  "cfTypeBoolean": {
-    "message": "Boolean"
-  },
   "remove": {
     "message": "Eemalda"
   },
@@ -181,10 +160,6 @@
   },
   "baseDomain": {
     "message": "Baasdomeen"
-  },
-  "host": {
-    "message": "Host",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "Täpne"
@@ -212,7 +187,7 @@
   },
   "toggleCollapse": {
     "message": "Ava",
-    "description": "Toggling an expand\/collapse state."
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "Loo parool"
@@ -318,10 +293,10 @@
     "message": "Aadress 3"
   },
   "cityTown": {
-    "message": "Linn \/ asula"
+    "message": "Linn / asula"
   },
   "stateProvince": {
-    "message": "Maakond \/ vald"
+    "message": "Maakond / vald"
   },
   "zipPostalCode": {
     "message": "Postiindeks"
@@ -495,9 +470,6 @@
   },
   "logOut": {
     "message": "Logi välja"
-  },
-  "ok": {
-    "message": "Ok"
   },
   "yes": {
     "message": "Jah"
@@ -681,7 +653,7 @@
     "message": "Sellel kontol on aktiveeritud kaheastmeline kinnitus. Siiski ei toeta konkreetne brauser ühtegi aktiveeritud kaheastmelise kinnitamise teenust."
   },
   "noTwoStepProviders2": {
-    "message": "Palun kasuta ühilduvat brauserit (näiteks Chrome) ja\/või lisa uus kaheastmelise teenuse pakkuja, mis töötab rohkemates brauserites (näiteks mõni autentiseerimise rakendus)."
+    "message": "Palun kasuta ühilduvat brauserit (näiteks Chrome) ja/või lisa uus kaheastmelise teenuse pakkuja, mis töötab rohkemates brauserites (näiteks mõni autentiseerimise rakendus)."
   },
   "twoStepOptions": {
     "message": "Kaheastmelise sisselogimise valikud"
@@ -1001,7 +973,7 @@
     "message": "Vali imporditav fail"
   },
   "orCopyPasteFileContents": {
-    "message": "või kopeeri\/kleebi imporditava faili sisu"
+    "message": "või kopeeri/kleebi imporditava faili sisu"
   },
   "instructionsFor": {
     "message": "$NAME$ Kasutusjuhend",
@@ -1069,7 +1041,7 @@
     "message": "Uus võrdväärne domeen"
   },
   "newCustomDomainDesc": {
-    "message": "Sisesta domeenid, eraldades need komadega. Lubatud on ainult \"põhi\" domeenid. Ära sisesta alamdomeene. Nt: sisesta \"google.com\", aga mitte \"www.google.com\". Võid ka sisestada \"androidapp:\/\/package.name\", et seostada Androidi äpp mistahes veebilehtede domeenidega."
+    "message": "Sisesta domeenid, eraldades need komadega. Lubatud on ainult \"põhi\" domeenid. Ära sisesta alamdomeene. Nt: sisesta \"google.com\", aga mitte \"www.google.com\". Võid ka sisestada \"androidapp://package.name\", et seostada Androidi äpp mistahes veebilehtede domeenidega."
   },
   "customDomainX": {
     "message": "Kohandatud domeeni $INDEX$",
@@ -1107,10 +1079,6 @@
   },
   "enabled": {
     "message": "Sisselülitatud"
-  },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
   },
   "premiumMembership": {
     "message": "Premium versioon"
@@ -1202,15 +1170,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "NFC toega seadmel olevad äpid või USB port, mis võimaldab YubiKeyd kasutada."
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "u2fkeyX": {
     "message": "U2F võtme $INDEX$",
     "placeholders": {
@@ -1287,7 +1246,7 @@
     "message": "Mõnede platvormi piirangute tõttu ei saa FIDO U2F-i kõikide ByteGardeni rakendustega kasutada. Võiksid kaaluda teise kaheastmelise kinnitamise aktiveerimist olukordadeks, kus FIDO U2F-i ei saa kasutada. Toetatud platvormid:"
   },
   "twoFactorU2fSupportWeb": {
-    "message": "Veebihoidla ja brauseri lisad töölaual\/sülearvutis kus on U2F toetusega brauser (Chrome, Opera, Vivaldi või Firefox, kus on FIDO U2F sisse lülitatud)."
+    "message": "Veebihoidla ja brauseri lisad töölaual/sülearvutis kus on U2F toetusega brauser (Chrome, Opera, Vivaldi või Firefox, kus on FIDO U2F sisse lülitatud)."
   },
   "twoFactorU2fWaiting": {
     "message": "Ootame, kuni puudutad turvavõtmel olevat nuppu"
@@ -1315,13 +1274,13 @@
     "message": "Ebaturvalise veebilehtede raport"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "Ebaturvalise (http:\/\/) veebilehte kasutamine võib olla ohtlik. Kui veebileht seda võimaldab, siis soovitame tungivalt kasutada https:\/\/ versioon. Nii on ühendus ja saadetavad andmed krüpteeringuga kaitstud. "
+    "message": "Ebaturvalise (http://) veebilehte kasutamine võib olla ohtlik. Kui veebileht seda võimaldab, siis soovitame tungivalt kasutada https:// versioon. Nii on ühendus ja saadetavad andmed krüpteeringuga kaitstud. "
   },
   "unsecuredWebsitesFound": {
     "message": "Leiti ebaturvalisi veebilehti"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "Leidsime sinu hoidlast $COUNT$ ebaturvalist veebilehte. Kui veebilehed seda võimaldavad, soovitame tungivalt need https:\/\/ URL-ideks muuta ",
+    "message": "Leidsime sinu hoidlast $COUNT$ ebaturvalist veebilehte. Kui veebilehed seda võimaldavad, soovitame tungivalt need https:// URL-ideks muuta ",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1556,7 +1515,7 @@
     "message": "Kõik tulevased premium funktsioonid - tasuta!"
   },
   "premiumPrice": {
-    "message": "Kõik see ainult $PRICE$ \/ aastas!",
+    "message": "Kõik see ainult $PRICE$ / aastas!",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1571,7 +1530,7 @@
     "message": "Premium ligipääs"
   },
   "premiumAccessDesc": {
-    "message": "Saad kõikidele organisatsiooni liikmetele anda ligipääsu premium funktsioonidele - hinnaga $PRICE$ \/$INTERVAL$.",
+    "message": "Saad kõikidele organisatsiooni liikmetele anda ligipääsu premium funktsioonidele - hinnaga $PRICE$ /$INTERVAL$.",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1549,7 @@
     "message": "# lisa GB"
   },
   "additionalStorageIntervalDesc": {
-    "message": "Sul on kasutada $SIZE$ krüpteeritud failiruumi Soovi korral saad osta lisaruumi hinnaga $PRICE$ GB \/$INTERVAL$.",
+    "message": "Sul on kasutada $SIZE$ krüpteeritud failiruumi Soovi korral saad osta lisaruumi hinnaga $PRICE$ GB /$INTERVAL$.",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1650,7 +1609,7 @@
     "message": "Krediitkaart"
   },
   "paypalClickSubmit": {
-    "message": "Kliki PayPali nupul. Seejärel logi oma PayPali kontosse sisse ning kliki jätkamiseks \"Submit\/Saada\" nupul."
+    "message": "Kliki PayPali nupul. Seejärel logi oma PayPali kontosse sisse ning kliki jätkamiseks \"Submit/Saada\" nupul."
   },
   "cancelSubscription": {
     "message": "Tühista tellimus"
@@ -1753,7 +1712,7 @@
   },
   "transactions": {
     "message": "Tehingud",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "Tehingud puuduvad."
@@ -1860,7 +1819,7 @@
     "message": "# kasutajaid"
   },
   "userSeatsAdditionalDesc": {
-    "message": "Sinu pakett sisaldab $BASE_SEATS$ kasutajat. Soovi korral saad lisada kasutajaid juurde hinnaga $SEAT_PRICE$ kasutaja \/ kuus.",
+    "message": "Sinu pakett sisaldab $BASE_SEATS$ kasutajat. Soovi korral saad lisada kasutajaid juurde hinnaga $SEAT_PRICE$ kasutaja / kuus.",
     "placeholders": {
       "base_seats": {
         "content": "$1",
@@ -1898,7 +1857,7 @@
     "message": "Meeskond"
   },
   "planDescTeams": {
-    "message": "Ettevõtetele ja teistele meeskondadele\/organisatsioonidele."
+    "message": "Ettevõtetele ja teistele meeskondadele/organisatsioonidele."
   },
   "planNameEnterprise": {
     "message": "Suurettevõte"
@@ -2182,7 +2141,7 @@
   },
   "extension": {
     "message": "Laiendus",
-    "description": "Browser extension\/addon"
+    "description": "Browser extension/addon"
   },
   "desktop": {
     "message": "Töölaud",
@@ -2198,7 +2157,7 @@
     "message": "Muuda konto parooli."
   },
   "enabledUpdated2fa": {
-    "message": "Lülitasime sisse\/uuendasime kaheastmelist kinnitamist."
+    "message": "Lülitasime sisse/uuendasime kaheastmelist kinnitamist."
   },
   "disabled2fa": {
     "message": "Keela kaheastmeline kinnitamine."
@@ -2211,12 +2170,6 @@
   },
   "failedLogin2fa": {
     "message": "Sisselogimine nurjus vale kaheastmelise kinnituse tõttu."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Organisatsiooni seaded on muudetud."
@@ -2254,78 +2207,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2613,19 +2494,19 @@
   },
   "billingPlan": {
     "message": "Pakett",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Muuta paketti",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Vii oma konto järgmisele tasemele, sisestades selleks all nõutud info. Enne selle tegemist veendu, et kontol on olemas toimiv maksemeetod.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Oma paketi muutmiseks võta ühendust klienditoega. Veendu, et kontole on lisatud maksemeetod, mis on ka aktiivne.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "Arve #$NUMBER$",
@@ -2649,9 +2530,6 @@
   "verifyBankAccountDesc": {
     "message": "Tegime sinu pangakontole kaks väikest ülekannet (nende kohalejõudmine võib võtta 1-2 tööpäeva). Selleks, et pangakonto kinnitada, sisesta need summad siia."
   },
-  "verifyBankAccountInitialDesc": {
-    "message": "Payment with a bank account is only available to customers in the United States. You will be required to verify your bank account. We will make two micro-deposits within the next 1-2 business days. Enter these amounts on the organization's billing page to verify the bank account."
-  },
   "verifyBankAccountFailureWarning": {
     "message": "Pangakonto mittekinnitamine tähendab seda, et makset ei toimu ning konto kaotab oma tellimusega kaasnevad eelised."
   },
@@ -2670,16 +2548,6 @@
         "example": "1"
       }
     }
-  },
-  "routingNumber": {
-    "message": "Routing Number",
-    "description": "Bank account routing number"
-  },
-  "accountNumber": {
-    "message": "Account Number"
-  },
-  "accountHolderName": {
-    "message": "Account Holder Name"
   },
   "bankAccountType": {
     "message": "Konto tüüp"
@@ -2702,7 +2570,7 @@
     "description": "Seat = User Seat"
   },
   "subscriptionUserSeats": {
-    "message": "Sinu tellimus lubab kasutada\/luua kokku $COUNT$ kasutajakontot.",
+    "message": "Sinu tellimus lubab kasutada/luua kokku $COUNT$ kasutajakontot.",
     "placeholders": {
       "count": {
         "content": "$1",

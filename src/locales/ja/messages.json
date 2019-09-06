@@ -15,19 +15,6 @@
   "name": {
     "message": "名前"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "新しい URI"
   },
@@ -121,18 +108,6 @@
   "title": {
     "message": "敬称"
   },
-  "mr": {
-    "message": "Mr"
-  },
-  "mrs": {
-    "message": "Mrs"
-  },
-  "ms": {
-    "message": "Ms"
-  },
-  "dr": {
-    "message": "Dr"
-  },
   "expirationMonth": {
     "message": "有効期限月"
   },
@@ -184,7 +159,7 @@
   },
   "host": {
     "message": "ホスト",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "完全一致"
@@ -211,8 +186,8 @@
     "message": "表示切り替え"
   },
   "toggleCollapse": {
-    "message": "開く\/閉じる",
-    "description": "Toggling an expand\/collapse state."
+    "message": "開く/閉じる",
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "パスワードの自動生成"
@@ -1022,9 +997,6 @@
   "optionsUpdated": {
     "message": "オプションを更新しました"
   },
-  "language": {
-    "message": "Language"
-  },
   "languageDesc": {
     "message": "ウェブ保管庫で使用する言語を変更します。"
   },
@@ -1069,7 +1041,7 @@
     "message": "新規カスタムドメイン"
   },
   "newCustomDomainDesc": {
-    "message": "コンマで区切ったドメインリストを入力します。サブドメインを除いて入力してください。例えば、\"www.google.com\"ではなく\"google.com\"を入力します。\"androidapp:\/\/package.name\"の形式で入力することでドメインとAndroidアプリを関連付けることもできます。"
+    "message": "コンマで区切ったドメインリストを入力します。サブドメインを除いて入力してください。例えば、\"www.google.com\"ではなく\"google.com\"を入力します。\"androidapp://package.name\"の形式で入力することでドメインとAndroidアプリを関連付けることもできます。"
   },
   "customDomainX": {
     "message": "カスタムドメイン $INDEX$",
@@ -1202,15 +1174,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "NFCまたはUSBポートのあるデバイスのモバイルアプリではYubiKeyを使用できます。"
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "u2fkeyX": {
     "message": "U2F対応キー $INDEX$",
     "placeholders": {
@@ -1315,13 +1278,13 @@
     "message": "非セキュアウェブサイト調査"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "http:\/\/方式のセキュリティ保護されていないウェブサイトは危険です。ウェブサイトが対応していれば、接続が暗号化されるhttps:\/\/方式を常時利用すべきです。"
+    "message": "http://方式のセキュリティ保護されていないウェブサイトは危険です。ウェブサイトが対応していれば、接続が暗号化されるhttps://方式を常時利用すべきです。"
   },
   "unsecuredWebsitesFound": {
     "message": "セキュリティ保護されていないウェブサイトが見つかりました"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "セキュアでないURIが$COUNT$個のアイテムで見つかりました。ウェブサイトが対応しているならば、URIをhttps:\/\/形式に変更すべきです。",
+    "message": "セキュアでないURIが$COUNT$個のアイテムで見つかりました。ウェブサイトが対応しているならば、URIをhttps://形式に変更すべきです。",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1571,7 +1534,7 @@
     "message": "プレミアムアクセス"
   },
   "premiumAccessDesc": {
-    "message": "$PRICE$\/$INTERVAL$で、あなたの組織のすべてのメンバーにプレミアム機能を付帯できます。",
+    "message": "$PRICE$/$INTERVAL$で、あなたの組織のすべてのメンバーにプレミアム機能を付帯できます。",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1553,7 @@
     "message": "# 追加容量(GB)"
   },
   "additionalStorageIntervalDesc": {
-    "message": "あなたのプランは$SIZE$の暗号化ファイルストレージを使用できます。1GBあたり$PRICE$\/$INTERVAL$でストレージ容量を追加できます。",
+    "message": "あなたのプランは$SIZE$の暗号化ファイルストレージを使用できます。1GBあたり$PRICE$/$INTERVAL$でストレージ容量を追加できます。",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1753,7 +1716,7 @@
   },
   "transactions": {
     "message": "取引",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "取引はありません"
@@ -2182,7 +2145,7 @@
   },
   "extension": {
     "message": "拡張機能",
-    "description": "Browser extension\/addon"
+    "description": "Browser extension/addon"
   },
   "desktop": {
     "message": "デスクトップ",
@@ -2198,7 +2161,7 @@
     "message": "パスワードの変更"
   },
   "enabledUpdated2fa": {
-    "message": "二段階認証の有効化\/更新"
+    "message": "二段階認証の有効化/更新"
   },
   "disabled2fa": {
     "message": "二段階認証の無効化"
@@ -2211,12 +2174,6 @@
   },
   "failedLogin2fa": {
     "message": "二段階認証時の誤りによるログインの失敗"
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "組織の設定の編集"
@@ -2254,78 +2211,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2613,19 +2498,19 @@
   },
   "billingPlan": {
     "message": "プラン",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "プラン変更",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "下記の情報を入力してアカウントを他のプランにアップグレードしてください。アカウントに有効な支払い方法が追加されていることを確認してください。",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "契約プランを変更したい場合はサポートまでご連絡ください。アカウントに有効なお支払い方法が登録されていることをご確認ください。",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "請求 #$NUMBER$",

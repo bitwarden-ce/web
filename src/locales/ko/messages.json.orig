@@ -557,6 +557,22 @@
   "unlock": {
     "message": "잠금 해제"
   },
+<<<<<<< HEAD
+  "loggedInAsEmailOn": {
+    "message": "Logged in as $EMAIL$ on $HOSTNAME$.",
+    "placeholders": {
+      "email": {
+        "content": "$1",
+        "example": "name@example.com"
+      },
+      "hostname": {
+        "content": "$2",
+        "example": "bytegarden.com"
+      }
+    }
+  },
+=======
+>>>>>>> New translations messages.json (Korean)
   "invalidMasterPassword": {
     "message": "잘못된 마스터 비밀번호"
   },

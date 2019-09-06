@@ -15,19 +15,6 @@
   "name": {
     "message": "名稱"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "新增 URI"
   },
@@ -121,18 +108,6 @@
   "title": {
     "message": "稱呼"
   },
-  "mr": {
-    "message": "Mr"
-  },
-  "mrs": {
-    "message": "Mrs"
-  },
-  "ms": {
-    "message": "Ms"
-  },
-  "dr": {
-    "message": "Dr"
-  },
   "expirationMonth": {
     "message": "到期月份"
   },
@@ -184,7 +159,7 @@
   },
   "host": {
     "message": "主機",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "完全相符"
@@ -212,7 +187,7 @@
   },
   "toggleCollapse": {
     "message": "切換折疊",
-    "description": "Toggling an expand\/collapse state."
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "產生密碼"
@@ -318,10 +293,10 @@
     "message": "地址 3"
   },
   "cityTown": {
-    "message": "市\/鎮"
+    "message": "市/鎮"
   },
   "stateProvince": {
-    "message": "州\/省"
+    "message": "州/省"
   },
   "zipPostalCode": {
     "message": "郵遞區號"
@@ -1069,7 +1044,7 @@
     "message": "新增自訂網域"
   },
   "newCustomDomainDesc": {
-    "message": "輸入以逗號分隔的網域清單。只允許最基本的網域，請勿輸入子網域名稱。例如，輸入「google.com」即可，而非「www.google.com」。您也可以輸入「androidapp:\/\/package.name」來將 Android 應用程式與其他網域名稱關聯起來。"
+    "message": "輸入以逗號分隔的網域清單。只允許最基本的網域，請勿輸入子網域名稱。例如，輸入「google.com」即可，而非「www.google.com」。您也可以輸入「androidapp://package.name」來將 Android 應用程式與其他網域名稱關聯起來。"
   },
   "customDomainX": {
     "message": "自訂網域 $INDEX$",
@@ -1202,24 +1177,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "支援 NFC 功能或擁有可接受您的 YubiKey 的 USB 埠的裝置上的行動應用程式。"
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
-  "u2fkeyX": {
-    "message": "U2F Key $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "nfcSupport": {
     "message": "NFC 支援"
   },
@@ -1287,7 +1244,7 @@
     "message": "由於平台限制，無法於所有 ByteGarden 應用程式使用 FIDO U2F。請開啟另一套兩階段登入供應者，以確保 FIDO U2F 無法使用時還能存取帳號。支援的平台有："
   },
   "twoFactorU2fSupportWeb": {
-    "message": "支援 U2F 的桌面\/筆記本電腦上的網頁密碼庫和啓用 U2F 的瀏覽器 (Chrome, Opera, Vivaldi, 或啓用了 FIDO U2F 的 Firefox)。"
+    "message": "支援 U2F 的桌面/筆記本電腦上的網頁密碼庫和啓用 U2F 的瀏覽器 (Chrome, Opera, Vivaldi, 或啓用了 FIDO U2F 的 Firefox)。"
   },
   "twoFactorU2fWaiting": {
     "message": "等待您按下加密鑰匙上的按鈕"
@@ -1311,17 +1268,14 @@
   "reports": {
     "message": "報告"
   },
-  "unsecuredWebsitesReport": {
-    "message": "Unsecured Websites Report"
-  },
   "unsecuredWebsitesReportDesc": {
-    "message": "使用 http:\/\/ 配置的不安全網站有風險。如果網站允許，您應永遠使用 https:\/\/ 配置存取此網站，這樣您的連線才是加密過的。"
+    "message": "使用 http:// 配置的不安全網站有風險。如果網站允許，您應永遠使用 https:// 配置存取此網站，這樣您的連線才是加密過的。"
   },
   "unsecuredWebsitesFound": {
     "message": "發現不安全的網站"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "我們在您的密碼庫找到 $COUNT$ 個使用不安全網址的項目。如果網站允許，您應變更其網址配置至 https:\/\/。",
+    "message": "我們在您的密碼庫找到 $COUNT$ 個使用不安全網址的項目。如果網站允許，您應變更其網址配置至 https://。",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1331,9 +1285,6 @@
   },
   "noUnsecuredWebsites": {
     "message": "您的密碼庫沒有使用不安全網址的項目。"
-  },
-  "inactive2faReport": {
-    "message": "Inactive 2FA Report"
   },
   "inactive2faReportDesc": {
     "message": "兩步驟驗證 (2FA) 是個協助保護您帳號的重要安全性設定。如果網站提供 2FA，您應永遠啟用。"
@@ -1356,14 +1307,8 @@
   "instructions": {
     "message": "說明"
   },
-  "exposedPasswordsReport": {
-    "message": "Exposed Passwords Report"
-  },
   "exposedPasswordsReportDesc": {
     "message": "Exposed passwords are passwords have been uncovered in known data breaches that were released publicly or sold on the dark web by hackers."
-  },
-  "exposedPasswordsFound": {
-    "message": "Exposed Passwords Found"
   },
   "exposedPasswordsFoundDesc": {
     "message": "我們在您的密碼庫找到 $COUNT$ 個密碼公開在已知資料洩漏中的項目。您應將這些變更成新密碼。",
@@ -1376,9 +1321,6 @@
   },
   "noExposedPasswords": {
     "message": "未在您的密碼庫找到密碼公開在已知資料洩漏中的項目。"
-  },
-  "checkExposedPasswords": {
-    "message": "Check Exposed Passwords"
   },
   "exposedXTimes": {
     "message": "已公開 $COUNT$ 次",
@@ -1413,20 +1355,8 @@
   "reusedPasswordsReport": {
     "message": "密碼重複使用報告"
   },
-  "reusedPasswordsReportDesc": {
-    "message": "If a service that you use is compromised, reusing the same password elsewhere can allow hackers to easily gain access to more of your online accounts. You should use a unique password for every account or service."
-  },
   "reusedPasswordsFound": {
     "message": "發現密碼重複使用"
-  },
-  "reusedPasswordsFoundDesc": {
-    "message": "We found $COUNT$ passwords that are being reused in your vault. You should change them to a unique value.",
-    "placeholders": {
-      "count": {
-        "content": "$1",
-        "example": "8"
-      }
-    }
   },
   "noReusedPasswords": {
     "message": "未在您密碼庫中找到重複使用密碼的登入資訊。"
@@ -1442,9 +1372,6 @@
   },
   "dataBreachReport": {
     "message": "資料洩露報告"
-  },
-  "breachDesc": {
-    "message": "A \"breach\" is an incident where a site's data has been illegally accessed by hackers and then released publicly. Review the types of data that were compromised (email addresses, passwords, credit cards etc.) and take appropriate action, such as changing passwords."
   },
   "breachCheckUsernameEmail": {
     "message": "請檢查您所用的使用者名稱或電子信箱位址。"
@@ -1518,12 +1445,6 @@
     "message": "金額",
     "description": "Dollar amount, or quantity."
   },
-  "creditDelayed": {
-    "message": "Added credit will appear on your account after the payment has been fully processed. Some payment methods are delayed and can take longer to process than others."
-  },
-  "makeSureEnoughCredit": {
-    "message": "Please make sure that your account has enough credit available for this purchase. If your account does not have enough credit available, your default payment method on file will be used for the difference. You can add credit to your account from the Billing page."
-  },
   "creditAppliedDesc": {
     "message": "您的帳戶信用額度可用於進行消費。任何可用的信用額度將自動支付此帳戶的帳單。"
   },
@@ -1564,25 +1485,6 @@
       }
     }
   },
-  "addons": {
-    "message": "Addons"
-  },
-  "premiumAccess": {
-    "message": "Premium Access"
-  },
-  "premiumAccessDesc": {
-    "message": "You can add premium access to all members of your organization for $PRICE$ \/$INTERVAL$.",
-    "placeholders": {
-      "price": {
-        "content": "$1",
-        "example": "$3.33"
-      },
-      "interval": {
-        "content": "$2",
-        "example": "'month' or 'year'"
-      }
-    }
-  },
   "additionalStorageGb": {
     "message": "額外的儲存空間 (GB)"
   },
@@ -1590,7 +1492,7 @@
     "message": "# GB 附加儲存空間"
   },
   "additionalStorageIntervalDesc": {
-    "message": "您的方案擁有 $SIZE$ 的加密儲存空間。您也可以用每 GB $PRICE$ \/ $INTERVAL$ 購買額外的儲存空間。",
+    "message": "您的方案擁有 $SIZE$ 的加密儲存空間。您也可以用每 GB $PRICE$ / $INTERVAL$ 購買額外的儲存空間。",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1625,15 +1527,6 @@
   "paymentChargedAnnually": {
     "message": "Your payment method will be charged immediately and on a recurring basis each year. You may cancel at any time."
   },
-  "paymentCharged": {
-    "message": "Your payment method will be charged immediately and then on a recurring basis each $INTERVAL$. You may cancel at any time.",
-    "placeholders": {
-      "interval": {
-        "content": "$1",
-        "example": "month or year"
-      }
-    }
-  },
   "paymentChargedWithTrial": {
     "message": "Your plan comes with a free 7 day trial. Your card will not be charged until the trial has ended and on a recurring basis each $INTERVAL$. You may cancel at any time.",
     "placeholders": {
@@ -1649,35 +1542,14 @@
   "creditCard": {
     "message": "信用卡"
   },
-  "paypalClickSubmit": {
-    "message": "Click the PayPal button to log into your PayPal account, then click the Submit button below to continue."
-  },
   "cancelSubscription": {
     "message": "取消訂閱"
-  },
-  "subscriptionCanceled": {
-    "message": "The subscription has been canceled."
-  },
-  "pendingCancellation": {
-    "message": "Pending Cancellation"
-  },
-  "subscriptionPendingCanceled": {
-    "message": "The subscription has been marked for cancellation at the end of the current billing period."
   },
   "reinstateSubscription": {
     "message": "重新開始訂閱"
   },
-  "reinstateConfirmation": {
-    "message": "Are you sure you want to remove the pending cancellation request and reinstate your subscription?"
-  },
   "reinstated": {
     "message": "已重新開始訂閱。"
-  },
-  "cancelConfirmation": {
-    "message": "Are you sure you want to cancel? You will lose access to all of this subscription's features at the end of this billing cycle."
-  },
-  "canceledSubscription": {
-    "message": "The subscription has been canceled."
   },
   "neverExpires": {
     "message": "永不過期"
@@ -1709,22 +1581,6 @@
   "addStorage": {
     "message": "增加儲存空間"
   },
-  "removeStorage": {
-    "message": "Remove Storage"
-  },
-  "subscriptionStorage": {
-    "message": "Your subscription has a total of $MAX_STORAGE$ GB of encrypted file storage. You are currently using $USED_STORAGE$.",
-    "placeholders": {
-      "max_storage": {
-        "content": "$1",
-        "example": "4"
-      },
-      "used_storage": {
-        "content": "$2",
-        "example": "65 MB"
-      }
-    }
-  },
   "paymentMethod": {
     "message": "付款方式"
   },
@@ -1753,7 +1609,7 @@
   },
   "transactions": {
     "message": "交易",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "無交易"
@@ -1765,27 +1621,6 @@
   "refundNoun": {
     "message": "退款",
     "description": "Noun. A refunded payment that was charged."
-  },
-  "chargesStatement": {
-    "message": "Any charges will appear on your statement as $STATEMENT_NAME$.",
-    "placeholders": {
-      "statement_name": {
-        "content": "$1",
-        "example": "BITWARDEN"
-      }
-    }
-  },
-  "gbStorageAdd": {
-    "message": "GB of Storage To Add"
-  },
-  "gbStorageRemove": {
-    "message": "GB of Storage To Remove"
-  },
-  "storageAddNote": {
-    "message": "Adding storage will result in adjustments to your billing totals and immediately charge your payment method on file. The first charge will be prorated for the remainder of the current billing cycle."
-  },
-  "storageRemoveNote": {
-    "message": "Removing storage will result in adjustments to your billing totals that will be prorated as credits toward your next billing charge."
   },
   "adjustedStorage": {
     "message": "已調整 $AMOUNT$ GB 的儲存空間。",
@@ -1826,9 +1661,6 @@
   "accountEmailMustBeVerified": {
     "message": "您必須驗證電子郵件。"
   },
-  "newOrganizationDesc": {
-    "message": "Organizations allow you to share parts of your vault with others as well as manage related users for a specific entity such as a family, small team, or large company."
-  },
   "generalInformation": {
     "message": "一般資訊"
   },
@@ -1853,40 +1685,12 @@
   "userSeats": {
     "message": "使用者數量"
   },
-  "additionalUserSeats": {
-    "message": "Additional User Seats"
-  },
   "userSeatsDesc": {
     "message": "# 使用者數"
-  },
-  "userSeatsAdditionalDesc": {
-    "message": "Your plan comes with $BASE_SEATS$ user seats. You can add additional users for $SEAT_PRICE$ per user \/month.",
-    "placeholders": {
-      "base_seats": {
-        "content": "$1",
-        "example": "5"
-      },
-      "seat_price": {
-        "content": "$2",
-        "example": "$2.00"
-      }
-    }
-  },
-  "userSeatsHowManyDesc": {
-    "message": "How many user seats do you need? You can also add additional seats later if needed."
   },
   "planNameFree": {
     "message": "免費",
     "description": "Free as in 'free beer'."
-  },
-  "planDescFree": {
-    "message": "For testing or personal users to share with $COUNT$ other user.",
-    "placeholders": {
-      "count": {
-        "content": "$1",
-        "example": "1"
-      }
-    }
   },
   "planNameFamilies": {
     "message": "家庭"
@@ -1897,14 +1701,8 @@
   "planNameTeams": {
     "message": "團隊"
   },
-  "planDescTeams": {
-    "message": "For businesses and other team organizations."
-  },
   "planNameEnterprise": {
     "message": "企業"
-  },
-  "planDescEnterprise": {
-    "message": "For businesses and other large organizations."
   },
   "freeForever": {
     "message": "永遠免費"
@@ -1917,9 +1715,6 @@
         "example": "5"
       }
     }
-  },
-  "additionalUsers": {
-    "message": "Additional Users"
   },
   "costPerUser": {
     "message": "每位使用者 $COST$",
@@ -2014,17 +1809,11 @@
   "organizationCreated": {
     "message": "組織已建立"
   },
-  "organizationReadyToGo": {
-    "message": "Your new organization is ready to go!"
-  },
   "organizationUpgraded": {
     "message": "您的組織已被升級。"
   },
   "leave": {
     "message": "離開"
-  },
-  "leaveOrganizationConfirmation": {
-    "message": "Are you sure you want to leave this organization?"
   },
   "leftOrganization": {
     "message": "您已離開組織。"
@@ -2068,9 +1857,6 @@
   "externalId": {
     "message": "外部 ID"
   },
-  "externalIdDesc": {
-    "message": "The external id can be used as a reference or to link this resource to an external system such as a user directory."
-  },
   "accessControl": {
     "message": "存取控制"
   },
@@ -2101,18 +1887,6 @@
   "inviteUser": {
     "message": "邀請使用者"
   },
-  "inviteUserDesc": {
-    "message": "Invite a new user to your organization by entering their ByteGarden account email address below. If they do not have a ByteGarden account already, they will be prompted to create a new account."
-  },
-  "inviteMultipleEmailDesc": {
-    "message": "You can invite up to $COUNT$ users at a time by comma separating a list of email addresses.",
-    "placeholders": {
-      "count": {
-        "content": "$1",
-        "example": "20"
-      }
-    }
-  },
   "userUsingTwoStep": {
     "message": "此使用者正在使用兩步驟登入保護帳號。"
   },
@@ -2137,9 +1911,6 @@
   "owner": {
     "message": "擁有者"
   },
-  "ownerDesc": {
-    "message": "The highest access user that can manage all aspects of your organization."
-  },
   "admin": {
     "message": "管理員"
   },
@@ -2154,9 +1925,6 @@
   },
   "manager": {
     "message": "管理員"
-  },
-  "managerDesc": {
-    "message": "Managers can access and manage assigned collections in your organization."
   },
   "all": {
     "message": "全部"
@@ -2182,7 +1950,7 @@
   },
   "extension": {
     "message": "擴充套件",
-    "description": "Browser extension\/addon"
+    "description": "Browser extension/addon"
   },
   "desktop": {
     "message": "電腦版應用程式",
@@ -2198,7 +1966,7 @@
     "message": "已變更帳戶密碼。"
   },
   "enabledUpdated2fa": {
-    "message": "已啟用 \/ 更新兩步驟登入。"
+    "message": "已啟用 / 更新兩步驟登入。"
   },
   "disabled2fa": {
     "message": "已停用兩步驟登入。"
@@ -2211,15 +1979,6 @@
   },
   "failedLogin2fa": {
     "message": "登入失敗，兩步驟登入錯誤。"
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
-  },
-  "editedOrgSettings": {
-    "message": "Edited organization settings."
   },
   "createdItemId": {
     "message": "已建立項目 $ID$。",
@@ -2254,78 +2013,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2512,9 +2199,6 @@
   "confirmUsers": {
     "message": "確認使用者"
   },
-  "usersNeedConfirmed": {
-    "message": "You have users that have accepted their invitation, but still need to be confirmed. Users will not have access to the organization until they are confirmed."
-  },
   "startDate": {
     "message": "開始日期"
   },
@@ -2526,9 +2210,6 @@
   },
   "verifyEmailDesc": {
     "message": "驗證您的電子郵件位址以使用所有的功能。"
-  },
-  "verifyEmailFirst": {
-    "message": "Your account's email address first must be verified."
   },
   "checkInboxForVerification": {
     "message": "請檢查收件箱以取得驗證連結。"
@@ -2548,26 +2229,11 @@
   "joinOrganization": {
     "message": "加入組織"
   },
-  "joinOrganizationDesc": {
-    "message": "You've been invited to join the organization listed above. To accept the invitation, you need to log in or create a new ByteGarden account."
-  },
   "inviteAccepted": {
     "message": "邀請已接受"
   },
-  "inviteAcceptedDesc": {
-    "message": "You can access this organization once an administrator confirms your membership. We'll send you an email when that happens."
-  },
-  "inviteAcceptFailed": {
-    "message": "Unable to accept invitation. Ask an organization admin to send a new invitation."
-  },
   "rememberEmail": {
     "message": "記住電子郵件地址"
-  },
-  "recoverAccountTwoStepDesc": {
-    "message": "If you cannot access your account through your normal two-step login methods, you can use your two-step login recovery code to disable all two-step providers on your account."
-  },
-  "recoverAccountTwoStep": {
-    "message": "Recover Account Two-Step Login"
   },
   "twoStepRecoverDisabled": {
     "message": "兩步驟登入已在您的帳號停用。"
@@ -2590,17 +2256,8 @@
   "deleteOrganization": {
     "message": "刪除組織"
   },
-  "deleteOrganizationDesc": {
-    "message": "Proceed below to delete this organization and all associated data. Individual user accounts will remain, though they will not be associated to this organization anymore. "
-  },
-  "deleteOrganizationWarning": {
-    "message": "Deleting the organization is permanent. It cannot be undone."
-  },
   "organizationDeleted": {
     "message": "已刪除組織"
-  },
-  "organizationDeletedDesc": {
-    "message": "The organization and all associated data has been deleted."
   },
   "organizationUpdated": {
     "message": "組織已更新"
@@ -2613,19 +2270,15 @@
   },
   "billingPlan": {
     "message": "方案",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "變更方案",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Upgrade your account to another plan be providing the information below. Please ensure that you have an active payment method added to the account.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
-  },
-  "changeBillingPlanDesc": {
-    "message": "Contact customer support if you would like to change your plan. Please ensure that you have an active payment method added to the account.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "收據 #$NUMBER$",
@@ -2645,15 +2298,6 @@
   },
   "verifyBankAccount": {
     "message": "驗證銀行帳戶"
-  },
-  "verifyBankAccountDesc": {
-    "message": "We have made two micro-deposits to your bank account (it may take 1-2 business days to show up). Enter these amounts to verify the bank account."
-  },
-  "verifyBankAccountInitialDesc": {
-    "message": "Payment with a bank account is only available to customers in the United States. You will be required to verify your bank account. We will make two micro-deposits within the next 1-2 business days. Enter these amounts on the organization's billing page to verify the bank account."
-  },
-  "verifyBankAccountFailureWarning": {
-    "message": "Failure to verify the bank account will result in a missed payment and your subscription being disabled."
   },
   "verifiedBankAccount": {
     "message": "已驗證您的銀行帳號。"
@@ -2690,17 +2334,6 @@
   "bankAccountTypeIndividual": {
     "message": "個人"
   },
-  "enterInstallationId": {
-    "message": "Enter your installation id"
-  },
-  "addSeats": {
-    "message": "Add Seats",
-    "description": "Seat = User Seat"
-  },
-  "removeSeats": {
-    "message": "Remove Seats",
-    "description": "Seat = User Seat"
-  },
   "subscriptionUserSeats": {
     "message": "您的訂閱當中包含 $COUNT$ 位使用者的授權。",
     "placeholders": {
@@ -2715,12 +2348,6 @@
   },
   "seatsToRemove": {
     "message": "要移除的席位數"
-  },
-  "seatsAddNote": {
-    "message": "Adding user seats will result in adjustments to your billing totals and immediately charge your payment method on file. The first charge will be prorated for the remainder of the current billing cycle."
-  },
-  "seatsRemoveNote": {
-    "message": "Removing user seats will result in adjustments to your billing totals that will be prorated as credits toward your next billing charge."
   },
   "adjustedSeats": {
     "message": "已調整為 $AMOUNT$ 個使用者席位。",
@@ -2743,12 +2370,6 @@
   "updateEncryptionKeyShortDesc": {
     "message": "您目前使用的是過時的加密方式。"
   },
-  "updateEncryptionKeyDesc": {
-    "message": "We've moved to larger encryption keys that provide better security and access to newer features. Updating your encryption key is quick and easy. Just type your master password below. This update will eventually become mandatory."
-  },
-  "updateEncryptionKeyWarning": {
-    "message": "After updating your encryption key, you are required to log out and back in to all ByteGarden applications that you are currently using (such as the mobile app or browser extensions). Failure to log out and back in (which downloads your new encryption key) may result in data corruption. We will attempt to log you out automatically, however, it may be delayed."
-  },
   "subscription": {
     "message": "訂閱"
   },
@@ -2761,14 +2382,8 @@
   "upgradeOrganization": {
     "message": "升級組織"
   },
-  "upgradeOrganizationDesc": {
-    "message": "This feature is not available for free organizations. Switch to a paid plan to unlock more features."
-  },
   "createOrganizationStep1": {
     "message": "建立組織：步驟 1"
-  },
-  "createOrganizationCreatePersonalAccount": {
-    "message": "Before creating your organization, you first need to create a free personal account."
   },
   "refunded": {
     "message": "已退款"
@@ -2876,22 +2491,12 @@
   "attachmentsNeedFix": {
     "message": "此項目包含需要修復的舊檔案附件。"
   },
-  "attachmentFixDesc": {
-    "message": "This is an old file attachment the needs to be fixed. Click to learn more."
-  },
   "fix": {
     "message": "修正",
     "description": "This is a verb. ex. 'Fix The Car'"
   },
-  "oldAttachmentsNeedFixDesc": {
-    "message": "There are old file attachments in your vault that need to be fixed before you can rotate your account's encryption key."
-  },
   "yourAccountsFingerprint": {
     "message": "您帳戶的指紋短語",
-    "description": "A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing."
-  },
-  "fingerprintEnsureIntegrityVerify": {
-    "message": "To ensure the integrity of your encryption keys, please verify the user's fingerprint phrase before continuing.",
     "description": "A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing."
   },
   "dontAskFingerprintAgain": {
@@ -2907,12 +2512,6 @@
   },
   "apiKeyDesc": {
     "message": "您的 API 金鑰可用來驗證 ByteGarden 公用 API。"
-  },
-  "apiKeyRotateDesc": {
-    "message": "Rotating the API key will invalidate the previous key. You can rotate your API key if you believe that the current key is no longer safe to use."
-  },
-  "apiKeyWarning": {
-    "message": "Your API key has full access to the organization. It should be kept secret."
   },
   "oauth2ClientCredentials": {
     "message": "OAuth 2.0 客戶端登入資訊",

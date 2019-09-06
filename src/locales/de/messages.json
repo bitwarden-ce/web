@@ -12,22 +12,6 @@
   "whatTypeOfItem": {
     "message": "Um welche Art von Eintrag handelt es sich hierbei?"
   },
-  "name": {
-    "message": "Name"
-  },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Neue URL"
   },
@@ -36,9 +20,6 @@
   },
   "password": {
     "message": "Passwort"
-  },
-  "passphrase": {
-    "message": "Passphrase"
   },
   "notes": {
     "message": "Notizen"
@@ -91,9 +72,6 @@
   "march": {
     "message": "März"
   },
-  "april": {
-    "message": "April"
-  },
   "may": {
     "message": "Mai"
   },
@@ -103,17 +81,8 @@
   "july": {
     "message": "Juli"
   },
-  "august": {
-    "message": "August"
-  },
-  "september": {
-    "message": "September"
-  },
   "october": {
     "message": "Oktober"
-  },
-  "november": {
-    "message": "November"
   },
   "december": {
     "message": "Dezember"
@@ -154,9 +123,6 @@
   "dragToSort": {
     "message": "Zum Sortieren ziehen"
   },
-  "cfTypeText": {
-    "message": "Text"
-  },
   "cfTypeHidden": {
     "message": "Versteckt"
   },
@@ -181,10 +147,6 @@
   },
   "baseDomain": {
     "message": "Basisdomäne"
-  },
-  "host": {
-    "message": "Host",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "Genau"
@@ -211,8 +173,8 @@
     "message": "Sichtbarkeit umschalten"
   },
   "toggleCollapse": {
-    "message": "Sammlung ein- \/ ausklappen",
-    "description": "Toggling an expand\/collapse state."
+    "message": "Sammlung ein- / ausklappen",
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "Passwort generieren"
@@ -629,15 +591,6 @@
   "noOrganizationsList": {
     "message": "Sie gehören keiner Organisation an. Organisationen erlauben es Ihnen Passwörter sicher mit anderen zu teilen."
   },
-  "versionNumber": {
-    "message": "Version $VERSION_NUMBER$",
-    "placeholders": {
-      "version_number": {
-        "content": "$1",
-        "example": "1.2.3"
-      }
-    }
-  },
   "enterVerificationCodeApp": {
     "message": "Geben Sie den 6-stelligen Verifizierungscode aus Ihrer Authentifizierungs-App ein."
   },
@@ -681,7 +634,7 @@
     "message": "Dieses Konto hat eine aktive Zwei Faktor-Authentifizierung, allerdings wird keiner der konfigurierten Zwei Faktor-Anbieter von diesem Browser unterstützt."
   },
   "noTwoStepProviders2": {
-    "message": "Bitte benutzen Sie einen unterstützten Browser (z. B. Chrome) und \/ oder fügen Sie zusätzliche Anbieter hinzu, die von mehr Browsern unterstützt werden (z. B. eine Authentifizierungs-App)."
+    "message": "Bitte benutzen Sie einen unterstützten Browser (z. B. Chrome) und / oder fügen Sie zusätzliche Anbieter hinzu, die von mehr Browsern unterstützt werden (z. B. eine Authentifizierungs-App)."
   },
   "twoStepOptions": {
     "message": "Optionen für Zwei-Faktor-Authentifizierung"
@@ -744,7 +697,7 @@
     "message": "Bearbeiten Sie die Sammlungen, mit denen dieser Eintrag geteilt wird. Nur Organisationsmitglieder mit Zugriff auf diese Sammlungen werden diesen Eintrag sehen können."
   },
   "deleteSelectedItemsDesc": {
-    "message": "Sie haben $COUNT$ Eintrag\/Einträge zum Löschen ausgewählt. Sind Sie sicher, dass alle diese Einträge gelöscht werden sollen?",
+    "message": "Sie haben $COUNT$ Eintrag/Einträge zum Löschen ausgewählt. Sind Sie sicher, dass alle diese Einträge gelöscht werden sollen?",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -852,9 +805,6 @@
   },
   "newEmail": {
     "message": "Neue E-Mail Adresse"
-  },
-  "code": {
-    "message": "Code"
   },
   "changeEmailDesc": {
     "message": "Wir haben Ihnen einen Bestätigungscode an $EMAIL$ gesendet. Bitte prüfen Sie Ihre E-Mails und geben Sie den Code zur Bestätigung der E-Mail-Änderung unten ein.",
@@ -1069,7 +1019,7 @@
     "message": "Neue benutzerdefinierte Domäne"
   },
   "newCustomDomainDesc": {
-    "message": "Geben Sie eine mit Komma getrennte Liste von Domänen ein. Nur \"Basis\"-Domänen sind erlaubt. Geben Sie keine Sub-Domänen an. Geben Sie beispielsweise \"google.de\" anstelle von \"www.google.de\" an. Sie können auch \"androidapp:\/\/package.name\" eingeben, um Webseiten-Domänen einer Android-App zuzuordnen."
+    "message": "Geben Sie eine mit Komma getrennte Liste von Domänen ein. Nur \"Basis\"-Domänen sind erlaubt. Geben Sie keine Sub-Domänen an. Geben Sie beispielsweise \"google.de\" anstelle von \"www.google.de\" an. Sie können auch \"androidapp://package.name\" eingeben, um Webseiten-Domänen einer Android-App zuzuordnen."
   },
   "customDomainX": {
     "message": "$INDEX$ benutzerdefinierte Domänen",
@@ -1107,10 +1057,6 @@
   },
   "enabled": {
     "message": "Aktiviert"
-  },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
   },
   "premiumMembership": {
     "message": "Premium-Mitgliedschaft"
@@ -1202,15 +1148,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "Mobile Apps auf einem NFC-fähigen Gerät oder einem USB-Port, der Ihren YubiKey erkennen kann."
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "u2fkeyX": {
     "message": "U2F Schlüssel $INDEX$",
     "placeholders": {
@@ -1287,7 +1224,7 @@
     "message": "Aufgrund von Plattformbeschränkungen kann FIDO U2F nicht mit allen ByteGarden-Anwendungen verwendet werden. Sie sollten einen anderen Zwei-Faktor-Authentifizierungsanbieter aktivieren, damit Sie auf Ihr Konto zugreifen können, wenn FIDO U2F nicht verwendet werden kann. Unterstützte Plattformen sind:"
   },
   "twoFactorU2fSupportWeb": {
-    "message": "Web-Tresor und Browser-Erweiterungen auf einem Desktop\/Laptop mit einem U2F fähigen Browser (Chrome, Opera, Vivaldi oder Firefox mit FIDO U2F aktiviert)."
+    "message": "Web-Tresor und Browser-Erweiterungen auf einem Desktop/Laptop mit einem U2F fähigen Browser (Chrome, Opera, Vivaldi oder Firefox mit FIDO U2F aktiviert)."
   },
   "twoFactorU2fWaiting": {
     "message": "Es wird darauf gewartet, dass Sie die Taste Ihres Sicherheitsschlüssels betätigen"
@@ -1315,13 +1252,13 @@
     "message": "Bericht über ungesicherte Webseiten"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "Die Verwendung ungesicherter Webseiten mit dem http:\/\/ Präfix kann gefährlich sein. Wenn die Webseite es erlaubt, sollten Sie immer über das https:\/\/ Präfix darauf zugreifen, damit Ihre Verbindung verschlüsselt ist."
+    "message": "Die Verwendung ungesicherter Webseiten mit dem http:// Präfix kann gefährlich sein. Wenn die Webseite es erlaubt, sollten Sie immer über das https:// Präfix darauf zugreifen, damit Ihre Verbindung verschlüsselt ist."
   },
   "unsecuredWebsitesFound": {
     "message": "Ungesicherte Webseiten gefunden"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "Wir haben $COUNT$ Elemente in Ihrem Tresor mit ungesicherten URIs gefunden. Sie sollten ihr URI-Präfix auf https:\/\/ ändern, wenn die Webseite dies zulässt.",
+    "message": "Wir haben $COUNT$ Elemente in Ihrem Tresor mit ungesicherten URIs gefunden. Sie sollten ihr URI-Präfix auf https:// ändern, wenn die Webseite dies zulässt.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1635,7 +1572,7 @@
     }
   },
   "paymentChargedWithTrial": {
-    "message": "Ihr Abo beinhaltet eine kostenlose 7-Tage-Testversion. Ihre Karte wird nicht belastet, bis die Testversion beendet. Die Rechnung kommt wiederkehrend jeden\/jedes $INTERVAL$. Sie können jederzeit kündigen.",
+    "message": "Ihr Abo beinhaltet eine kostenlose 7-Tage-Testversion. Ihre Karte wird nicht belastet, bis die Testversion beendet. Die Rechnung kommt wiederkehrend jeden/jedes $INTERVAL$. Sie können jederzeit kündigen.",
     "placeholders": {
       "interval": {
         "content": "$1",
@@ -1682,14 +1619,8 @@
   "neverExpires": {
     "message": "Läuft nie ab"
   },
-  "status": {
-    "message": "Status"
-  },
   "nextCharge": {
     "message": "Nächste Abbuchung"
-  },
-  "details": {
-    "message": "Details"
   },
   "downloadLicense": {
     "message": "Lizenz herunterladen"
@@ -1753,7 +1684,7 @@
   },
   "transactions": {
     "message": "Zahlungsvorgänge",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "Keine Zahlungsvorgänge."
@@ -1860,7 +1791,7 @@
     "message": "Anzahl der Benutzerplätze"
   },
   "userSeatsAdditionalDesc": {
-    "message": "Ihr Abo beinhaltet $BASE_SEATS$ Benutzerplätze. Sie können weitere Benutzer für $SEAT_PRICE$ pro Benutzer\/Monat hinzufügen.",
+    "message": "Ihr Abo beinhaltet $BASE_SEATS$ Benutzerplätze. Sie können weitere Benutzer für $SEAT_PRICE$ pro Benutzer/Monat hinzufügen.",
     "placeholders": {
       "base_seats": {
         "content": "$1",
@@ -1893,9 +1824,6 @@
   },
   "planDescFamilies": {
     "message": "Für den persönlichen Gebrauch, zum Teilen mit Familie und Freunden."
-  },
-  "planNameTeams": {
-    "message": "Teams"
   },
   "planDescTeams": {
     "message": "Für Unternehmen und andere Teams."
@@ -2102,7 +2030,7 @@
     "message": "Benutzer einladen"
   },
   "inviteUserDesc": {
-    "message": "Laden Sie einen neuen Benutzer zu Ihrer Organisation ein, indem Sie deren ByteGarden-Konto-Email eintragen. Falls dieser noch kein ByteGarden-Konto besitzt, wird er\/sie zur Erstellung eines neuen Kontos aufgefordert."
+    "message": "Laden Sie einen neuen Benutzer zu Ihrer Organisation ein, indem Sie deren Bitwarden-Konto-Email eintragen. Falls dieser noch kein Bitwarden-Konto besitzt, wird er/sie zur Erstellung eines neuen Kontos aufgefordert."
   },
   "inviteMultipleEmailDesc": {
     "message": "Sie können bis zu $COUNT$ Benutzer auf einmal einladen, indem Sie eine Liste von E-Mail-Adressen mit je einem Komma trennen.",
@@ -2152,9 +2080,6 @@
   "userDesc": {
     "message": "Ein normaler Benutzer mit Zugriff auf die ihm zugewiesenen Sammlungen der Organisation."
   },
-  "manager": {
-    "message": "Manager"
-  },
   "managerDesc": {
     "message": "Manager können auf die für sie zugewiesene Sammlungen in der Organisation zugreifen und diese verwalten."
   },
@@ -2182,11 +2107,7 @@
   },
   "extension": {
     "message": "Erweiterung",
-    "description": "Browser extension\/addon"
-  },
-  "desktop": {
-    "message": "Desktop",
-    "description": "Desktop app"
+    "description": "Browser extension/addon"
   },
   "webVault": {
     "message": "Web-Tresor"
@@ -2198,7 +2119,7 @@
     "message": "Benutzerpasswort geändert."
   },
   "enabledUpdated2fa": {
-    "message": "Zwei-Faktor-Anmeldung aktiviert\/aktualisiert."
+    "message": "Zwei-Faktor-Anmeldung aktiviert/aktualisiert."
   },
   "disabled2fa": {
     "message": "Zwei-Faktor-Anmeldung deaktiviert."
@@ -2211,12 +2132,6 @@
   },
   "failedLogin2fa": {
     "message": "Anmeldeversuch mit falscher Zwei-Faktor-Anmeldung fehlgeschlagen."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Organisationseinstellungen bearbeitet."
@@ -2254,78 +2169,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2613,19 +2456,19 @@
   },
   "billingPlan": {
     "message": "Abo",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Abonnement ändern",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Upgraden sie ihr Konto zu einem anderen Plan, dafür müssen sie folgende Informationen bereitstellen. Bitte stellen Sie sicher, dass Sie eine aktive Zahlungsmethode auf ihren Konto hinzugefügt haben.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Kontaktieren Sie den Kundensupport, um Ihr Abo zu ändern. Bitte stellen Sie sicher, dass Sie eine aktive Zahlungsmethode zu Ihrem Konto hinzugefügt haben.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "Rechnung #$NUMBER$",
@@ -2754,9 +2597,6 @@
   },
   "loading": {
     "message": "Wird geladen"
-  },
-  "upgrade": {
-    "message": "Upgrade"
   },
   "upgradeOrganization": {
     "message": "Organisation hochstufen"

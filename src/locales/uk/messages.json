@@ -15,19 +15,6 @@
   "name": {
     "message": "Назва"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Новий URI"
   },
@@ -184,7 +171,7 @@
   },
   "host": {
     "message": "Вузол",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "Точно"
@@ -211,8 +198,8 @@
     "message": "Перемкнути видимість"
   },
   "toggleCollapse": {
-    "message": "Згорнути\/розгорнути",
-    "description": "Toggling an expand\/collapse state."
+    "message": "Згорнути/розгорнути",
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "Генерувати пароль"
@@ -318,10 +305,10 @@
     "message": "Адреса 3"
   },
   "cityTown": {
-    "message": "Місто \/ Селище"
+    "message": "Місто / Селище"
   },
   "stateProvince": {
-    "message": "Штат \/ Область"
+    "message": "Штат / Область"
   },
   "zipPostalCode": {
     "message": "Поштовий індекс"
@@ -495,9 +482,6 @@
   },
   "logOut": {
     "message": "Вихід"
-  },
-  "ok": {
-    "message": "Ok"
   },
   "yes": {
     "message": "Так"
@@ -681,7 +665,7 @@
     "message": "Для цього облікового запису увімкнено двохетапну перевірку. Однак, жоден з налаштованих провайдерів двохетапної перевірки не підтримується цим веб-браузером."
   },
   "noTwoStepProviders2": {
-    "message": "Будь ласка, скористайтеся підтримуваним веб-браузером (наприклад, Chrome) та\/або іншими провайдерами, що краще підтримуються веб-браузерами (наприклад, програма авторизації)."
+    "message": "Будь ласка, скористайтеся підтримуваним веб-браузером (наприклад, Chrome) та/або іншими провайдерами, що краще підтримуються веб-браузерами (наприклад, програма авторизації)."
   },
   "twoStepOptions": {
     "message": "Налаштування двохетапної перевірки"
@@ -1069,7 +1053,7 @@
     "message": "Новий власний домен"
   },
   "newCustomDomainDesc": {
-    "message": "Введіть список доменів, розділених комами. Дозволяються лише \"основні\" домени. Не вводьте піддомени. Наприклад, вводьте \"google.com\" замість \"www.google.com\". Ви також можете ввести \"androidapp:\/\/package.name\", щоб асоціювати програму android з іншими доменами веб-сайту."
+    "message": "Введіть список доменів, розділених комами. Дозволяються лише \"основні\" домени. Не вводьте піддомени. Наприклад, вводьте \"google.com\" замість \"www.google.com\". Ви також можете ввести \"androidapp://package.name\", щоб асоціювати програму android з іншими доменами веб-сайту."
   },
   "customDomainX": {
     "message": "Власний домен $INDEX$",
@@ -1202,15 +1186,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "Мобільні програми на пристроях з NFC або портом USB, до якого можна під'єднати ваш YubiKey."
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "u2fkeyX": {
     "message": "U2F Ключ $INDEX$",
     "placeholders": {
@@ -1315,13 +1290,13 @@
     "message": "Звіт про незахищені веб-сайти"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "Використання незахищених веб-сайтів з протоколом http:\/\/ може бути небезпечним. Якщо веб-сайт дозволяє, вам слід завжди використовувати його з протоколом https:\/\/, щоб ваше з'єднання було зашифрованим."
+    "message": "Використання незахищених веб-сайтів з протоколом http:// може бути небезпечним. Якщо веб-сайт дозволяє, вам слід завжди використовувати його з протоколом https://, щоб ваше з'єднання було зашифрованим."
   },
   "unsecuredWebsitesFound": {
     "message": "Знайдено незахищені веб-сайти"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "Ми знайшли $COUNT$ записів у вашому сховищі з незахищеними URL-адресами. Вам слід змінити їхні URL-схеми на https:\/\/, якщо вони це дозволяють.",
+    "message": "Ми знайшли $COUNT$ записів у вашому сховищі з незахищеними URL-адресами. Вам слід змінити їхні URL-схеми на https://, якщо вони це дозволяють.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1556,7 +1531,7 @@
     "message": "Всі майбутні функції преміум статусу. Їх буде більше!"
   },
   "premiumPrice": {
-    "message": "Всього лише $PRICE$ \/ за рік!",
+    "message": "Всього лише $PRICE$ / за рік!",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1571,7 +1546,7 @@
     "message": "Преміум-доступ"
   },
   "premiumAccessDesc": {
-    "message": "Ви можете додати преміум-доступ для всіх учасників вашої організації за $PRICE$ \/$INTERVAL$.",
+    "message": "Ви можете додати преміум-доступ для всіх учасників вашої організації за $PRICE$ /$INTERVAL$.",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1565,7 @@
     "message": "# додаткових ГБ"
   },
   "additionalStorageIntervalDesc": {
-    "message": "У ваш тарифний план включено зашифроване сховище файлів, розміром $SIZE$. Ви можете збільшити обсяг сховища по ціні $PRICE$ за ГБ \/$INTERVAL$.",
+    "message": "У ваш тарифний план включено зашифроване сховище файлів, розміром $SIZE$. Ви можете збільшити обсяг сховища по ціні $PRICE$ за ГБ /$INTERVAL$.",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1753,7 +1728,7 @@
   },
   "transactions": {
     "message": "Транзакції",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "Немає транзакцій."
@@ -2182,7 +2157,7 @@
   },
   "extension": {
     "message": "Розширення",
-    "description": "Browser extension\/addon"
+    "description": "Browser extension/addon"
   },
   "desktop": {
     "message": "Комп'ютер",
@@ -2198,7 +2173,7 @@
     "message": "Пароль облікового запису змінено."
   },
   "enabledUpdated2fa": {
-    "message": "Двохетапну перевірку увімкнено\/оновлено."
+    "message": "Двохетапну перевірку увімкнено/оновлено."
   },
   "disabled2fa": {
     "message": "Двохетапну перевірку вимкнено."
@@ -2211,12 +2186,6 @@
   },
   "failedLogin2fa": {
     "message": "Не вдалося виконати вхід через невдалу двохетапну перевірку."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Налаштування організації змінено."
@@ -2254,78 +2223,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2613,19 +2510,19 @@
   },
   "billingPlan": {
     "message": "Тарифний план",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Змінити тарифний план",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Перейдіть на передплату вищого рівня, вказавши інформацію внизу. Переконайтеся, що у вашому обліковому записі є активний спосіб оплати.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Зв'яжіться зі службою підтримки клієнтів, якщо ви бажаєте змінити свій тарифний план. Будь ласка, переконайтеся, що у вас є активний спосіб оплати доданий до облікового запису.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "Рахунок #$NUMBER$",

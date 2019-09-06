@@ -15,27 +15,11 @@
   "name": {
     "message": "Nome"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Nuovo URI"
   },
   "username": {
     "message": "Nome Utente"
-  },
-  "password": {
-    "message": "Password"
   },
   "passphrase": {
     "message": "Frase segreta"
@@ -68,16 +52,13 @@
     "message": "Azienda"
   },
   "ssn": {
-    "message": "Numero di previdenza sociale\/Codice Fiscale"
+    "message": "Numero di previdenza sociale/Codice Fiscale"
   },
   "passportNumber": {
     "message": "Numero di passaporto"
   },
   "licenseNumber": {
     "message": "Numero patente"
-  },
-  "email": {
-    "message": "Email"
   },
   "phone": {
     "message": "Telefono"
@@ -182,10 +163,6 @@
   "baseDomain": {
     "message": "Dominio di base"
   },
-  "host": {
-    "message": "Host",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
-  },
   "exact": {
     "message": "Esatto"
   },
@@ -208,11 +185,11 @@
     "message": "Mai"
   },
   "toggleVisibility": {
-    "message": "Mostra\/Nascondi"
+    "message": "Mostra/Nascondi"
   },
   "toggleCollapse": {
-    "message": "Attiva\/disattiva Collasso",
-    "description": "Toggling an expand\/collapse state."
+    "message": "Attiva/disattiva Collasso",
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "Genera Password"
@@ -318,10 +295,10 @@
     "message": "Indirizzo 3"
   },
   "cityTown": {
-    "message": "Città \/ Comune"
+    "message": "Città / Comune"
   },
   "stateProvince": {
-    "message": "Stato \/ Provincia"
+    "message": "Stato / Provincia"
   },
   "zipPostalCode": {
     "message": "CAP"
@@ -424,9 +401,6 @@
   "attachmentSaved": {
     "message": "L'allegato è stato salvato."
   },
-  "file": {
-    "message": "File"
-  },
   "selectFile": {
     "message": "Seleziona un file."
   },
@@ -496,14 +470,8 @@
   "logOut": {
     "message": "Disconnetti"
   },
-  "ok": {
-    "message": "Ok"
-  },
   "yes": {
     "message": "Sì"
-  },
-  "no": {
-    "message": "No"
   },
   "loginOrCreateNewAccount": {
     "message": "Accedi in o crea un nuovo account per accedere alla tua cassaforte."
@@ -681,7 +649,7 @@
     "message": "La verifica in due passaggi è abilitata su questo account, ma nessuno dei metodi configurati è supportato da questo browser."
   },
   "noTwoStepProviders2": {
-    "message": "Utilizza un browser supportato (come Chrome) e\/o aggiungi altri metodi per la verifica in due passaggi che sono supportati meglio dai browser (come un'applicazione di autenticazione)."
+    "message": "Utilizza un browser supportato (come Chrome) e/o aggiungi altri metodi per la verifica in due passaggi che sono supportati meglio dai browser (come un'applicazione di autenticazione)."
   },
   "twoStepOptions": {
     "message": "Opzioni di verifica in due passaggi"
@@ -719,9 +687,6 @@
   "u2fTitle": {
     "message": "Security key FIDO U2F"
   },
-  "emailTitle": {
-    "message": "Email"
-  },
   "emailDesc": {
     "message": "I codici di verifica ti saranno inviati per email."
   },
@@ -744,7 +709,7 @@
     "message": "Modifica le collezioni con le quali questo elemento viene condiviso. Solo gli utenti di organizzazioni che hanno accesso a queste collezioni saranno in grado di visualizzare questo elemento."
   },
   "deleteSelectedItemsDesc": {
-    "message": "La selezione comprende $COUNT$ elemento\/i da eliminare. Sei sicuro di voler procedere con l'eliminazione?",
+    "message": "La selezione comprende $COUNT$ elemento/i da eliminare. Sei sicuro di voler procedere con l'eliminazione?",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -753,7 +718,7 @@
     }
   },
   "moveSelectedItemsDesc": {
-    "message": "La selezione comprende $COUNT$ elemento\/i da spostare. Scegli una cartella di destinazione.",
+    "message": "La selezione comprende $COUNT$ elemento/i da spostare. Scegli una cartella di destinazione.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1069,7 +1034,7 @@
     "message": "Nuovo dominio personalizzato"
   },
   "newCustomDomainDesc": {
-    "message": "Inserisci una lista di domini separati da virgola. Sono permessi solo domini \"base\". Non inserire sottodomini. Per esempio, inserisci \"google.com\" invece di \"www.google.com\". Puoi inserire anche \"androidapp:\/\/package.name\" per associare un'applicazione android con altri domini."
+    "message": "Inserisci una lista di domini separati da virgola. Sono permessi solo domini \"base\". Non inserire sottodomini. Per esempio, inserisci \"google.com\" invece di \"www.google.com\". Puoi inserire anche \"androidapp://package.name\" per associare un'applicazione android con altri domini."
   },
   "customDomainX": {
     "message": "Dominio personalizzato $INDEX$",
@@ -1107,10 +1072,6 @@
   },
   "enabled": {
     "message": "Abilitato"
-  },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
   },
   "premiumMembership": {
     "message": "Abbonamento Premium"
@@ -1202,15 +1163,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "Le applicazioni su un dispositivo con NFC o una porta USB in grado di accettare la tua YubiKey."
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "u2fkeyX": {
     "message": "Chiave U2F $INDEX$",
     "placeholders": {
@@ -1287,7 +1239,7 @@
     "message": "A causa di limitazioni della piattaforma, FIDO U2F non può essere utilizzato su tutte le applicazioni ByteGarden. Si consiglia di abilitare un altro metodo di verifica in due passaggi in modo da poter accedere al tuo account anche dove FIDO U2F non può essere usato. Piattaforme supportate:"
   },
   "twoFactorU2fSupportWeb": {
-    "message": "Cassaforte Web ed estensione per il browser desktop\/laptop con un U2F browser abilitato (Chrome, Opera, Vivaldi o Firefox con FIDO U2F abilitato)."
+    "message": "Cassaforte Web ed estensione per il browser desktop/laptop con un U2F browser abilitato (Chrome, Opera, Vivaldi o Firefox con FIDO U2F abilitato)."
   },
   "twoFactorU2fWaiting": {
     "message": "In attesa che venga premuto il pulsante della tua chiave di sicurezza"
@@ -1315,13 +1267,13 @@
     "message": "Rapporto sui siti Web non protetti"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "L'utilizzo di siti Web non protetti con lo schema http:\/\/ può essere pericoloso. Se il sito Web lo consente, devi sempre accedervi utilizzando lo schema https:\/\/ in modo che la connessione sia crittografata."
+    "message": "L'utilizzo di siti Web non protetti con lo schema http:// può essere pericoloso. Se il sito Web lo consente, devi sempre accedervi utilizzando lo schema https:// in modo che la connessione sia crittografata."
   },
   "unsecuredWebsitesFound": {
     "message": "Siti Web non protetti trovati"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "Abbiamo trovato $COUNT$ elementi nella tua cassaforte con URI non protetti. Dovresti cambiare il loro schema URL in https:\/\/ se il sito lo consente.",
+    "message": "Abbiamo trovato $COUNT$ elementi nella tua cassaforte con URI non protetti. Dovresti cambiare il loro schema URL in https:// se il sito lo consente.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1571,7 +1523,7 @@
     "message": "Accesso Premium"
   },
   "premiumAccessDesc": {
-    "message": "Puoi aggiungere l'accesso premium a tutti i membri della tua organizzazione per $PRICE$ \/$INTERVAL$.",
+    "message": "Puoi aggiungere l'accesso premium a tutti i membri della tua organizzazione per $PRICE$ /$INTERVAL$.",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1542,7 @@
     "message": "# di GB aggiuntivi"
   },
   "additionalStorageIntervalDesc": {
-    "message": "Il tuo piano viene fornito con $SIZE$ di archiviazione crittografata. Puoi aggiungere ulteriore spazio di archiviazione per $PRICE$ per GB \/$INTERVAL$.",
+    "message": "Il tuo piano viene fornito con $SIZE$ di archiviazione crittografata. Puoi aggiungere ulteriore spazio di archiviazione per $PRICE$ per GB /$INTERVAL$.",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1753,7 +1705,7 @@
   },
   "transactions": {
     "message": "Transazioni",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "Nessuna transazione."
@@ -1860,7 +1812,7 @@
     "message": "# di postazioni utente"
   },
   "userSeatsAdditionalDesc": {
-    "message": "Il piano è dotato di $BASE_SEATS$ postazioni utente. È possibile aggiungere ulteriori utenti per $SEAT_PRICE$ per utente\/mese.",
+    "message": "Il piano è dotato di $BASE_SEATS$ postazioni utente. È possibile aggiungere ulteriori utenti per $SEAT_PRICE$ per utente/mese.",
     "placeholders": {
       "base_seats": {
         "content": "$1",
@@ -2152,9 +2104,6 @@
   "userDesc": {
     "message": "User normale con accesso alle collezioni della tua organizzazione."
   },
-  "manager": {
-    "message": "Manager"
-  },
   "managerDesc": {
     "message": "I manager possono accedere e gestire le raccolte assegnate nella propria organizzazione."
   },
@@ -2176,20 +2125,9 @@
   "loadMore": {
     "message": "Carica Altro"
   },
-  "mobile": {
-    "message": "Mobile",
-    "description": "Mobile app"
-  },
   "extension": {
     "message": "Estensione",
-    "description": "Browser extension\/addon"
-  },
-  "desktop": {
-    "message": "Desktop",
-    "description": "Desktop app"
-  },
-  "webVault": {
-    "message": "Web Vault"
+    "description": "Browser extension/addon"
   },
   "loggedIn": {
     "message": "Accesso effettuato."
@@ -2198,7 +2136,7 @@
     "message": "Password dell'account modificata."
   },
   "enabledUpdated2fa": {
-    "message": "Verifica in due passaggi abilitata\/aggiornata."
+    "message": "Verifica in due passaggi abilitata/aggiornata."
   },
   "disabled2fa": {
     "message": "Verifica in due passaggi disabilitata."
@@ -2211,12 +2149,6 @@
   },
   "failedLogin2fa": {
     "message": "Tentativo di accesso fallito. Verifica in due passaggi non riuscita."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Modifica delle impostazioni dell'organizzazione."
@@ -2254,78 +2186,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2480,7 +2340,7 @@
     "message": "Modificare i gruppi a cui appartiene questo utente."
   },
   "invitedUsers": {
-    "message": "Invitato\/i utente\/i."
+    "message": "Invitato/i utente/i."
   },
   "resendInvitation": {
     "message": "Invia nuovamente l'invito"
@@ -2613,19 +2473,19 @@
   },
   "billingPlan": {
     "message": "Piano",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Cambia Piano",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Aggiorna il tuo account ad un altro piano fornendo le informazioni qui sotto. Assicurati di avere un metodo di pagamento attivo aggiunto all'account.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Contattare il servizio clienti se si desidera modificare il proprio piano tariffario. Assicurarsi di avere un metodo di pagamento attivo.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "Fattura #$NUMBER$",
@@ -2878,10 +2738,6 @@
   },
   "attachmentFixDesc": {
     "message": "Questo è un vecchio file allegato che deve essere corretto. Clicca per saperne di più."
-  },
-  "fix": {
-    "message": "Fix",
-    "description": "This is a verb. ex. 'Fix The Car'"
   },
   "oldAttachmentsNeedFixDesc": {
     "message": "Ci sono vecchi file allegati nella tua cassaforte che devono essere corretti prima di poter ruotare la chiave di crittografia del tuo account."

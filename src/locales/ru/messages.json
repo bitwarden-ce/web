@@ -15,19 +15,6 @@
   "name": {
     "message": "Имя"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Новый URI"
   },
@@ -75,9 +62,6 @@
   },
   "licenseNumber": {
     "message": "ИНН"
-  },
-  "email": {
-    "message": "Email"
   },
   "phone": {
     "message": "Телефон"
@@ -184,7 +168,7 @@
   },
   "host": {
     "message": "Хост",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "Точно"
@@ -211,8 +195,8 @@
     "message": "Изменить видимость"
   },
   "toggleCollapse": {
-    "message": "Свернуть\/Развернуть",
-    "description": "Toggling an expand\/collapse state."
+    "message": "Свернуть/Развернуть",
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "Сгенерировать пароль"
@@ -318,10 +302,10 @@
     "message": "Строка адреса 3"
   },
   "cityTown": {
-    "message": "Город \/ Поселок"
+    "message": "Город / Поселок"
   },
   "stateProvince": {
-    "message": "Регион \/ Область"
+    "message": "Регион / Область"
   },
   "zipPostalCode": {
     "message": "Почтовый индекс"
@@ -495,9 +479,6 @@
   },
   "logOut": {
     "message": "Выйти"
-  },
-  "ok": {
-    "message": "Ok"
   },
   "yes": {
     "message": "Да"
@@ -681,7 +662,7 @@
     "message": "У этой учетной записи включена двухфакторная аутентификация, однако ни один из настроенных вариантов не поддерживается этим веб-браузером."
   },
   "noTwoStepProviders2": {
-    "message": "Используйте поддерживаемый веб-браузер (например, Chrome) и\/или добавьте дополнительные варианты аутентификации, которые поддерживаются в веб-браузерах (например, приложение-аутентификатор)."
+    "message": "Используйте поддерживаемый веб-браузер (например, Chrome) и/или добавьте дополнительные варианты аутентификации, которые поддерживаются в веб-браузерах (например, приложение-аутентификатор)."
   },
   "twoStepOptions": {
     "message": "Настройки двухфакторной аутентификации"
@@ -718,9 +699,6 @@
   },
   "u2fTitle": {
     "message": "Ключ безопасности FIDO U2F"
-  },
-  "emailTitle": {
-    "message": "Email"
   },
   "emailDesc": {
     "message": "Коды подтверждения будут отправлены вам по электронной почте."
@@ -1001,7 +979,7 @@
     "message": "Выберите файл импорта"
   },
   "orCopyPasteFileContents": {
-    "message": "или скопируйте\/вставьте содержимое файла импорта"
+    "message": "или скопируйте/вставьте содержимое файла импорта"
   },
   "instructionsFor": {
     "message": "Инструкции для $NAME$",
@@ -1069,7 +1047,7 @@
     "message": "Новый пользовательский домен"
   },
   "newCustomDomainDesc": {
-    "message": "Введите список доменов, разделенных запятыми. Допускаются только базовые домены. Не вводите субдомены. Например, вводите \"google.com\" вместо \"www.google.com\". Также вы можете ввести \"androidapp:\/\/package.name\", чтобы связать приложение Android с другими доменами веб-сайта."
+    "message": "Введите список доменов, разделенных запятыми. Допускаются только базовые домены. Не вводите субдомены. Например, вводите \"google.com\" вместо \"www.google.com\". Также вы можете ввести \"androidapp://package.name\", чтобы связать приложение Android с другими доменами веб-сайта."
   },
   "customDomainX": {
     "message": "Пользовательский домен $INDEX$",
@@ -1202,15 +1180,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "Мобильные приложения на устройстве с NFC или USB-портом, который может принимать ваш YubiKey."
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "u2fkeyX": {
     "message": "Ключ U2F $INDEX$",
     "placeholders": {
@@ -1287,7 +1256,7 @@
     "message": "Из-за ограничений платформы, FIDO U2F нельзя использовать во всех приложениях ByteGarden. Вы должны включить другого провайдера двухфакторной аутентификации, чтобы иметь возможность получить доступ к своей учетной записи, в случае, если использовать FIDO U2F не удастся. Поддерживаемые платформы:"
   },
   "twoFactorU2fSupportWeb": {
-    "message": "Веб-хранилище и расширения браузера на компьютере\/ноутбуке с браузером с поддержкой U2F (Chrome, Opera, Vivaldi или Firefox с включенным FIDO U2F)."
+    "message": "Веб-хранилище и расширения браузера на компьютере/ноутбуке с браузером с поддержкой U2F (Chrome, Opera, Vivaldi или Firefox с включенным FIDO U2F)."
   },
   "twoFactorU2fWaiting": {
     "message": "В ожидании нажатия кнопки на ключе безопасности"
@@ -1315,13 +1284,13 @@
     "message": "Отчет о незащищенных сайтах"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "Использование незащищенных веб-сайтов по схеме http:\/\/ может быть опасным. Если веб-сайт позволяет, вы всегда должны получать к нему доступ по схеме https:\/\/, чтобы ваше соединение было зашифровано."
+    "message": "Использование незащищенных веб-сайтов по схеме http:// может быть опасным. Если веб-сайт позволяет, вы всегда должны получать к нему доступ по схеме https://, чтобы ваше соединение было зашифровано."
   },
   "unsecuredWebsitesFound": {
     "message": "Найдены незащищенные сайты"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "Мы нашли $COUNT$ элемент(ов) в вашем хранилище с незащищенными URI. Вам следует изменить их схему URI на https:\/\/, если веб-сайт это позволяет.",
+    "message": "Мы нашли $COUNT$ элемент(ов) в вашем хранилище с незащищенными URI. Вам следует изменить их схему URI на https://, если веб-сайт это позволяет.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1556,7 +1525,7 @@
     "message": "Все будущие функции Премиум. Их будет больше!"
   },
   "premiumPrice": {
-    "message": "Всего лишь $PRICE$ \/в год!",
+    "message": "Всего лишь $PRICE$ /в год!",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1571,7 +1540,7 @@
     "message": "Премиум-доступ"
   },
   "premiumAccessDesc": {
-    "message": "Вы можете добавить премиум-доступ всем членам вашей организации за $PRICE$ \/$INTERVAL$.",
+    "message": "Вы можете добавить премиум-доступ всем членам вашей организации за $PRICE$ /$INTERVAL$.",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1559,7 @@
     "message": "# дополнительных ГБ"
   },
   "additionalStorageIntervalDesc": {
-    "message": "Ваш план включает $SIZE$ зашифрованного файлового хранилища. Вы можете добавить дополнительное место по цене $PRICE$ за ГБ \/$INTERVAL$.",
+    "message": "Ваш план включает $SIZE$ зашифрованного файлового хранилища. Вы можете добавить дополнительное место по цене $PRICE$ за ГБ /$INTERVAL$.",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1753,7 +1722,7 @@
   },
   "transactions": {
     "message": "Транзакции",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "Нет транзакций."
@@ -1860,7 +1829,7 @@
     "message": "# пользовательских лицензий"
   },
   "userSeatsAdditionalDesc": {
-    "message": "Ваш план включает $BASE_SEATS$ пользовательских лицензий. Вы можете добавить дополнительных пользователей по $SEAT_PRICE$ за пользователя \/месяц.",
+    "message": "Ваш план включает $BASE_SEATS$ пользовательских лицензий. Вы можете добавить дополнительных пользователей по $SEAT_PRICE$ за пользователя /месяц.",
     "placeholders": {
       "base_seats": {
         "content": "$1",
@@ -2182,7 +2151,7 @@
   },
   "extension": {
     "message": "Расширение",
-    "description": "Browser extension\/addon"
+    "description": "Browser extension/addon"
   },
   "desktop": {
     "message": "Компьютер",
@@ -2198,7 +2167,7 @@
     "message": "Изменен пароль учетной записи."
   },
   "enabledUpdated2fa": {
-    "message": "Двухфакторная аутентификация включена\/обновлена."
+    "message": "Двухфакторная аутентификация включена/обновлена."
   },
   "disabled2fa": {
     "message": "Двухфакторная аутентификация выключена."
@@ -2211,12 +2180,6 @@
   },
   "failedLogin2fa": {
     "message": "Ошибка входа из-за некорректной двухфакторной аутентификации."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Настройки организации изменены."
@@ -2254,78 +2217,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2613,19 +2504,19 @@
   },
   "billingPlan": {
     "message": "План",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Изменить план",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Обновите свой аккаунт до другого плана, предоставив информацию ниже. Пожалуйста, убедитесь, что в вашу учетную запись добавлен активный способ оплаты.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Если вы хотите изменить свой план, обратитесь в службу поддержки. Убедитесь, что у вас есть активный способ оплаты, добавленный в учетную запись.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "Счет #$NUMBER$",

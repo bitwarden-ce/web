@@ -15,19 +15,6 @@
   "name": {
     "message": "Navn"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Ny URI"
   },
@@ -91,9 +78,6 @@
   "march": {
     "message": "Marts"
   },
-  "april": {
-    "message": "April"
-  },
   "may": {
     "message": "Maj"
   },
@@ -103,20 +87,8 @@
   "july": {
     "message": "Juli"
   },
-  "august": {
-    "message": "August"
-  },
-  "september": {
-    "message": "September"
-  },
   "october": {
     "message": "Oktober"
-  },
-  "november": {
-    "message": "November"
-  },
-  "december": {
-    "message": "December"
   },
   "title": {
     "message": "Titel"
@@ -129,9 +101,6 @@
   },
   "ms": {
     "message": "Frk"
-  },
-  "dr": {
-    "message": "Dr"
   },
   "expirationMonth": {
     "message": "Udløbsmåned"
@@ -184,7 +153,7 @@
   },
   "host": {
     "message": "Vært",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "Nøjagtig"
@@ -208,11 +177,11 @@
     "message": "Aldrig"
   },
   "toggleVisibility": {
-    "message": "Slå synlighed til\/fra"
+    "message": "Slå synlighed til/fra"
   },
   "toggleCollapse": {
-    "message": "Fold sammen\/fold ud",
-    "description": "Toggling an expand\/collapse state."
+    "message": "Fold sammen/fold ud",
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "Generér adgangskode"
@@ -280,9 +249,6 @@
   },
   "types": {
     "message": "Typer"
-  },
-  "typeLogin": {
-    "message": "Login"
   },
   "typeCard": {
     "message": "Kort"
@@ -496,9 +462,6 @@
   "logOut": {
     "message": "Log ud"
   },
-  "ok": {
-    "message": "Ok"
-  },
   "yes": {
     "message": "Ja"
   },
@@ -629,15 +592,6 @@
   "noOrganizationsList": {
     "message": "Du tilhører ikke nogen organisationer. Organisationer giver dig mulighed for at dele elementer med andre brugere på en sikker måde."
   },
-  "versionNumber": {
-    "message": "Version $VERSION_NUMBER$",
-    "placeholders": {
-      "version_number": {
-        "content": "$1",
-        "example": "1.2.3"
-      }
-    }
-  },
   "enterVerificationCodeApp": {
     "message": "Indtast den 6-cifrede verifikationskode fra din autentificeringsapp."
   },
@@ -681,7 +635,7 @@
     "message": "Denne konto har to-trins login aktiveret, men ingen af de konfigurerede to-trins udbydere understøttes af denne webbrowser."
   },
   "noTwoStepProviders2": {
-    "message": "Du skal bruge en understøttet webbrowser (såsom Chrome) og\/eller tilføje ekstra udbydere, der understøttes bedre på tværs af webbrowsere (f.eks. en autentificeringsapp)."
+    "message": "Du skal bruge en understøttet webbrowser (såsom Chrome) og/eller tilføje ekstra udbydere, der understøttes bedre på tværs af webbrowsere (f.eks. en autentificeringsapp)."
   },
   "twoStepOptions": {
     "message": "To-trins-login indstillinger"
@@ -1001,7 +955,7 @@
     "message": "Vælg importfil"
   },
   "orCopyPasteFileContents": {
-    "message": "eller kopiér\/indsæt importfilens indhold"
+    "message": "eller kopiér/indsæt importfilens indhold"
   },
   "instructionsFor": {
     "message": "$NAME$ instruktioner",
@@ -1069,7 +1023,7 @@
     "message": "Nyt brugerdefineret domæne"
   },
   "newCustomDomainDesc": {
-    "message": "Indtast en liste over domæner adskilt af kommaer. Kun \"grund\"-domæner er tilladt. Indtast ikke underdomæner. F.eks. Indtast \"google.com\" i stedet for \"www.google.com\". Du kan også indtaste \"androidapp:\/\/package.name\" for at knytte en androidapp til andre website-domæner."
+    "message": "Indtast en liste over domæner adskilt af kommaer. Kun \"grund\"-domæner er tilladt. Indtast ikke underdomæner. F.eks. Indtast \"google.com\" i stedet for \"www.google.com\". Du kan også indtaste \"androidapp://package.name\" for at knytte en androidapp til andre website-domæner."
   },
   "customDomainX": {
     "message": "Brugerdefineret domæne $INDEX$",
@@ -1107,10 +1061,6 @@
   },
   "enabled": {
     "message": "Aktiveret"
-  },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
   },
   "premiumMembership": {
     "message": "Premium-medlemskab"
@@ -1202,15 +1152,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "Mobilapps på en enhed med NFC-understøttelse eller en USB-port, der kan benyttes af din YubiKey."
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "u2fkeyX": {
     "message": "U2F nøgle $INDEX$",
     "placeholders": {
@@ -1287,7 +1228,7 @@
     "message": "På grund af platformbegrænsninger kan FIDO U2F ikke bruges på alle ByteGarden-applikationer. Du bør aktivere en anden to-trins login udbyder, så du kan få adgang til din konto, når FIDO U2F ikke kan benyttes. Understøttede platforme:"
   },
   "twoFactorU2fSupportWeb": {
-    "message": "Web-boks og browserudvidelser på en desktop\/laptop med en U2F-aktiveret browser (Chrome, Opera, Vivaldi eller Firefox med FIDO U2F aktiveret)."
+    "message": "Web-boks og browserudvidelser på en desktop/laptop med en U2F-aktiveret browser (Chrome, Opera, Vivaldi eller Firefox med FIDO U2F aktiveret)."
   },
   "twoFactorU2fWaiting": {
     "message": "Venter på at du trykker på knappen på din sikkerhedsnøgle"
@@ -1315,13 +1256,13 @@
     "message": "Rapport over ikke-sikrede hjemmesider"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "Brug af ikke-sikrede hjemmesider med http:\/\/-protokollen kan være farlig. Hvis hjemmesiden tillader det, skal du altid tilgå det ved hjælp af https:\/\/-protokollen, så din forbindelse er krypteret."
+    "message": "Brug af ikke-sikrede hjemmesider med http://-protokollen kan være farlig. Hvis hjemmesiden tillader det, skal du altid tilgå det ved hjælp af https://-protokollen, så din forbindelse er krypteret."
   },
   "unsecuredWebsitesFound": {
     "message": "Ikke-sikrede hjemmesider fundet"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "Vi fandt $COUNT$ elementer i din boks med ikke-sikreded URI'er. Du bør ændre deres URI-protokol til https:\/\/ hvis hjemmesiden tillader det.",
+    "message": "Vi fandt $COUNT$ elementer i din boks med ikke-sikreded URI'er. Du bør ændre deres URI-protokol til https:// hvis hjemmesiden tillader det.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1556,7 +1497,7 @@
     "message": "Alle fremtidige premium-funktioner. Mere kommer snart!"
   },
   "premiumPrice": {
-    "message": "Alt dette for kun $PRICE$ \/år!",
+    "message": "Alt dette for kun $PRICE$ /år!",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1571,7 +1512,7 @@
     "message": "Premium adgang"
   },
   "premiumAccessDesc": {
-    "message": "Du kan tilføje premium adgang til alle medlemmer af din organisation for $PRICE$ \/$INTERVAL$.",
+    "message": "Du kan tilføje premium adgang til alle medlemmer af din organisation for $PRICE$ /$INTERVAL$.",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1531,7 @@
     "message": "# af ekstra GB"
   },
   "additionalStorageIntervalDesc": {
-    "message": "Dit abonnement indeholder $SIZE$ krypteret fillagring. Du kan tilføje ekstra lagerplads til $PRICE$ per GB \/ $INTERVAL$.",
+    "message": "Dit abonnement indeholder $SIZE$ krypteret fillagring. Du kan tilføje ekstra lagerplads til $PRICE$ per GB / $INTERVAL$.",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1682,9 +1623,6 @@
   "neverExpires": {
     "message": "Udløber aldrig"
   },
-  "status": {
-    "message": "Status"
-  },
   "nextCharge": {
     "message": "Næste betaling"
   },
@@ -1753,7 +1691,7 @@
   },
   "transactions": {
     "message": "Transaktioner",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "Ingen transaktioner."
@@ -1860,7 +1798,7 @@
     "message": "# brugere"
   },
   "userSeatsAdditionalDesc": {
-    "message": "Dit abonnement indeholder $BASE_SEATS$ brugere. Du kan tilføje yderligere brugere til $SEAT_PRICE$ pr. bruger \/ måned.",
+    "message": "Dit abonnement indeholder $BASE_SEATS$ brugere. Du kan tilføje yderligere brugere til $SEAT_PRICE$ pr. bruger / måned.",
     "placeholders": {
       "base_seats": {
         "content": "$1",
@@ -1880,7 +1818,7 @@
     "description": "Free as in 'free beer'."
   },
   "planDescFree": {
-    "message": "Til test eller personlige brugere for at dele med $COUNT$ anden\/andre bruger(e).",
+    "message": "Til test eller personlige brugere for at dele med $COUNT$ anden/andre bruger(e).",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1893,9 +1831,6 @@
   },
   "planDescFamilies": {
     "message": "Til personlig brug, for at dele med familie og venner."
-  },
-  "planNameTeams": {
-    "message": "Teams"
   },
   "planDescTeams": {
     "message": "Til virksomheder og andre organisationer med teams."
@@ -2182,7 +2117,7 @@
   },
   "extension": {
     "message": "Udvidelse",
-    "description": "Browser extension\/addon"
+    "description": "Browser extension/addon"
   },
   "desktop": {
     "message": "Skrivebord",
@@ -2198,7 +2133,7 @@
     "message": "Ændrede konto kodeord."
   },
   "enabledUpdated2fa": {
-    "message": "Aktiverede\/opdaterede to-trins login."
+    "message": "Aktiverede/opdaterede to-trins login."
   },
   "disabled2fa": {
     "message": "Deaktiverede to-trins-login."
@@ -2211,12 +2146,6 @@
   },
   "failedLogin2fa": {
     "message": "Loginforsøg mislykkedes med forkert to-trins-login."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "Redigerede organisationsindstillinger."
@@ -2254,78 +2183,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2613,19 +2470,19 @@
   },
   "billingPlan": {
     "message": "Abonnement",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Skift abonnement",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Opgradér din konto til et andet abonnement, ved at angiv nedenstående oplysninger. Sørg for, at du har en aktiv betalingsmetode tilføjet til kontoen.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Kontakt kundesupport, hvis du vil ændre dit abonnement. Sørg for, at du har en aktiv betalingsmetode tilføjet til kontoen.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "Faktura #$NUMBER$",

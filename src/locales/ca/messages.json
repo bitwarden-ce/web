@@ -15,19 +15,6 @@
   "name": {
     "message": "Nom"
   },
-  "uri": {
-    "message": "URI"
-  },
-  "uriPosition": {
-    "message": "URI $POSITION$",
-    "description": "A listing of URIs. Ex: URI 1, URI 2, URI 3, etc.",
-    "placeholders": {
-      "position": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "newUri": {
     "message": "Nova URI"
   },
@@ -39,9 +26,6 @@
   },
   "passphrase": {
     "message": "Frase de pas"
-  },
-  "notes": {
-    "message": "Notes"
   },
   "customFields": {
     "message": "Camps personalitzats"
@@ -154,9 +138,6 @@
   "dragToSort": {
     "message": "Arrossega per ordenar"
   },
-  "cfTypeText": {
-    "message": "Text"
-  },
   "cfTypeHidden": {
     "message": "Amagat"
   },
@@ -184,7 +165,7 @@
   },
   "host": {
     "message": "Amfitrió",
-    "description": "A URL's host value. For example, the host of https:\/\/sub.domain.com:443 is 'sub.domain.com:443'."
+    "description": "A URL's host value. For example, the host of https://sub.domain.com:443 is 'sub.domain.com:443'."
   },
   "exact": {
     "message": "Exacte"
@@ -211,8 +192,8 @@
     "message": "Commuta la visibilitat"
   },
   "toggleCollapse": {
-    "message": "Redueix\/Amplia",
-    "description": "Toggling an expand\/collapse state."
+    "message": "Redueix/Amplia",
+    "description": "Toggling an expand/collapse state."
   },
   "generatePassword": {
     "message": "Genera contrasenya"
@@ -321,7 +302,7 @@
     "message": "Localitat"
   },
   "stateProvince": {
-    "message": "Estat \/ província"
+    "message": "Estat / província"
   },
   "zipPostalCode": {
     "message": "Codi postal"
@@ -343,10 +324,6 @@
   },
   "editItem": {
     "message": "Edita l'element"
-  },
-  "ex": {
-    "message": "ex.",
-    "description": "Short abbreviation for 'example'."
   },
   "other": {
     "message": "Altres"
@@ -501,9 +478,6 @@
   },
   "yes": {
     "message": "Sí"
-  },
-  "no": {
-    "message": "No"
   },
   "loginOrCreateNewAccount": {
     "message": "Inicieu sessió o creeu un compte nou per accedir a la caixa forta."
@@ -1001,7 +975,7 @@
     "message": "Seleccioneu el fitxer d'importació"
   },
   "orCopyPasteFileContents": {
-    "message": "o copieu\/enganxeu el contingut dels fitxers d'importació"
+    "message": "o copieu/enganxeu el contingut dels fitxers d'importació"
   },
   "instructionsFor": {
     "message": "Instruccions de $NAME$",
@@ -1069,7 +1043,7 @@
     "message": "Nou domini personalitzat"
   },
   "newCustomDomainDesc": {
-    "message": "Introduïu una llista de dominis separats per comes. Només es permeten els dominis \"base\". No introduïu els subdominis. Per exemple, introduïu \"google.com\" en lloc de \"www.google.com\". També podeu introduir \"androidapp:\/\/package.name\" per associar una aplicació d'android amb altres dominis del lloc web."
+    "message": "Introduïu una llista de dominis separats per comes. Només es permeten els dominis \"base\". No introduïu els subdominis. Per exemple, introduïu \"google.com\" en lloc de \"www.google.com\". També podeu introduir \"androidapp://package.name\" per associar una aplicació d'android amb altres dominis del lloc web."
   },
   "customDomainX": {
     "message": "Domini personalitzat $INDEX$",
@@ -1107,10 +1081,6 @@
   },
   "enabled": {
     "message": "Habilitat"
-  },
-  "premium": {
-    "message": "Premium",
-    "description": "Premium Membership"
   },
   "premiumMembership": {
     "message": "Subscripció Premium"
@@ -1202,15 +1172,6 @@
   "twoFactorYubikeySupportMobile": {
     "message": "Aplicacions mòbils en un dispositiu amb NFC o un port USB que puga acceptar la vostra YubiKey."
   },
-  "yubikeyX": {
-    "message": "YubiKey $INDEX$",
-    "placeholders": {
-      "index": {
-        "content": "$1",
-        "example": "2"
-      }
-    }
-  },
   "u2fkeyX": {
     "message": "Clau U2F $INDEX$",
     "placeholders": {
@@ -1287,7 +1248,7 @@
     "message": "A causa de les limitacions de la plataforma, FIDO U2F no es pot utilitzar en totes les aplicacions de ByteGarden. Heu d'habilitar un altre proveïdor d'inici de sessió en dues passes perquè pugueu accedir al vostre compte quan FIDO U2F no es puga utilitzar. Plataformes compatibles:"
   },
   "twoFactorU2fSupportWeb": {
-    "message": "Caixa forta web i extensions de navegador en un escriptori\/portàtil amb un navegador compatible amb U2F (Chrome, Opera, Vivaldi, o Firefox amb FIDO U2F activat)."
+    "message": "Caixa forta web i extensions de navegador en un escriptori/portàtil amb un navegador compatible amb U2F (Chrome, Opera, Vivaldi, o Firefox amb FIDO U2F activat)."
   },
   "twoFactorU2fWaiting": {
     "message": "S'està esperant que toqueu el botó de la vostra clau de seguretat"
@@ -1315,13 +1276,13 @@
     "message": "Informe de llocs web no segurs"
   },
   "unsecuredWebsitesReportDesc": {
-    "message": "L'ús de llocs web no segurs amb l'esquema http:\/\/ pot ser perillós. Si el lloc web ho permet, sempre haureu d'accedir-hi mitjançant l'esquema https:\/\/ perquè la vostra connexió estiga xifrada."
+    "message": "L'ús de llocs web no segurs amb l'esquema http:// pot ser perillós. Si el lloc web ho permet, sempre haureu d'accedir-hi mitjançant l'esquema https:// perquè la vostra connexió estiga xifrada."
   },
   "unsecuredWebsitesFound": {
     "message": "S'han trobat llocs web no segurs"
   },
   "unsecuredWebsitesFoundDesc": {
-    "message": "Hem trobat $COUNT$ elements a la vostra caixa forta amb URI no segures. Heu de canviar el seu esquema URI a https:\/\/ si el lloc web ho permet.",
+    "message": "Hem trobat $COUNT$ elements a la vostra caixa forta amb URI no segures. Heu de canviar el seu esquema URI a https:// si el lloc web ho permet.",
     "placeholders": {
       "count": {
         "content": "$1",
@@ -1556,7 +1517,7 @@
     "message": "Totes les funcions premium futures. Aviat, més!"
   },
   "premiumPrice": {
-    "message": "Tot per només $PRICE$ \/any!",
+    "message": "Tot per només $PRICE$ /any!",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1571,7 +1532,7 @@
     "message": "Accés premium"
   },
   "premiumAccessDesc": {
-    "message": "Podeu afegir accés premium a tots els membres de la vostra organització per $PRICE$\/$INTERVAL$.\n \n",
+    "message": "Podeu afegir accés premium a tots els membres de la vostra organització per $PRICE$/$INTERVAL$.\n \n",
     "placeholders": {
       "price": {
         "content": "$1",
@@ -1590,7 +1551,7 @@
     "message": "# de GB addicionals"
   },
   "additionalStorageIntervalDesc": {
-    "message": "El vostre pla inclou $SIZE$ d'emmagatzematge encriptat de fitxers. Podeu afegir un emmagatzematge addicional per a $PRICE$ per GB\/$INTERVAL$.",
+    "message": "El vostre pla inclou $SIZE$ d'emmagatzematge encriptat de fitxers. Podeu afegir un emmagatzematge addicional per a $PRICE$ per GB/$INTERVAL$.",
     "placeholders": {
       "size": {
         "content": "$1",
@@ -1608,9 +1569,6 @@
   },
   "summary": {
     "message": "Resum"
-  },
-  "total": {
-    "message": "Total"
   },
   "year": {
     "message": "any"
@@ -1753,7 +1711,7 @@
   },
   "transactions": {
     "message": "Transaccions",
-    "description": "Payment\/credit transactions."
+    "description": "Payment/credit transactions."
   },
   "noTransactions": {
     "message": "Cap transacció."
@@ -1860,7 +1818,7 @@
     "message": "# de reserves d'usuari"
   },
   "userSeatsAdditionalDesc": {
-    "message": "El vostre pla inclou reserves d'usuari de $BASE_SEATS$. Podeu afegir usuaris addicionals per $SEAT_PRICE$ per usuari\/mes.",
+    "message": "El vostre pla inclou reserves d'usuari de $BASE_SEATS$. Podeu afegir usuaris addicionals per $SEAT_PRICE$ per usuari/mes.",
     "placeholders": {
       "base_seats": {
         "content": "$1",
@@ -2182,7 +2140,7 @@
   },
   "extension": {
     "message": "Extensió",
-    "description": "Browser extension\/addon"
+    "description": "Browser extension/addon"
   },
   "desktop": {
     "message": "Escriptori",
@@ -2198,7 +2156,7 @@
     "message": "S'ha canviat la contrasenya del compte."
   },
   "enabledUpdated2fa": {
-    "message": "Inici de sessió en dues passes habilitat\/actualitzat."
+    "message": "Inici de sessió en dues passes habilitat/actualitzat."
   },
   "disabled2fa": {
     "message": "S'ha deshabilitat l'inici de sessió en dues passes."
@@ -2211,12 +2169,6 @@
   },
   "failedLogin2fa": {
     "message": "S'ha produït un error amb un inici de sessió en dues passes incorrecte."
-  },
-  "exportedVault": {
-    "message": "Exported vault."
-  },
-  "exportedOrganizationVault": {
-    "message": "Exported organization vault."
   },
   "editedOrgSettings": {
     "message": "S'ha editat la configuració de l'organització."
@@ -2254,78 +2206,6 @@
       "id": {
         "content": "$1",
         "example": "'Google'"
-      }
-    }
-  },
-  "viewedItemId": {
-    "message": "Viewed item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedPasswordItemId": {
-    "message": "Viewed password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedHiddenFieldItemId": {
-    "message": "Viewed hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "viewedSecurityCodeItemId": {
-    "message": "Viewed security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedPasswordItemId": {
-    "message": "Copied password for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedHiddenFieldItemId": {
-    "message": "Copied hidden field for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "copiedSecurityCodeItemId": {
-    "message": "Copied security code for item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
-      }
-    }
-  },
-  "autofilledItemId": {
-    "message": "Auto-filled item $ID$.",
-    "placeholders": {
-      "id": {
-        "content": "$1",
-        "example": "Google"
       }
     }
   },
@@ -2613,19 +2493,19 @@
   },
   "billingPlan": {
     "message": "Pla",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlan": {
     "message": "Canvi de pla",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanUpgrade": {
     "message": "Actualitzeu el compte a un altre pla proporcionant la informació següent. Assegureu-vos que heu afegit un mètode de pagament actiu al compte.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "changeBillingPlanDesc": {
     "message": "Poseu-vos en contacte amb l'assistència al client si voleu canviar el vostre pla. Assegureu-vos que heu afegit un mètode de pagament actiu al compte.",
-    "description": "A billing plan\/package. For example: families, teams, enterprise, etc."
+    "description": "A billing plan/package. For example: families, teams, enterprise, etc."
   },
   "invoiceNumber": {
     "message": "Factura #$NUMBER$",
@@ -2686,9 +2566,6 @@
   },
   "bankAccountTypeCompany": {
     "message": "Empresa (negocis)"
-  },
-  "bankAccountTypeIndividual": {
-    "message": "Individual (Personal)"
   },
   "enterInstallationId": {
     "message": "Introduïu la vostra id d'instal·lació"
