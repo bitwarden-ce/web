@@ -525,7 +525,6 @@
   "unlock": {
     "message": "Kilidi Aç"
   },
-        "example": "bytegarden.com"
   "invalidMasterPassword": {
     "message": "Geçersiz ana parola"
   },
